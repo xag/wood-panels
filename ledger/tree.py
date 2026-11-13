@@ -122,6 +122,102 @@ def entries() -> list[Node]:
             ],
         ),
         Node(
+            id="creep-is-ec5s-kdef-for-service-class-1", kind="decision",
+            name="A panel's creep is EN 1995-1-1's deformation factor kdef for service class 1, carried as "
+                 "initial_share_of_longtime = 1/(1 + kdef): EN 636 plywood 0.80 and OSB/3 1.50 from the code's Table "
+                 "3.2 as Swedish Wood's Design of timber structures, Volume 2 reprints it, and EN 13353 solid wood "
+                 "panels 0.60 from the German national annex as FH Bielefeld's Leporello prints it",
+            payload={"decided_on": "2026-11-13",
+                     "why": "furniture-design's rule a-beam-sags-within-its-limit holds a part's initial deflection "
+                            "to initial_share_of_longtime times a longtime limit, and its species carry the Wood "
+                            "Handbook's two-thirds for dry timber (a final deflection 1.5 times the initial). The "
+                            "code's final deflection is the initial times (1 + kdef), so 1/(1 + kdef) is the same "
+                            "quantity, defined the same way for every panel type it rates. Service class 1 is a "
+                            "heated room, where furniture stands."},
+            children=[
+                _alt("the-wood-handbooks-two-thirds", "Give every panel the Wood Handbook's two-thirds",
+                     "That is dry timber's creep; the code gives particleboard and MDF a kdef of 2.25 where solid "
+                     "timber has 0.60, so a shelf would be judged to sag far less over time than it does."),
+                _alt("measured-fractional-creep", "Use the Forest Products Laboratory's measured fractional creep "
+                     "(RP-574: 1.4 for plywood, 1.7 for OSB at 50 % RH)",
+                     "Six months on North American panels, not a service life; kept as clauses beside the code."),
+                _alt("the-industrys-creep-factors", "Use the shelf guidance of the panel industry (EWPAA's factor "
+                     "of 2, EPF's up to 50 %)",
+                     "Shelf rules of thumb with no definition shared across panel types; kept as clauses."),
+            ],
+        ),
+        Node(
+            id="a-board-ec5-does-not-rate-borrows-the-nearest-rated-types-kdef", kind="decision",
+            name="A board EN 1995-1-1 does not rate takes the kdef of the nearest type it does rate, never "
+                 "grounded: P2 and P3 particleboard take P4's 2.25, general-purpose MDF takes MDF.LA's 2.25, "
+                 "hardboard HB takes HB.LA's 2.25",
+            payload={"decided_on": "2026-11-13",
+                     "why": "The code rates only load-bearing grades; the nearest is the same make-up made to a "
+                            "load-bearing grade, and whether the furniture grade creeps more is not known, so the "
+                            "value is marked unverified. The German national annex's row for resin-bonded "
+                            "particleboard, which names no type, gives the same 2.25 and is cited beside P4's."},
+            links={"rests_on": ["creep-is-ec5s-kdef-for-service-class-1"]},
+            children=[
+                _alt("the-industrys-factor-for-unrated-boards", "Give unrated boards the industry's factor of 2 or "
+                     "an increase of 50 %",
+                     "Both are below the code's 3.25 for every particleboard and MDF it rates: a furniture board "
+                     "would be judged to creep less than its load-bearing grade."),
+                _alt("leave-unrated-boards-without", "Give unrated boards no creep share",
+                     "The sag rule could not judge any part of particleboard, MDF or hardboard."),
+                _alt("ground-the-german-annex", "Ground P2 and P3 on the German annex's resin-bonded "
+                     "particleboard row",
+                     "The annex rates boards approved for building in Germany and names no EN 312 type."),
+            ],
+        ),
+        Node(
+            id="a-value-a-board-lacks-is-a-named-boards-ungrounded", kind="decision",
+            name="A screw-withdrawal, 24 h swelling or in-plane movement value is a board's own when its own "
+                 "documents print it, and a class's when a document says it prints the standard's requirement, "
+                 "both grounded; otherwise it is borrowed from a named maker's board, never grounded, the material's "
+                 "payload `borrowed` naming whose. A borrowed value comes from that board's clause covering the "
+                 "band's middle thickness, else from those inside the band, the least favourable of them",
+            payload={"decided_on": "2026-11-13",
+                     "why": "A maker's value for its own board is an example of the class, not its requirement, "
+                            "and a reader must be able to tell the two apart (as for density: "
+                            "a-class-borrows-a-makers-density-ungrounded). Taking a clause inside the band keeps an "
+                            "18 mm P2 band answerable from Finsa SuperPan Star's 19 to 20 mm column; the least "
+                            "favourable (the weakest hold, the most swelling) keeps a borrowed value on the safe "
+                            "side. A product never takes a class's or another maker's screw value: its own maker "
+                            "either prints one or it has none."},
+            links={"rests_on": ["a-boards-strength-is-its-classs"]},
+            children=[
+                _alt("the-wood-handbooks-screw-equation", "Predict withdrawal from density with the Wood Handbook's "
+                     "Equation (8-12)",
+                     "Its constant is fitted to US particleboard and US screws, and it needs a density a class "
+                     "does not set."),
+                _alt("ansi-grades", "Take ANSI A208's grade requirements as the Wood Handbook prints them",
+                     "US grades, not EN classes."),
+                _alt("research-papers", "Take a paper's measured values (Miljkovic 2007's edge withdrawal in 18 mm "
+                     "particleboard and OSB)",
+                     "One laboratory's boards and screws, not a declared board; kept as clauses."),
+                _alt("ground-a-makers-value-on-a-class", "Ground a maker's value on the class",
+                     "Would present one board's declaration as the class's requirement."),
+            ],
+        ),
+        Node(
+            id="in-plane-movement-is-a-printed-per-percent-value", kind="decision",
+            name="dimensional_change_in_plane is the change in length per 1 % of moisture content as a document "
+                 "prints it, over 100 as furniture-design writes a species' dimensional_change_radial (Riga Wood "
+                 "0.02 % is 0.0002); of a length and a width value the larger is taken; a movement over a humidity "
+                 "step (SINTEF's approvals: 2 or 3 mm/m from 35 % to 85 % RH) is not converted",
+            payload={"decided_on": "2026-11-13",
+                     "why": "A per-% value multiplies a moisture change directly, as the species' coefficients "
+                            "do. Converting a humidity step needs the board's moisture content at both ends, which "
+                            "the approvals do not print, so OSB/3 borrows SmartPly's per-% values instead."},
+            children=[
+                _alt("convert-the-humidity-step", "Divide SINTEF's mm/m by an assumed moisture change",
+                     "The moisture content at 35 % and 85 % RH is not printed; the result would be a guess."),
+                _alt("one-movement-per-way", "Give the along and across materials their own movement",
+                     "furniture-design's part names one dimensional_change property, and only SmartPly prints two "
+                     "different values."),
+            ],
+        ),
+        Node(
             id="the-standards-are-read-at-second-hand", kind="debt",
             name="EN 312, EN 622-5 and EN 12369-1 are read as other documents print them, not from the standards, "
                  "so whether a class figure is a mean or a 5th percentile is not known and it is read as a mean",
@@ -156,6 +252,21 @@ def entries() -> list[Node]:
             children=[Node(id="find-a-rolling-shear-modulus", kind="discharge", name="Find the rolling-shear modulus Thebault's boards are designed with",
                            payload={"who": "anyone, from Thebault or a published table for okoumé and pine plywood",
                                     "how": "Add it to the clauses and the materials take a shear term, as Kronospan's and binderholz's do"})],
+        ),
+        Node(
+            id="screw-values-are-missing-for-some-boards", kind="debt",
+            name="No document here prints a face screw-withdrawal value for P3 particleboard, a declared one for "
+                 "OSB/3, or any for 3-layer spruce panels or hardboard; most makers' boards print none, and "
+                 "Thebault's only at 15 mm: those materials carry no screw value",
+            payload={"decided_on": "2026-11-13",
+                     "what": "A question about how a screw holds in those boards gets no answer from the "
+                             "knowledge; for OSB only Miljkovic 2007's edge values on an interior OSB are recorded, "
+                             "as clauses."},
+            links={"rests_on": ["a-value-a-board-lacks-is-a-named-boards-ungrounded"]},
+            children=[Node(id="find-en-320-values", kind="discharge", name="Find a maker's EN 320 values for each",
+                           payload={"who": "anyone, from a maker's data sheet or declaration",
+                                    "how": "Add the document and its clauses; the material takes them from its "
+                                           "own documents, or through BORROW for a class"})],
         ),
     ]
 

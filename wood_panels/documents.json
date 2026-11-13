@@ -137,7 +137,7 @@
       8,
       13
      ],
-     "locator": "p. 2, technical data table, column 8/13: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "locator": "p. 2, technical data table, column 8/13: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310), row 'THICKNESS SWELLING 24 H'",
      "params": {
       "bending_strength": {
        "value": 15,
@@ -164,6 +164,13 @@
        "unit": "kg/m3",
        "printed": "720/680",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 17,
+       "unit": "%",
+       "printed": "THICKNESS SWELLING 24 H EN ISO 12460-5 17 14 13 13 12",
+       "statistic": "maximum",
+       "column": 3
       }
      }
     },
@@ -173,7 +180,7 @@
       13.01,
       20
      ],
-     "locator": "p. 2, technical data table, column >13/20: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "locator": "p. 2, technical data table, column >13/20: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310), row 'THICKNESS SWELLING 24 H'",
      "params": {
       "bending_strength": {
        "value": 14,
@@ -200,6 +207,13 @@
        "unit": "kg/m3",
        "printed": "675/650",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 14,
+       "unit": "%",
+       "printed": "THICKNESS SWELLING 24 H EN ISO 12460-5 17 14 13 13 12",
+       "statistic": "maximum",
+       "column": 4
       }
      }
     },
@@ -209,7 +223,7 @@
       20.01,
       25
      ],
-     "locator": "p. 2, technical data table, column >20/25: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "locator": "p. 2, technical data table, column >20/25: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310), row 'THICKNESS SWELLING 24 H'",
      "params": {
       "bending_strength": {
        "value": 12,
@@ -236,6 +250,13 @@
        "unit": "kg/m3",
        "printed": "640/625",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 13,
+       "unit": "%",
+       "printed": "THICKNESS SWELLING 24 H EN ISO 12460-5 17 14 13 13 12",
+       "statistic": "maximum",
+       "column": 5
       }
      }
     },
@@ -245,7 +266,7 @@
       25.01,
       32
      ],
-     "locator": "p. 2, technical data table, column >25/32: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "locator": "p. 2, technical data table, column >25/32: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310), row 'THICKNESS SWELLING 24 H'",
      "params": {
       "bending_strength": {
        "value": 11,
@@ -272,6 +293,13 @@
        "unit": "kg/m3",
        "printed": "600",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 13,
+       "unit": "%",
+       "printed": "THICKNESS SWELLING 24 H EN ISO 12460-5 17 14 13 13 12",
+       "statistic": "maximum",
+       "column": 6
       }
      }
     }
@@ -451,7 +479,7 @@
       7,
       9
      ],
-     "locator": "p. 2, technical data table, column 7-9: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "locator": "p. 2, technical data table, column 7-9: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310), row 'THICKNESS SWELLING 24 H'",
      "params": {
       "bending_strength": {
        "value": 23,
@@ -478,6 +506,13 @@
        "unit": "kg/m3",
        "printed": "770/740",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 17,
+       "unit": "%",
+       "printed": "THICKNESS SWELLING 24 H EN 382-1 17 15 12 10",
+       "statistic": "maximum",
+       "column": 3
       }
      }
     },
@@ -487,7 +522,7 @@
       9.01,
       12
      ],
-     "locator": "p. 2, technical data table, column >9-12: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "locator": "p. 2, technical data table, column >9-12: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310), row 'THICKNESS SWELLING 24 H'",
      "params": {
       "bending_strength": {
        "value": 22,
@@ -514,6 +549,13 @@
        "unit": "kg/m3",
        "printed": "735/720",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 15,
+       "unit": "%",
+       "printed": "THICKNESS SWELLING 24 H EN 382-1 17 15 12 10",
+       "statistic": "maximum",
+       "column": 4
       }
      }
     },
@@ -523,7 +565,7 @@
       12.01,
       19
      ],
-     "locator": "p. 2, technical data table, column >12-19: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "locator": "p. 2, technical data table, column >12-19: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310), row 'THICKNESS SWELLING 24 H'",
      "params": {
       "bending_strength": {
        "value": 20,
@@ -550,6 +592,13 @@
        "unit": "kg/m3",
        "printed": "720/675",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 12,
+       "unit": "%",
+       "printed": "THICKNESS SWELLING 24 H EN 382-1 17 15 12 10",
+       "statistic": "maximum",
+       "column": 5
       }
      }
     },
@@ -559,7 +608,7 @@
       19.01,
       30
      ],
-     "locator": "p. 2, technical data table, column >19-30: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "locator": "p. 2, technical data table, column >19-30: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310), row 'THICKNESS SWELLING 24 H'",
      "params": {
       "bending_strength": {
        "value": 18,
@@ -586,6 +635,13 @@
        "unit": "kg/m3",
        "printed": "675/655",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 10,
+       "unit": "%",
+       "printed": "THICKNESS SWELLING 24 H EN 382-1 17 15 12 10",
+       "statistic": "maximum",
+       "column": 6
       }
      }
     }
@@ -608,7 +664,7 @@
       2.6,
       4
      ],
-     "locator": "p. 1, technical data, column 2.6-4: density, bending strength (EN 310); its modulus is printed ---",
+     "locator": "p. 1, technical data, column 2.6-4: density, bending strength (EN 310); its modulus is printed ---, row 'Thickness Swelling 24h'",
      "params": {
       "bending_strength": {
        "value": 37,
@@ -628,6 +684,14 @@
        "unit": "kg/m3",
        "printed": "850-825",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 35,
+       "unit": "%",
+       "printed": "Thickness Swelling 24h EN 317:1993 45 35 30 17 15 12 10 8 6 6 6 6",
+       "statistic": "maximum",
+       "column": 4,
+       "test": "EN 317"
       }
      }
     },
@@ -637,7 +701,7 @@
       4.01,
       6
      ],
-     "locator": "p. 1, technical data, column >4-6",
+     "locator": "p. 1, technical data, column >4-6, row 'Thickness Swelling 24h'",
      "params": {
       "bending_strength": {
        "value": 36,
@@ -664,6 +728,14 @@
        "unit": "kg/m3",
        "printed": "820-800",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 30,
+       "unit": "%",
+       "printed": "Thickness Swelling 24h EN 317:1993 45 35 30 17 15 12 10 8 6 6 6 6",
+       "statistic": "maximum",
+       "column": 5,
+       "test": "EN 317"
       }
      }
     },
@@ -673,7 +745,7 @@
       30.01,
       45
      ],
-     "locator": "p. 1, technical data, column >30-45",
+     "locator": "p. 1, technical data, column >30-45, row 'Thickness Swelling 24h'",
      "params": {
       "bending_strength": {
        "value": 20,
@@ -700,6 +772,14 @@
        "unit": "kg/m3",
        "printed": "660",
        "statistic": "rough guide"
+      },
+      "thickness_swelling_24h": {
+       "value": 8,
+       "unit": "%",
+       "printed": "Thickness Swelling 24h EN 317:1993 45 35 30 17 15 12 10 8 6 6 6 6",
+       "statistic": "maximum",
+       "column": 10,
+       "test": "EN 317"
       }
      }
     }
@@ -831,7 +911,7 @@
       8,
       8
      ],
-     "locator": "p. 1, declared performance, column 8 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "locator": "p. 1, declared performance, column 8 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310), row 'Thickness swelling (%)'",
      "params": {
       "bending_strength": {
        "value": 42,
@@ -858,6 +938,14 @@
        "unit": "kg/m3",
        "printed": "830",
        "statistic": "declared"
+      },
+      "thickness_swelling_24h": {
+       "value": 12,
+       "unit": "%",
+       "printed": "Thickness swelling (%) EN 317 12 10 8 8 7 7",
+       "statistic": "declared",
+       "column": 1,
+       "test": "EN 317"
       }
      }
     },
@@ -867,7 +955,7 @@
       12,
       12
      ],
-     "locator": "p. 1, declared performance, column 12 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "locator": "p. 1, declared performance, column 12 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310), row 'Thickness swelling (%)'",
      "params": {
       "bending_strength": {
        "value": 40,
@@ -894,6 +982,14 @@
        "unit": "kg/m3",
        "printed": "800",
        "statistic": "declared"
+      },
+      "thickness_swelling_24h": {
+       "value": 10,
+       "unit": "%",
+       "printed": "Thickness swelling (%) EN 317 12 10 8 8 7 7",
+       "statistic": "declared",
+       "column": 2,
+       "test": "EN 317"
       }
      }
     },
@@ -903,7 +999,7 @@
       16,
       16
      ],
-     "locator": "p. 1, declared performance, column 16 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "locator": "p. 1, declared performance, column 16 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310), row 'Thickness swelling (%)'",
      "params": {
       "bending_strength": {
        "value": 38,
@@ -930,6 +1026,14 @@
        "unit": "kg/m3",
        "printed": "780",
        "statistic": "declared"
+      },
+      "thickness_swelling_24h": {
+       "value": 8,
+       "unit": "%",
+       "printed": "Thickness swelling (%) EN 317 12 10 8 8 7 7",
+       "statistic": "declared",
+       "column": 3,
+       "test": "EN 317"
       }
      }
     },
@@ -939,7 +1043,7 @@
       19,
       19
      ],
-     "locator": "p. 1, declared performance, column 19 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "locator": "p. 1, declared performance, column 19 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310), row 'Thickness swelling (%)'",
      "params": {
       "bending_strength": {
        "value": 38,
@@ -966,6 +1070,14 @@
        "unit": "kg/m3",
        "printed": "770",
        "statistic": "declared"
+      },
+      "thickness_swelling_24h": {
+       "value": 8,
+       "unit": "%",
+       "printed": "Thickness swelling (%) EN 317 12 10 8 8 7 7",
+       "statistic": "declared",
+       "column": 4,
+       "test": "EN 317"
       }
      }
     },
@@ -975,7 +1087,7 @@
       25,
       25
      ],
-     "locator": "p. 1, declared performance, column 25 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "locator": "p. 1, declared performance, column 25 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310), row 'Thickness swelling (%)'",
      "params": {
       "bending_strength": {
        "value": 36,
@@ -1002,6 +1114,14 @@
        "unit": "kg/m3",
        "printed": "730",
        "statistic": "declared"
+      },
+      "thickness_swelling_24h": {
+       "value": 7,
+       "unit": "%",
+       "printed": "Thickness swelling (%) EN 317 12 10 8 8 7 7",
+       "statistic": "declared",
+       "column": 5,
+       "test": "EN 317"
       }
      }
     },
@@ -1011,7 +1131,7 @@
       30,
       30
      ],
-     "locator": "p. 1, declared performance, column 30 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "locator": "p. 1, declared performance, column 30 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310), row 'Thickness swelling (%)'",
      "params": {
       "bending_strength": {
        "value": 36,
@@ -1038,6 +1158,14 @@
        "unit": "kg/m3",
        "printed": "720",
        "statistic": "declared"
+      },
+      "thickness_swelling_24h": {
+       "value": 7,
+       "unit": "%",
+       "printed": "Thickness swelling (%) EN 317 12 10 8 8 7 7",
+       "statistic": "declared",
+       "column": 6,
+       "test": "EN 317"
       }
      }
     }
@@ -1060,7 +1188,7 @@
       3.0,
       3.2
      ],
-     "locator": "p. 1, declared performance, column 3.0 - 3,2: bending strength",
+     "locator": "p. 1, declared performance, column 3.0 - 3,2: bending strength, row 'Swelling in thickness 24 h'",
      "params": {
       "bending_strength": {
        "value": 30,
@@ -1068,6 +1196,13 @@
        "printed": "30",
        "statistic": "unlabelled",
        "test": "EN 310"
+      },
+      "thickness_swelling_24h": {
+       "value": 37,
+       "unit": "%",
+       "printed": "Swelling in thickness 24 h 37 30 25",
+       "statistic": "declared",
+       "column": 1
       }
      }
     }
@@ -1416,6 +1551,19 @@
        "statistic": "mean"
       }
      }
+    },
+    {
+     "id": "swelling-24h",
+     "thickness": null,
+     "locator": "p. 2, §9, row 5 'Durabilité (gonflement en épaisseur après 24h) %', one value for every thickness",
+     "params": {
+      "thickness_swelling_24h": {
+       "value": 15,
+       "unit": "%",
+       "printed": "Durabilité (gonflement en épaisseur ≤ 15 après 24h)",
+       "statistic": "maximum"
+      }
+     }
     }
    ],
    "fetched": "2026-11-12"
@@ -1704,6 +1852,100 @@
        "statistic": "nominal"
       }
      }
+    },
+    {
+     "id": "screws-6.5",
+     "thickness": [
+      6.5,
+      6.5
+     ],
+     "locator": "PDF p. 95, Table 4.22 'Mean Riga Ply screw withdrawal force, kg' (EN 320, 4.2 mm screws in 2.7 mm holes 19 mm deep), row 6.5, column Face; the text sets each row's values before its thickness",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 135,
+       "unit": "kg",
+       "printed": "Nominal Face Edge thickness, mm 60 – 4 135 – 6.5 175 – 9 240 – 12 285 210 15…50",
+       "statistic": "mean",
+       "column": 2,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "screws-9",
+     "thickness": [
+      9,
+      9
+     ],
+     "locator": "PDF p. 95, Table 4.22 'Mean Riga Ply screw withdrawal force, kg' (EN 320, 4.2 mm screws in 2.7 mm holes 19 mm deep), row 9, column Face; the text sets each row's values before its thickness",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 175,
+       "unit": "kg",
+       "printed": "Nominal Face Edge thickness, mm 60 – 4 135 – 6.5 175 – 9 240 – 12 285 210 15…50",
+       "statistic": "mean",
+       "column": 4,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "screws-12",
+     "thickness": [
+      12,
+      12
+     ],
+     "locator": "PDF p. 95, Table 4.22 'Mean Riga Ply screw withdrawal force, kg' (EN 320, 4.2 mm screws in 2.7 mm holes 19 mm deep), row 12, column Face; the text sets each row's values before its thickness",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 240,
+       "unit": "kg",
+       "printed": "Nominal Face Edge thickness, mm 60 – 4 135 – 6.5 175 – 9 240 – 12 285 210 15…50",
+       "statistic": "mean",
+       "column": 6,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "screws-15-50",
+     "thickness": [
+      15,
+      50
+     ],
+     "locator": "PDF p. 95, Table 4.22 'Mean Riga Ply screw withdrawal force, kg' (EN 320, 4.2 mm screws in 2.7 mm holes 19 mm deep), row 15…50, columns Face and Edge; the text sets each row's values before its thickness",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 285,
+       "unit": "kg",
+       "printed": "Nominal Face Edge thickness, mm 60 – 4 135 – 6.5 175 – 9 240 – 12 285 210 15…50",
+       "statistic": "mean",
+       "column": 8,
+       "test": "EN 320"
+      },
+      "screw_withdrawal_edge": {
+       "value": 210,
+       "unit": "kg",
+       "printed": "Nominal Face Edge thickness, mm 60 – 4 135 – 6.5 175 – 9 240 – 12 285 210 15…50",
+       "statistic": "mean",
+       "column": 9,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "moisture-movement",
+     "thickness": null,
+     "locator": "PDF p. 126, section 5.4 Acclimatisation: absorbing or releasing 1 % of moisture changes length and width by the same share; no thickness stated",
+     "params": {
+      "dimensional_change_in_plane": {
+       "value": 0.02,
+       "unit": "%/%",
+       "printed": "length 0.02%, width 0.02%",
+       "statistic": "as stated",
+       "column": 0
+      }
+     }
     }
    ],
    "fetched": "2026-11-12"
@@ -1880,6 +2122,57 @@
        "unit": "kg/m3",
        "printed": "433",
        "statistic": "mean"
+      }
+     }
+    },
+    {
+     "id": "screws-6-10",
+     "thickness": [
+      6.0,
+      10.0
+     ],
+     "locator": "p. 2, item 9 table, row 'Withdrawal of screws N (mean, face)', column 6-10 mm",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 1671,
+       "unit": "N",
+       "printed": "Withdrawal of screws N (mean, face) 1671 2040 2000",
+       "statistic": "mean",
+       "column": 0
+      }
+     }
+    },
+    {
+     "id": "screws-11-20",
+     "thickness": [
+      11.0,
+      20.0
+     ],
+     "locator": "p. 2, item 9 table, row 'Withdrawal of screws N (mean, face)', column 11-20 mm",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 2040,
+       "unit": "N",
+       "printed": "Withdrawal of screws N (mean, face) 1671 2040 2000",
+       "statistic": "mean",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "screws-21-50",
+     "thickness": [
+      21.0,
+      50.0
+     ],
+     "locator": "p. 2, item 9 table, row 'Withdrawal of screws N (mean, face)', column 21-50 mm",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 2000,
+       "unit": "N",
+       "printed": "Withdrawal of screws N (mean, face) 1671 2040 2000",
+       "statistic": "mean",
+       "column": 2
       }
      }
     }
@@ -3546,7 +3839,7 @@
       8,
       13
      ],
-     "locator": "p. 1, 'Requirements' table, column '≥ 8 to 13' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending'",
+     "locator": "p. 1, 'Requirements' table, column '≥ 8 to 13' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending', row 9 'Thickness swelling, (24 h.)'",
      "params": {
       "bending_strength": {
        "value": 15.0,
@@ -3563,6 +3856,14 @@
        "column": 1,
        "statistic": "lower bound",
        "test": "EN 310"
+      },
+      "thickness_swelling_24h": {
+       "value": 17,
+       "unit": "%",
+       "printed": "Thickness swelling, (24 h.) EN 317 % ≤ 17 ≤ 14 ≤ 13 ≤ 13 ≤ 12",
+       "statistic": "maximum",
+       "column": 2,
+       "test": "EN 317"
       }
      }
     },
@@ -3572,7 +3873,7 @@
       13.01,
       20
      ],
-     "locator": "p. 1, 'Requirements' table, column '> 13 to 20' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending'",
+     "locator": "p. 1, 'Requirements' table, column '> 13 to 20' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending', row 9 'Thickness swelling, (24 h.)'",
      "params": {
       "bending_strength": {
        "value": 14.0,
@@ -3589,6 +3890,14 @@
        "column": 2,
        "statistic": "lower bound",
        "test": "EN 310"
+      },
+      "thickness_swelling_24h": {
+       "value": 14,
+       "unit": "%",
+       "printed": "Thickness swelling, (24 h.) EN 317 % ≤ 17 ≤ 14 ≤ 13 ≤ 13 ≤ 12",
+       "statistic": "maximum",
+       "column": 3,
+       "test": "EN 317"
       }
      }
     },
@@ -3598,7 +3907,7 @@
       20.01,
       25
      ],
-     "locator": "p. 1, 'Requirements' table, column '> 20 to 25' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending'",
+     "locator": "p. 1, 'Requirements' table, column '> 20 to 25' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending', row 9 'Thickness swelling, (24 h.)'",
      "params": {
       "bending_strength": {
        "value": 12.0,
@@ -3615,6 +3924,14 @@
        "column": 3,
        "statistic": "lower bound",
        "test": "EN 310"
+      },
+      "thickness_swelling_24h": {
+       "value": 13,
+       "unit": "%",
+       "printed": "Thickness swelling, (24 h.) EN 317 % ≤ 17 ≤ 14 ≤ 13 ≤ 13 ≤ 12",
+       "statistic": "maximum",
+       "column": 4,
+       "test": "EN 317"
       }
      }
     },
@@ -3624,7 +3941,7 @@
       25.01,
       32
      ],
-     "locator": "p. 1, 'Requirements' table, column '> 25 to 32' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending'",
+     "locator": "p. 1, 'Requirements' table, column '> 25 to 32' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending', row 9 'Thickness swelling, (24 h.)'",
      "params": {
       "bending_strength": {
        "value": 11.0,
@@ -3641,6 +3958,14 @@
        "column": 4,
        "statistic": "lower bound",
        "test": "EN 310"
+      },
+      "thickness_swelling_24h": {
+       "value": 13,
+       "unit": "%",
+       "printed": "Thickness swelling, (24 h.) EN 317 % ≤ 17 ≤ 14 ≤ 13 ≤ 13 ≤ 12",
+       "statistic": "maximum",
+       "column": 5,
+       "test": "EN 317"
       }
      }
     },
@@ -3650,7 +3975,7 @@
       32.01,
       40
      ],
-     "locator": "p. 1, 'Requirements' table, column '> 32 to 40' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending'",
+     "locator": "p. 1, 'Requirements' table, column '> 32 to 40' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending', row 9 'Thickness swelling, (24 h.)'",
      "params": {
       "bending_strength": {
        "value": 9.0,
@@ -3667,6 +3992,32 @@
        "column": 5,
        "statistic": "lower bound",
        "test": "EN 310"
+      },
+      "thickness_swelling_24h": {
+       "value": 12,
+       "unit": "%",
+       "printed": "Thickness swelling, (24 h.) EN 317 % ≤ 17 ≤ 14 ≤ 13 ≤ 13 ≤ 12",
+       "statistic": "maximum",
+       "column": 6,
+       "test": "EN 317"
+      }
+     }
+    },
+    {
+     "id": "screw-edge",
+     "thickness": [
+      8,
+      40
+     ],
+     "locator": "p. 1, 'Requirements' table, row 13 'Screw hold edge', one value across the columns ≥ 8 to 40 mm",
+     "params": {
+      "screw_withdrawal_edge": {
+       "value": 450,
+       "unit": "N",
+       "printed": "13 Screw hold edge EN 320 N ≥ 450",
+       "statistic": "lower bound",
+       "column": 2,
+       "test": "EN 320"
       }
      }
     }
@@ -3690,7 +4041,7 @@
       4.01,
       6
      ],
-     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>4 do 6': rows Density, Bending strenght, Moduls of elasticity",
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>4 do 6': rows Density, Bending strenght, Moduls of elasticity, row 'Swelling after 24h'",
      "params": {
       "bending_strength": {
        "value": 23.0,
@@ -3721,6 +4072,14 @@
        "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
        "column": 1,
        "statistic": "Swiss Krono's board"
+      },
+      "thickness_swelling_24h": {
+       "value": 30,
+       "unit": "%",
+       "printed": "Swelling after 24h* | % | 30 | 17 | 15 | 12 | 10 | 8 |",
+       "statistic": "maximum",
+       "column": 1,
+       "test": "EN 317"
       }
      }
     },
@@ -3730,7 +4089,7 @@
       6.01,
       9
      ],
-     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>6 do 9': rows Density, Bending strenght, Moduls of elasticity",
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>6 do 9': rows Density, Bending strenght, Moduls of elasticity, row 'Swelling after 24h'",
      "params": {
       "bending_strength": {
        "value": 23.0,
@@ -3761,6 +4120,14 @@
        "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
        "column": 2,
        "statistic": "Swiss Krono's board"
+      },
+      "thickness_swelling_24h": {
+       "value": 17,
+       "unit": "%",
+       "printed": "Swelling after 24h* | % | 30 | 17 | 15 | 12 | 10 | 8 |",
+       "statistic": "maximum",
+       "column": 2,
+       "test": "EN 317"
       }
      }
     },
@@ -3770,7 +4137,7 @@
       9.01,
       12
      ],
-     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>9 do 12': rows Density, Bending strenght, Moduls of elasticity",
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>9 do 12': rows Density, Bending strenght, Moduls of elasticity, row 'Swelling after 24h'",
      "params": {
       "bending_strength": {
        "value": 22.0,
@@ -3801,6 +4168,14 @@
        "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
        "column": 3,
        "statistic": "Swiss Krono's board"
+      },
+      "thickness_swelling_24h": {
+       "value": 15,
+       "unit": "%",
+       "printed": "Swelling after 24h* | % | 30 | 17 | 15 | 12 | 10 | 8 |",
+       "statistic": "maximum",
+       "column": 3,
+       "test": "EN 317"
       }
      }
     },
@@ -3810,7 +4185,7 @@
       12.01,
       19
      ],
-     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>12 do 19': rows Density, Bending strenght, Moduls of elasticity",
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>12 do 19': rows Density, Bending strenght, Moduls of elasticity, row 'Swelling after 24h'",
      "params": {
       "bending_strength": {
        "value": 20.0,
@@ -3841,6 +4216,14 @@
        "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
        "column": 4,
        "statistic": "Swiss Krono's board"
+      },
+      "thickness_swelling_24h": {
+       "value": 12,
+       "unit": "%",
+       "printed": "Swelling after 24h* | % | 30 | 17 | 15 | 12 | 10 | 8 |",
+       "statistic": "maximum",
+       "column": 4,
+       "test": "EN 317"
       }
      }
     },
@@ -3850,7 +4233,7 @@
       19.01,
       30
      ],
-     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>19 do 30': rows Density, Bending strenght, Moduls of elasticity",
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>19 do 30': rows Density, Bending strenght, Moduls of elasticity, row 'Swelling after 24h'",
      "params": {
       "bending_strength": {
        "value": 18.0,
@@ -3881,6 +4264,14 @@
        "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
        "column": 5,
        "statistic": "Swiss Krono's board"
+      },
+      "thickness_swelling_24h": {
+       "value": 10,
+       "unit": "%",
+       "printed": "Swelling after 24h* | % | 30 | 17 | 15 | 12 | 10 | 8 |",
+       "statistic": "maximum",
+       "column": 5,
+       "test": "EN 317"
       }
      }
     },
@@ -3890,7 +4281,7 @@
       30.01,
       38
      ],
-     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>30 do 38': rows Density, Bending strenght, Moduls of elasticity",
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>30 do 38': rows Density, Bending strenght, Moduls of elasticity, row 'Swelling after 24h'",
      "params": {
       "bending_strength": {
        "value": 17.0,
@@ -3921,6 +4312,14 @@
        "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
        "column": 6,
        "statistic": "Swiss Krono's board"
+      },
+      "thickness_swelling_24h": {
+       "value": 8,
+       "unit": "%",
+       "printed": "Swelling after 24h* | % | 30 | 17 | 15 | 12 | 10 | 8 |",
+       "statistic": "maximum",
+       "column": 6,
+       "test": "EN 317"
       }
      }
     }
@@ -4223,6 +4622,2287 @@
        "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
        "column": 12,
        "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "swedish-wood-design-of-timber-structures-vol2",
+   "publisher": "Swedish Forest Industries Federation (Swedish Wood) and Timber Development UK",
+   "title": "Design of timber structures, Volume 2: Rules and formulas according to Eurocode 5, UK edition 1:2022",
+   "url": "https://www.universityofgalway.ie/media/timberengineeringresearchgroup/Design-of-timber-structures_Volume2_Rules-and-formulas-according-to-Eurocode-5.pdf",
+   "sha256": "c8eedc19699307a9f842bd92e86254e7411175cde708c596a0920a823d4da160",
+   "file": "properties/swedishwood-design-of-timber-structures-vol2-2022.pdf",
+   "capture": "text",
+   "statistic_note": "Table 9.1 'Values of kdef for timber and wood-based materials', headed 'Source: Table according to EN 1995-1-1:2004, 3.1.4': the code's deformation factor, columns service class 1, 2 and 3",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "table-9-1-plywood",
+     "thickness": null,
+     "locator": "p. 32, Table 9.1, rows 'Plywood EN 636' Type 1 (Types 2 and 3 print the same 0,80 for service class 1), column service class 1",
+     "params": {
+      "kdef_service_class_1": {
+       "value": 0.8,
+       "unit": "",
+       "printed": "Plywood EN 636 Type 1 0,80 - -",
+       "statistic": "kdef for service class 1",
+       "column": 2
+      }
+     }
+    },
+    {
+     "id": "table-9-1-osb-3",
+     "thickness": null,
+     "locator": "p. 32, Table 9.1, row 'OSB/3, OSB/4' (EN 300), column service class 1",
+     "params": {
+      "kdef_service_class_1": {
+       "value": 1.5,
+       "unit": "",
+       "printed": "OSB/3, OSB/4 1,50 2,25 -",
+       "statistic": "kdef for service class 1",
+       "column": 2
+      }
+     }
+    },
+    {
+     "id": "table-9-1-p4",
+     "thickness": null,
+     "locator": "p. 32, Table 9.1, row 'Particleboard EN 312, Type P4' (load-bearing, dry), column service class 1; the table rates no P2 or P3 board",
+     "params": {
+      "kdef_service_class_1": {
+       "value": 2.25,
+       "unit": "",
+       "printed": "Particleboard EN 312 Type P4 2,25 - -",
+       "statistic": "kdef for service class 1",
+       "column": 2
+      }
+     }
+    },
+    {
+     "id": "table-9-1-hb-la",
+     "thickness": null,
+     "locator": "p. 32, Table 9.1, row 'Fibreboard, hard EN 622-2, HB.LA' (load-bearing, dry), column service class 1",
+     "params": {
+      "kdef_service_class_1": {
+       "value": 2.25,
+       "unit": "",
+       "printed": "Fibreboard, hard EN 622-2 HB.LA 2,25 - -",
+       "statistic": "kdef for service class 1",
+       "column": 2
+      }
+     }
+    },
+    {
+     "id": "table-9-1-mdf-la",
+     "thickness": null,
+     "locator": "p. 32, Table 9.1, row 'Fibreboard, MDF EN 622-5, MDF.LA' (load-bearing, dry), column service class 1; the table rates no general-purpose MDF",
+     "params": {
+      "kdef_service_class_1": {
+       "value": 2.25,
+       "unit": "",
+       "printed": "Fibreboard, MDF EN 622-5 MDF.LA 2,25 - -",
+       "statistic": "kdef for service class 1",
+       "column": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "fh-bielefeld-leporello-ec5",
+   "publisher": "FH Bielefeld, Campus Minden (V. Schiermeyer)",
+   "title": "Leporello 1: Bemessungs- und Konstruktionshilfen für Holzbauteile nach DIN EN 1995-1-1:2010-12 (EC 5) + DIN EN 1995-1-1/NA:2013-08, Stand Mai 2020",
+   "url": "https://www.fh-bielefeld.de/multimedia/Fachbereiche/Campus+Minden/%C3%9Cber+uns/Labore_+Lehrgebiete/Labore/Labor+konstruktiver+Ingenieurbau/Leporello/Leporello+1+_+Bemessung+von+Bauteilen+nach+EC5+_+2020+05+04-p-134198.pdf?download=1",
+   "sha256": "4d8b43b3c262fe5470aa8b15f7fc2a9a0f0e74954aeb592ed90a5aa1c857d6cf",
+   "file": "properties/fhbielefeld-leporello-1-ec5-2020.pdf",
+   "capture": "text",
+   "statistic_note": "the table 'Rechenwerte für die Verformungsbeiwerte kdef' of the German national annex, columns Nutzungsklasse 1, 2 and 3",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "kdef-massivholzplatten",
+     "thickness": null,
+     "locator": "p. 3, 'Rechenwerte für die Verformungsbeiwerte kdef', left column, first row (Vollholz ... Massivholzplatten), column Nutzungsklasse 1",
+     "params": {
+      "kdef_service_class_1": {
+       "value": 0.6,
+       "unit": "",
+       "printed": "Massivholzplatten 0,60 0,80 2,00",
+       "statistic": "kdef for service class 1",
+       "column": 0
+      }
+     }
+    },
+    {
+     "id": "kdef-kunstharzgebundene-spanplatten",
+     "thickness": null,
+     "locator": "p. 3, same table, right column, first row (Kunstharzgebundene Spanplatten, Zementgebundene Spanplatten, Faserplatten hart HB.HLA2), column Nutzungsklasse 1; it names no particleboard type",
+     "params": {
+      "kdef_service_class_1": {
+       "value": 2.25,
+       "unit": "",
+       "printed": "Kunstharzgebundene Spanplatten Zementgebundene Spanplatten Faserplatten - hart (Typ HB.HLA2 DIN EN 622-2:2004-07) 2,25 3,00 -",
+       "statistic": "kdef for service class 1",
+       "column": 5
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "fpl-rp-574-creep-of-panels",
+   "publisher": "USDA Forest Service, Forest Products Laboratory (Laufenberg, Palka, McNatt)",
+   "title": "Creep and creep-rupture behavior of wood-based structural panels, Research Paper FPL-RP-574, 1999",
+   "url": "https://research.fs.usda.gov/download/treesearch/5817.pdf",
+   "sha256": "f473813eae9743c462bd024f95747d0916b611a0974a1a235bfa702fcaca8ebf",
+   "file": "properties/fpl-rp-574-laufenberg-1999.pdf",
+   "capture": "text",
+   "statistic_note": "fractional creep: total deflection over the initial (1 minute) deflection after six months under 15 % and 30 % of the short-term failure load at 20 °C, 15.6 mm North American panels, means of three mills",
+   "fetched": "2026-11-13",
+   "licence": "public domain",
+   "clauses": [
+    {
+     "id": "fractional-creep-50-rh",
+     "thickness": [
+      15.6,
+      15.6
+     ],
+     "locator": "p. 16, text summarising Table 18, at 50 % RH",
+     "quote": "At 50% RH, fractional creep values at 6 months averaged 1.4 for the plywoods, 1.7 for OSB, and 1.5 for waferboards.",
+     "params": {
+      "fractional_creep_plywood": {
+       "value": 1.4,
+       "unit": "",
+       "printed": "averaged 1.4 for the plywoods, 1.7 for OSB",
+       "statistic": "mean",
+       "column": 0
+      },
+      "fractional_creep_osb": {
+       "value": 1.7,
+       "unit": "",
+       "printed": "averaged 1.4 for the plywoods, 1.7 for OSB",
+       "statistic": "mean",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "fractional-creep-85-rh",
+     "thickness": [
+      15.6,
+      15.6
+     ],
+     "locator": "p. 16, text summarising Table 18, at 85 % RH",
+     "quote": "For the 85% RH, fractional creep values averaged 1.9 for the plywood specimens, 5.2 for OSB, and 2.7 for waferboards.",
+     "params": {
+      "fractional_creep_plywood": {
+       "value": 1.9,
+       "unit": "",
+       "printed": "averaged 1.9 for the plywood specimens, 5.2 for OSB",
+       "statistic": "mean",
+       "column": 0
+      },
+      "fractional_creep_osb": {
+       "value": 5.2,
+       "unit": "",
+       "printed": "averaged 1.9 for the plywood specimens, 5.2 for OSB",
+       "statistic": "mean",
+       "column": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "ewpaa-shelving-design-manual",
+   "publisher": "Engineered Wood Products Association of Australasia (EWPAA), hosted by Borg",
+   "title": "Particleboard and MDF Structural Shelving Design Manual, revision 3, 06-02-2012",
+   "url": "https://borg.bynder.com/asset/a7644caa-89dc-46ec-83cb-6abd310ef21a/CUSTOMpine-Shelving-load-tables.pdf",
+   "sha256": "57f37feb1f3a186cbd085a1acb8263cef663eb90543cc615e6d3021bf3b0fa8d",
+   "file": "properties/ewpaa-borg-shelving-design-manual-rev3.pdf",
+   "capture": "text",
+   "statistic_note": "a creep factor: the final deflection of a particleboard or MDF shelf over its initial deflection, the manual's design guidance for AS/NZS 1859 boards",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "creep-factor",
+     "thickness": null,
+     "locator": "p. 5, 'Long Term Effects' (temperate conditions double the initial deflection; tropical interiors three times; severe tropical protected exterior four), and the worked examples that apply 2 and 3",
+     "params": {
+      "creep_factor_temperate": {
+       "value": 2,
+       "unit": "",
+       "printed": "If the creep factor is 2",
+       "statistic": "design guidance"
+      },
+      "creep_factor_tropical_interior": {
+       "value": 3,
+       "unit": "",
+       "printed": "Creep factor is 3",
+       "statistic": "design guidance"
+      },
+      "creep_factor_tropical_exterior": {
+       "value": 4,
+       "unit": "",
+       "printed": "a creep factor of four",
+       "statistic": "design guidance"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "epf-mdf-info-shelves",
+   "publisher": "European Panel Federation (EPF), mdf-info.eu",
+   "title": "Furniture, 11. MDF shelves and storage units (web page)",
+   "url": "https://mdf-info.eu/applications/mobel/regale-und-stauelemente-aus-mdf",
+   "sha256": "5f2a989c594055763c7066d7487a70116562fa54b73209b9c81d39663fddd19e",
+   "file": "properties/epf-mdf-info-shelves.html",
+   "capture": "text",
+   "statistic_note": "an upper bound the federation states for the growth of a painted or foiled MDF shelf's initial deflection under long-term load; veneer or laminate on both faces creeps less",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "shelf-creep",
+     "thickness": null,
+     "locator": "section 11, the paragraph after the deflection formula",
+     "params": {
+      "creep_increase": {
+       "value": 50,
+       "unit": "%",
+       "printed": "by up to 50%",
+       "statistic": "upper bound"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "kastamonu-particleboard-p2-datasheet",
+   "publisher": "Kastamonu Bulgaria JSC",
+   "title": "Technical data sheet 1200-UB-002 Rev. 5, Particleboards, board type P2 / emission class E1 (manufactured in accordance with EN 312), 07.11.2022",
+   "url": "https://www.kastamonuentegre.com/uploads/2023/03/1200-ub-002-technical-data-sheet-particle-board-boards-type-p2-emission-class-e1.pdf",
+   "sha256": "6958d5914883182b05133334779422ccaeb03ead2767fb81fe942cb90a05374a",
+   "file": "classes/kastamonu-1200-ub-002-particleboard-p2.pdf",
+   "capture": "text",
+   "statistic_note": "a column headed 'Requirements', cells printed '≥'; its bending rows are EN 312's P2 row",
+   "fetched": "2026-11-13",
+   "prints": "EN 312:2010, type P2",
+   "clauses": [
+    {
+     "id": "screw-edge",
+     "thickness": [
+      8,
+      40
+     ],
+     "locator": "p. 1, 'Requirements' table, row 12 'Screw hold edge', one value across the columns ≥ 8 to 40 mm",
+     "params": {
+      "screw_withdrawal_edge": {
+       "value": 450,
+       "unit": "N",
+       "printed": "12 Screw hold edge EN 320 N ≥ 450",
+       "statistic": "lower bound",
+       "column": 2,
+       "test": "EN 320"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "finsa-superpan-star-datasheet",
+   "publisher": "Finsa (Financiera Maderera S.A.)",
+   "title": "SuperPan Star, technical data sheet (EN 312:2010, Table 3, type P2), Rev. 10/06/2026",
+   "url": "https://files.finsa.com/datasheets/fichasTecnicas/en/technical-datasheet-superpan-star-en.pdf",
+   "sha256": "ad1bacb99ee8adac7105c3000ed177a5e1245d5c8d3df12840a5afd323532b88",
+   "file": "makers/finsa-superpan-star-datasheet-en.pdf",
+   "capture": "text",
+   "statistic_note": "cells printed '>': a lower bound; the sheet says its values comply with EN 312:2010, Table 3 (P2)",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "19-20",
+     "thickness": [
+      19,
+      20
+     ],
+     "locator": "p. 1, technical data, rows 'Screw Holding. Surface' and 'Screw Holding. Edge', column 19-20",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 600,
+       "unit": "N",
+       "printed": "Screw Holding. Surface EN 320:2011 N > 600 > 600 > 600 > 600 > 600",
+       "statistic": "lower bound",
+       "column": 2,
+       "test": "EN 320"
+      },
+      "screw_withdrawal_edge": {
+       "value": 500,
+       "unit": "N",
+       "printed": "Screw Holding. Edge EN 320:2011 N > 500 > 500 > 500 > 300 > 300",
+       "statistic": "lower bound",
+       "column": 2,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "20-25",
+     "thickness": [
+      20.01,
+      25
+     ],
+     "locator": "p. 1, technical data, rows 'Screw Holding. Surface' and 'Screw Holding. Edge', column >20-25",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 600,
+       "unit": "N",
+       "printed": "Screw Holding. Surface EN 320:2011 N > 600 > 600 > 600 > 600 > 600",
+       "statistic": "lower bound",
+       "column": 3,
+       "test": "EN 320"
+      },
+      "screw_withdrawal_edge": {
+       "value": 500,
+       "unit": "N",
+       "printed": "Screw Holding. Edge EN 320:2011 N > 500 > 500 > 500 > 300 > 300",
+       "statistic": "lower bound",
+       "column": 3,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "25-32",
+     "thickness": [
+      25.01,
+      32
+     ],
+     "locator": "p. 1, technical data, rows 'Screw Holding. Surface' and 'Screw Holding. Edge', column >25-32",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 600,
+       "unit": "N",
+       "printed": "Screw Holding. Surface EN 320:2011 N > 600 > 600 > 600 > 600 > 600",
+       "statistic": "lower bound",
+       "column": 4,
+       "test": "EN 320"
+      },
+      "screw_withdrawal_edge": {
+       "value": 500,
+       "unit": "N",
+       "printed": "Screw Holding. Edge EN 320:2011 N > 500 > 500 > 500 > 300 > 300",
+       "statistic": "lower bound",
+       "column": 4,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "32-40",
+     "thickness": [
+      32.01,
+      40
+     ],
+     "locator": "p. 1, technical data, rows 'Screw Holding. Surface' and 'Screw Holding. Edge', column >32-40",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 600,
+       "unit": "N",
+       "printed": "Screw Holding. Surface EN 320:2011 N > 600 > 600 > 600 > 600 > 600",
+       "statistic": "lower bound",
+       "column": 5,
+       "test": "EN 320"
+      },
+      "screw_withdrawal_edge": {
+       "value": 300,
+       "unit": "N",
+       "printed": "Screw Holding. Edge EN 320:2011 N > 500 > 500 > 500 > 300 > 300",
+       "statistic": "lower bound",
+       "column": 5,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "40-44",
+     "thickness": [
+      40.01,
+      44
+     ],
+     "locator": "p. 1, technical data, rows 'Screw Holding. Surface' and 'Screw Holding. Edge', column >40-44",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 600,
+       "unit": "N",
+       "printed": "Screw Holding. Surface EN 320:2011 N > 600 > 600 > 600 > 600 > 600",
+       "statistic": "lower bound",
+       "column": 6,
+       "test": "EN 320"
+      },
+      "screw_withdrawal_edge": {
+       "value": 300,
+       "unit": "N",
+       "printed": "Screw Holding. Edge EN 320:2011 N > 500 > 500 > 500 > 300 > 300",
+       "statistic": "lower bound",
+       "column": 6,
+       "test": "EN 320"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "medite-premier-datasheet",
+   "publisher": "Medite Europe (Coillte Panel Products)",
+   "title": "Medite Premier MDF, technical datasheet V 4/15 (EN 622 parts 1 and 5)",
+   "url": "https://www.specifiedby.com/medite-tricoya/medite-premier/Medite-Tricoya_Medite-Premier_Technical_Datasheet-V4.15.pdf",
+   "sha256": "5a41161ba3fa56eabbcfe7db4c1decbeef97907a445843209c8db90d8ef8edd7",
+   "file": "makers/medite-premier-datasheet-v4-15.pdf",
+   "capture": "text",
+   "statistic_note": "'Min' rows: the minimum specification for every Premier board; 3 to 12 mm print '~' for screw holding",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "12-19",
+     "thickness": [
+      12.01,
+      19
+     ],
+     "locator": "p. 2, Technical Specification Sheet, rows 'Screw Holding Face' and 'Screw Holding Edge', column >12.0 to 19.0",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 1000,
+       "unit": "N",
+       "printed": "Screw Holding Face Min EN 320 N ~ ~ ~ ~ 1000 1000 1000 1000",
+       "statistic": "minimum",
+       "column": 1,
+       "test": "EN 320"
+      },
+      "screw_withdrawal_edge": {
+       "value": 600,
+       "unit": "N",
+       "printed": "Screw Holding Edge Min EN 320 N ~ ~ ~ ~ 600 600 600 600",
+       "statistic": "minimum",
+       "column": 1,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "19-25",
+     "thickness": [
+      19.01,
+      25
+     ],
+     "locator": "p. 2, Technical Specification Sheet, rows 'Screw Holding Face' and 'Screw Holding Edge', column >19.0 to 25.0",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 1000,
+       "unit": "N",
+       "printed": "Screw Holding Face Min EN 320 N ~ ~ ~ ~ 1000 1000 1000 1000",
+       "statistic": "minimum",
+       "column": 2,
+       "test": "EN 320"
+      },
+      "screw_withdrawal_edge": {
+       "value": 600,
+       "unit": "N",
+       "printed": "Screw Holding Edge Min EN 320 N ~ ~ ~ ~ 600 600 600 600",
+       "statistic": "minimum",
+       "column": 2,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "25-30",
+     "thickness": [
+      25.01,
+      30
+     ],
+     "locator": "p. 2, Technical Specification Sheet, rows 'Screw Holding Face' and 'Screw Holding Edge', column >25.0 to 30.0",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 1000,
+       "unit": "N",
+       "printed": "Screw Holding Face Min EN 320 N ~ ~ ~ ~ 1000 1000 1000 1000",
+       "statistic": "minimum",
+       "column": 3,
+       "test": "EN 320"
+      },
+      "screw_withdrawal_edge": {
+       "value": 600,
+       "unit": "N",
+       "printed": "Screw Holding Edge Min EN 320 N ~ ~ ~ ~ 600 600 600 600",
+       "statistic": "minimum",
+       "column": 3,
+       "test": "EN 320"
+      }
+     }
+    },
+    {
+     "id": "30-45",
+     "thickness": [
+      30.01,
+      45
+     ],
+     "locator": "p. 2, Technical Specification Sheet, rows 'Screw Holding Face' and 'Screw Holding Edge', column >30.0 to 45.0",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 1000,
+       "unit": "N",
+       "printed": "Screw Holding Face Min EN 320 N ~ ~ ~ ~ 1000 1000 1000 1000",
+       "statistic": "minimum",
+       "column": 4,
+       "test": "EN 320"
+      },
+      "screw_withdrawal_edge": {
+       "value": 600,
+       "unit": "N",
+       "printed": "Screw Holding Edge Min EN 320 N ~ ~ ~ ~ 600 600 600 600",
+       "statistic": "minimum",
+       "column": 4,
+       "test": "EN 320"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "miljkovic-2007-edge-screw-withdrawal",
+   "publisher": "University of Belgrade, Faculty of Forestry (Miljković, Popović, Điporović-Momčilović, Gavrilović-Grmuša)",
+   "title": "Edge screw withdrawal resistance in conventional particleboard and OSB: influence of the particles type, Glasnik Šumarskog fakulteta 95 (2007), 109-117",
+   "url": "https://doiserbia.nb.rs/img/doi/0353-4537/2007/0353-45370795109M.pdf",
+   "sha256": "3f02ae28c30b6acde08b21eb890a443437ab44fdb16153536732cb7585b2a931",
+   "file": "properties/miljkovic-2007-edge-screw-withdrawal-pb-osb.pdf",
+   "capture": "text",
+   "statistic_note": "means of 24 (particleboard) and 32 (OSB) specimens; full-thread chipboard screws, 30 mm into the edge of an 18 mm board; an interior OSB, not declared OSB/3",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "osb-18",
+     "thickness": [
+      18,
+      18
+     ],
+     "locator": "Table 1, row 'Absolute SWR', OSB, columns 4.0, 4.5 and 5 mm screws",
+     "params": {
+      "screw_withdrawal_edge_4_0": {
+       "value": 2105,
+       "unit": "N",
+       "printed": "OSB N 2,105 2,182 2,386",
+       "statistic": "mean",
+       "column": 0,
+       "thousands": ","
+      },
+      "screw_withdrawal_edge_4_5": {
+       "value": 2182,
+       "unit": "N",
+       "printed": "OSB N 2,105 2,182 2,386",
+       "statistic": "mean",
+       "column": 1,
+       "thousands": ","
+      },
+      "screw_withdrawal_edge_5_0": {
+       "value": 2386,
+       "unit": "N",
+       "printed": "OSB N 2,105 2,182 2,386",
+       "statistic": "mean",
+       "column": 2,
+       "thousands": ","
+      }
+     }
+    },
+    {
+     "id": "particleboard-18",
+     "thickness": [
+      18,
+      18
+     ],
+     "locator": "Table 1, row 'Absolute SWR', conventional PB, columns 4.0, 4.5 and 5 mm",
+     "params": {
+      "screw_withdrawal_edge_4_0": {
+       "value": 1217,
+       "unit": "N",
+       "printed": "PB N 1217 1399 1530",
+       "statistic": "mean",
+       "column": 0
+      },
+      "screw_withdrawal_edge_4_5": {
+       "value": 1399,
+       "unit": "N",
+       "printed": "PB N 1217 1399 1530",
+       "statistic": "mean",
+       "column": 1
+      },
+      "screw_withdrawal_edge_5_0": {
+       "value": 1530,
+       "unit": "N",
+       "printed": "PB N 1217 1399 1530",
+       "statistic": "mean",
+       "column": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "thebault-teboply-okoume-exterieur-doc",
+   "publisher": "Groupe Thebault",
+   "title": "TeboPly Okoumé Extérieur, documentation technique (distributor copy, Groupe Samse fiche 13725)",
+   "url": "https://medias.groupe-samse.fr/Fiche_technique/Fiche_technique_13725.pdf",
+   "sha256": "3e6b7b7510d3331339b85667fc5664b604c644a389c643a773a40de47f6d1730",
+   "file": "makers/thebault-teboply-okoume-exterieur-documentation.pdf",
+   "capture": "text",
+   "statistic_note": "'effort moyen de traction': a mean, measured on a 15 mm board",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "15",
+     "thickness": [
+      15,
+      15
+     ],
+     "locator": "p. 2, 'Tenue aux fixations (e = 15 mm)', row Vis 'Effort moyen de traction', columns Parement (face) and Chant (edge)",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 1050,
+       "unit": "N",
+       "printed": "Parement Chant 1050 N 1200 N",
+       "statistic": "mean",
+       "column": 0
+      },
+      "screw_withdrawal_edge": {
+       "value": 1200,
+       "unit": "N",
+       "printed": "Parement Chant 1050 N 1200 N",
+       "statistic": "mean",
+       "column": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "thebault-tebopin-clear-doc",
+   "publisher": "Groupe Thebault",
+   "title": "TeboPin Clear, documentation technique (100 % maritime pine plywood; distributor copy, Groupe Samse fiche 1124346)",
+   "url": "https://medias.groupe-samse.fr/Fiche_technique/Fiche_technique_1124346.pdf",
+   "sha256": "586399405b1face93b83b5f70cac857c08ed32d4a880c98653288e65a83cc0ed",
+   "file": "makers/thebault-tebopin-clear-documentation.pdf",
+   "capture": "text",
+   "statistic_note": "'effort moyen de traction': a mean, measured on a 15 mm board, printed in daN",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "15",
+     "thickness": [
+      15,
+      15
+     ],
+     "locator": "p. 2, 'Tenue aux fixations (e = 15 mm)', row Vis 'Effort moyen de traction', columns Parement (face) and Chant (edge)",
+     "params": {
+      "screw_withdrawal_face": {
+       "value": 180,
+       "unit": "daN",
+       "printed": "Parement Chant 180 daN 140 daN",
+       "statistic": "mean",
+       "column": 0
+      },
+      "screw_withdrawal_edge": {
+       "value": 140,
+       "unit": "daN",
+       "printed": "Parement Chant 180 daN 140 daN",
+       "statistic": "mean",
+       "column": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "smartply-osb3-datasheet",
+   "publisher": "Coillte Panel Products (SmartPly)",
+   "title": "SmartPly OSB/3, technical data sheet 03EN (distributor copy, Eurabo)",
+   "url": "https://www.eurabo.be/files/attachments/.2544/03EN_SmartPly_OSB3.pdf",
+   "sha256": "437919ddcdf8e8ac62e59f1cb7863f3828a944f1f1ad940f7f511d897383c248",
+   "file": "makers/smartply-osb3-datasheet-03en.pdf",
+   "capture": "text",
+   "statistic_note": "stated values, EN 318 and DD CEN/TS 12872; not split by thickness",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "dimensional-change",
+     "thickness": null,
+     "locator": "p. 3, row 'Dimensional change at 1% change in panel moisture content', columns Length, Width and Thickness (%)",
+     "params": {
+      "dimensional_change_length": {
+       "value": 0.02,
+       "unit": "%/%",
+       "printed": "Length Width Thickness change in panel moisture content DD CEN/TS 12872 0.02 0.03 0.5",
+       "statistic": "as stated",
+       "column": 1,
+       "test": "EN 318"
+      },
+      "dimensional_change_in_plane": {
+       "value": 0.03,
+       "unit": "%/%",
+       "printed": "Length Width Thickness change in panel moisture content DD CEN/TS 12872 0.02 0.03 0.5",
+       "statistic": "as stated",
+       "column": 2,
+       "test": "EN 318"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "mayr-melnhof-k1-multiplan-datasheet",
+   "publisher": "Mayr-Melnhof Holz",
+   "title": "K1 multiplan Dreischichtplatte (3S), Produktdatenblatt (reseller copy, scs-holzshop.de)",
+   "url": "https://www.scs-holzshop.de/media//pdf_documents/KMUFIK/K1multiplan_Produktdatenblatt.pdf",
+   "sha256": "f0896b61ab8e7c9eebe0939b7f787ae4606de2dd7533582ffe04f16bff045469",
+   "file": "makers/mayr-melnhof-k1-multiplan-3s-datasheet.pdf",
+   "capture": "text",
+   "statistic_note": "'Schwind- und Quellverhalten': length and width 0,01 to 0,02 %, thickness 0,24 % per % of moisture-content difference; the per-% applies to both lines",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "schwind-und-quellverhalten",
+     "thickness": null,
+     "locator": "section 'Schwind- und Quellverhalten', line 'Länge und Breite', the upper end of the range; no thickness stated",
+     "params": {
+      "dimensional_change_in_plane": {
+       "value": 0.02,
+       "unit": "%/%",
+       "printed": "Länge und Breite 0,01 bis 0,02 %",
+       "statistic": "upper end of a range",
+       "column": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "allin-ply-tout-peuplier",
+   "publisher": "SAS ALLIN (Groupe Arbor), Le Vanneau",
+   "title": "ALLIN PLY Tout Peuplier, fiche technique with Déclaration des performances DDP GC-01 Version 25 du 16/06/2026",
+   "url": "https://allin.fr/wp-content/uploads/2020/12/ALLIN-PLY-TT-PEUPLIER_FT-fr_2025.pdf",
+   "sha256": "b63b5358dfb7b4e4607e21ae7eebcf69e89ddce4a58d6e304fdadf4a8921f4e6",
+   "file": "makers/allin-ply-tout-peuplier-ft-fr-2025.pdf",
+   "capture": "text",
+   "statistic_note": "the declaration (EN 13986:2004+A1:2015, EN 636-1, glue class 1, dry use) names no statistic: read as a mean; its moduli are by no test it names, and it gives the rolling-shear modulus along and across",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "5",
+     "thickness": [
+      5.0,
+      5.0
+     ],
+     "locator": "p. 2, DOP GC-01, 'PERFORMANCES DÉCLARÉES', column 5 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 39.7,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 39,7 29,2 25,8 23,1 22,7 21,2 19,7 20,7 20,6",
+       "statistic": "unlabelled",
+       "column": 0
+      },
+      "bending_strength_perpendicular": {
+       "value": 5.3,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 5,3 15,8 19,2 21,9 22,3 23,8 25,3 24,3 24,4",
+       "statistic": "unlabelled",
+       "column": 0
+      },
+      "bending_modulus_parallel": {
+       "value": 6170.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 6 170 4 530 4 010 3 590 3 530 3 300 3 060 3 210 3 190",
+       "statistic": "unlabelled",
+       "column": 0,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 820.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 820 2 460 2 980 3 400 3 460 3 690 3 930 3 780 3 800",
+       "statistic": "unlabelled",
+       "column": 0,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 0
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 0
+      },
+      "density_low": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "8",
+     "thickness": [
+      8.0,
+      8.0
+     ],
+     "locator": "p. 2, DOP GC-01, 'PERFORMANCES DÉCLARÉES', column 8 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 29.2,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 39,7 29,2 25,8 23,1 22,7 21,2 19,7 20,7 20,6",
+       "statistic": "unlabelled",
+       "column": 1
+      },
+      "bending_strength_perpendicular": {
+       "value": 15.8,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 5,3 15,8 19,2 21,9 22,3 23,8 25,3 24,3 24,4",
+       "statistic": "unlabelled",
+       "column": 1
+      },
+      "bending_modulus_parallel": {
+       "value": 4530.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 6 170 4 530 4 010 3 590 3 530 3 300 3 060 3 210 3 190",
+       "statistic": "unlabelled",
+       "column": 1,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 2460.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 820 2 460 2 980 3 400 3 460 3 690 3 930 3 780 3 800",
+       "statistic": "unlabelled",
+       "column": 1,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 1
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 1
+      },
+      "density_low": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "10",
+     "thickness": [
+      10.0,
+      10.0
+     ],
+     "locator": "p. 2, DOP GC-01, 'PERFORMANCES DÉCLARÉES', column 10 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 25.8,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 39,7 29,2 25,8 23,1 22,7 21,2 19,7 20,7 20,6",
+       "statistic": "unlabelled",
+       "column": 2
+      },
+      "bending_strength_perpendicular": {
+       "value": 19.2,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 5,3 15,8 19,2 21,9 22,3 23,8 25,3 24,3 24,4",
+       "statistic": "unlabelled",
+       "column": 2
+      },
+      "bending_modulus_parallel": {
+       "value": 4010.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 6 170 4 530 4 010 3 590 3 530 3 300 3 060 3 210 3 190",
+       "statistic": "unlabelled",
+       "column": 2,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 2980.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 820 2 460 2 980 3 400 3 460 3 690 3 930 3 780 3 800",
+       "statistic": "unlabelled",
+       "column": 2,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 2
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 2
+      },
+      "density_low": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "12",
+     "thickness": [
+      12.0,
+      12.0
+     ],
+     "locator": "p. 2, DOP GC-01, 'PERFORMANCES DÉCLARÉES', column 12 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 23.1,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 39,7 29,2 25,8 23,1 22,7 21,2 19,7 20,7 20,6",
+       "statistic": "unlabelled",
+       "column": 3
+      },
+      "bending_strength_perpendicular": {
+       "value": 21.9,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 5,3 15,8 19,2 21,9 22,3 23,8 25,3 24,3 24,4",
+       "statistic": "unlabelled",
+       "column": 3
+      },
+      "bending_modulus_parallel": {
+       "value": 3590.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 6 170 4 530 4 010 3 590 3 530 3 300 3 060 3 210 3 190",
+       "statistic": "unlabelled",
+       "column": 3,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3400.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 820 2 460 2 980 3 400 3 460 3 690 3 930 3 780 3 800",
+       "statistic": "unlabelled",
+       "column": 3,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 3
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 3
+      },
+      "density_low": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "15",
+     "thickness": [
+      15.0,
+      15.0
+     ],
+     "locator": "p. 2, DOP GC-01, 'PERFORMANCES DÉCLARÉES', column 15 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 22.7,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 39,7 29,2 25,8 23,1 22,7 21,2 19,7 20,7 20,6",
+       "statistic": "unlabelled",
+       "column": 4
+      },
+      "bending_strength_perpendicular": {
+       "value": 22.3,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 5,3 15,8 19,2 21,9 22,3 23,8 25,3 24,3 24,4",
+       "statistic": "unlabelled",
+       "column": 4
+      },
+      "bending_modulus_parallel": {
+       "value": 3530.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 6 170 4 530 4 010 3 590 3 530 3 300 3 060 3 210 3 190",
+       "statistic": "unlabelled",
+       "column": 4,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3460.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 820 2 460 2 980 3 400 3 460 3 690 3 930 3 780 3 800",
+       "statistic": "unlabelled",
+       "column": 4,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 4
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 4
+      },
+      "density_low": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "18",
+     "thickness": [
+      18.0,
+      18.0
+     ],
+     "locator": "p. 2, DOP GC-01, 'PERFORMANCES DÉCLARÉES', column 18 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 21.2,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 39,7 29,2 25,8 23,1 22,7 21,2 19,7 20,7 20,6",
+       "statistic": "unlabelled",
+       "column": 5
+      },
+      "bending_strength_perpendicular": {
+       "value": 23.8,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 5,3 15,8 19,2 21,9 22,3 23,8 25,3 24,3 24,4",
+       "statistic": "unlabelled",
+       "column": 5
+      },
+      "bending_modulus_parallel": {
+       "value": 3300.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 6 170 4 530 4 010 3 590 3 530 3 300 3 060 3 210 3 190",
+       "statistic": "unlabelled",
+       "column": 5,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3690.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 820 2 460 2 980 3 400 3 460 3 690 3 930 3 780 3 800",
+       "statistic": "unlabelled",
+       "column": 5,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 5
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 5
+      },
+      "density_low": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "22",
+     "thickness": [
+      22.0,
+      22.0
+     ],
+     "locator": "p. 2, DOP GC-01, 'PERFORMANCES DÉCLARÉES', column 22 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 19.7,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 39,7 29,2 25,8 23,1 22,7 21,2 19,7 20,7 20,6",
+       "statistic": "unlabelled",
+       "column": 6
+      },
+      "bending_strength_perpendicular": {
+       "value": 25.3,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 5,3 15,8 19,2 21,9 22,3 23,8 25,3 24,3 24,4",
+       "statistic": "unlabelled",
+       "column": 6
+      },
+      "bending_modulus_parallel": {
+       "value": 3060.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 6 170 4 530 4 010 3 590 3 530 3 300 3 060 3 210 3 190",
+       "statistic": "unlabelled",
+       "column": 6,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3930.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 820 2 460 2 980 3 400 3 460 3 690 3 930 3 780 3 800",
+       "statistic": "unlabelled",
+       "column": 6,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 6
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 6
+      },
+      "density_low": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "25",
+     "thickness": [
+      25.0,
+      25.0
+     ],
+     "locator": "p. 2, DOP GC-01, 'PERFORMANCES DÉCLARÉES', column 25 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 20.7,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 39,7 29,2 25,8 23,1 22,7 21,2 19,7 20,7 20,6",
+       "statistic": "unlabelled",
+       "column": 7
+      },
+      "bending_strength_perpendicular": {
+       "value": 24.3,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 5,3 15,8 19,2 21,9 22,3 23,8 25,3 24,3 24,4",
+       "statistic": "unlabelled",
+       "column": 7
+      },
+      "bending_modulus_parallel": {
+       "value": 3210.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 6 170 4 530 4 010 3 590 3 530 3 300 3 060 3 210 3 190",
+       "statistic": "unlabelled",
+       "column": 7,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3780.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 820 2 460 2 980 3 400 3 460 3 690 3 930 3 780 3 800",
+       "statistic": "unlabelled",
+       "column": 7,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 7
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 7
+      },
+      "density_low": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "30",
+     "thickness": [
+      30.0,
+      30.0
+     ],
+     "locator": "p. 2, DOP GC-01, 'PERFORMANCES DÉCLARÉES', column 30 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 20.6,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 39,7 29,2 25,8 23,1 22,7 21,2 19,7 20,7 20,6",
+       "statistic": "unlabelled",
+       "column": 8
+      },
+      "bending_strength_perpendicular": {
+       "value": 24.4,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 5,3 15,8 19,2 21,9 22,3 23,8 25,3 24,3 24,4",
+       "statistic": "unlabelled",
+       "column": 8
+      },
+      "bending_modulus_parallel": {
+       "value": 3190.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 6 170 4 530 4 010 3 590 3 530 3 300 3 060 3 210 3 190",
+       "statistic": "unlabelled",
+       "column": 8,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3800.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 820 2 460 2 980 3 400 3 460 3 690 3 930 3 780 3 800",
+       "statistic": "unlabelled",
+       "column": 8,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 8
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 20 20 20 20 20 20 20 20 20",
+       "statistic": "unlabelled",
+       "column": 8
+      },
+      "density_low": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 420,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 420",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "allin-ply-tout-okoume",
+   "publisher": "SAS ALLIN (Groupe Arbor), Le Vanneau",
+   "title": "ALLIN PLY Tout Okoumé (intérieur), fiche technique with Déclaration des performances DDP GC-31 Version 25 du 16/06/2026",
+   "url": "https://allin.fr/wp-content/uploads/2021/01/ALLIN-PLY-TT-OK_FT-fr_2025-1.pdf",
+   "sha256": "92dad491b8aae62c866c38fe3e4fd766e2b310873b9d978b93b808e7318674d2",
+   "file": "makers/allin-ply-tout-okoume-ft-fr-2025.pdf",
+   "capture": "text",
+   "statistic_note": "the declaration (EN 13986:2004+A1:2015, EN 636-1, glue class 1, dry use) names no statistic: read as a mean; its moduli are by no test it names, and it gives the rolling-shear modulus along and across",
+   "fetched": "2026-11-13",
+   "clauses": [
+    {
+     "id": "3",
+     "thickness": [
+      3.0,
+      3.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 3 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 40.1,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 0
+      },
+      "bending_strength_perpendicular": {
+       "value": 3.9,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 0
+      },
+      "bending_modulus_parallel": {
+       "value": 7830.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 0,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 610.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 0,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 0
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 64.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 0
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "4",
+     "thickness": [
+      4.0,
+      4.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 4 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 37.6,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 1
+      },
+      "bending_strength_perpendicular": {
+       "value": 6.6,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 1
+      },
+      "bending_modulus_parallel": {
+       "value": 7360.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 1,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 1050.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 1,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 1
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 64.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 1
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "5",
+     "thickness": [
+      5.0,
+      5.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 5 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 38.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 2
+      },
+      "bending_strength_perpendicular": {
+       "value": 6.2,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 2
+      },
+      "bending_modulus_parallel": {
+       "value": 7430.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 2,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 980.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 2,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 2
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 64.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 2
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "6",
+     "thickness": [
+      6.0,
+      6.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 6 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 38.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 3
+      },
+      "bending_strength_perpendicular": {
+       "value": 6.2,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 3
+      },
+      "bending_modulus_parallel": {
+       "value": 7430.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 3,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 980.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 3,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 3
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 64.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 3
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "8",
+     "thickness": [
+      8.0,
+      8.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 8 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 26.6,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 4
+      },
+      "bending_strength_perpendicular": {
+       "value": 17.2,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 4
+      },
+      "bending_modulus_parallel": {
+       "value": 4820.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 4,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3400.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 4,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 4
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 62.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 4
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "10",
+     "thickness": [
+      10.0,
+      10.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 10 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 27.3,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 5
+      },
+      "bending_strength_perpendicular": {
+       "value": 17.4,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 5
+      },
+      "bending_modulus_parallel": {
+       "value": 4880.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 5,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3350.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 5,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 5
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 62.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 5
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "12",
+     "thickness": [
+      12.0,
+      12.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 12 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 22.9,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 6
+      },
+      "bending_strength_perpendicular": {
+       "value": 22.9,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 6
+      },
+      "bending_modulus_parallel": {
+       "value": 4000.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 6,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 4130.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 6,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 6
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 62.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 6
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "15",
+     "thickness": [
+      15.0,
+      15.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 15 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 24.6,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 7
+      },
+      "bending_strength_perpendicular": {
+       "value": 22.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 7
+      },
+      "bending_modulus_parallel": {
+       "value": 4240.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 7,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3890.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 7,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 7
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 61.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 7
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "18",
+     "thickness": [
+      18.0,
+      18.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 18 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 23.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 8
+      },
+      "bending_strength_perpendicular": {
+       "value": 25.1,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 8
+      },
+      "bending_modulus_parallel": {
+       "value": 3830.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 8,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 4220.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 8,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 8
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 61.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 8
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "22",
+     "thickness": [
+      22.0,
+      22.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 22 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 25.5,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 9
+      },
+      "bending_strength_perpendicular": {
+       "value": 22.4,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 9
+      },
+      "bending_modulus_parallel": {
+       "value": 4280.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 9,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3810.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 9,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 9
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 61.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 9
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "25",
+     "thickness": [
+      25.0,
+      25.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 25 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 22.8,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 10
+      },
+      "bending_strength_perpendicular": {
+       "value": 25.3,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 10
+      },
+      "bending_modulus_parallel": {
+       "value": 3790.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 10,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 4240.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 10,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 10
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 61.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 10
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "30",
+     "thickness": [
+      30.0,
+      30.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 30 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 22.4,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 11
+      },
+      "bending_strength_perpendicular": {
+       "value": 26.1,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 11
+      },
+      "bending_modulus_parallel": {
+       "value": 3690.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 11,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 4320.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 11,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 11
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 11
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      }
+     }
+    },
+    {
+     "id": "40",
+     "thickness": [
+      40.0,
+      40.0
+     ],
+     "locator": "p. 2, DOP GC-31, 'PERFORMANCES DÉCLARÉES', column 40 mm, rows 'Masse volumique', 'Flexion // aux faces', 'Flexion ┴ aux faces'; p. 3, 'MODULE D'ÉLASTICITÉ', rows 'Flexion // aux faces', 'Flexion ┴ aux faces', 'Cisaillement roulant // aux faces', 'Cisaillement roulant ┴ aux faces'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 21.9,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 40,1 37,6 38,0 38,0 26,6 27,3 22,9 24,6 23,0 25,5 22,8 22,4 21,9",
+       "statistic": "unlabelled",
+       "column": 12
+      },
+      "bending_strength_perpendicular": {
+       "value": 27.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 3,9 6,6 6,2 6,2 17,2 17,4 22,9 22,0 25,1 22,4 25,3 26,1 27,0",
+       "statistic": "unlabelled",
+       "column": 12
+      },
+      "bending_modulus_parallel": {
+       "value": 3570.0,
+       "unit": "N/mm2",
+       "printed": "Flexion // aux faces 7 830 7 360 7 430 7 430 4 820 4 880 4 000 4 240 3 830 4 280 3 790 3 690 3 570",
+       "statistic": "unlabelled",
+       "column": 12,
+       "thousands": " "
+      },
+      "bending_modulus_perpendicular": {
+       "value": 4410.0,
+       "unit": "N/mm2",
+       "printed": "Flexion ┴ aux faces 610 1 050 980 980 3 400 3 350 4 130 3 890 4 220 3 810 4 240 4 320 4 410",
+       "statistic": "unlabelled",
+       "column": 12,
+       "thousands": " "
+      },
+      "shear_modulus_rolling_parallel": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant // aux faces 60 60 60 60 60 60 60 60 60 60 60 60 60",
+       "statistic": "unlabelled",
+       "column": 12
+      },
+      "shear_modulus_rolling_perpendicular": {
+       "value": 60.0,
+       "unit": "N/mm2",
+       "printed": "Cisaillement roulant ┴ aux faces 64 64 64 64 62 62 62 61 61 61 61 60 60",
+       "statistic": "unlabelled",
+       "column": 12
+      },
+      "density_low": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
+      },
+      "density_high": {
+       "value": 500,
+       "unit": "kg/m3",
+       "printed": "Masse volumique : Kg/m3 500",
+       "statistic": "declared",
+       "column": 1
       }
      }
     }

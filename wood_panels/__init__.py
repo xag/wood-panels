@@ -14,6 +14,10 @@ strength-is-its-classs). So there are two kinds of material:
   along): a maker's board as its declaration states it. Plywood has no class with figures, so
   its values are always a product's.
 
+Every material also carries its creep share, 1/(1 + kdef) with EN 1995-1-1's kdef for service class 1, and,
+where a document prints them, its screw-withdrawal, 24 h swelling and in-plane movement values; a value taken
+from another maker's board is named in the payload's `borrowed` and is never grounded.
+
 A board bent two ways is two materials (`-along`/`-across` for plywood and 3-ply, `-major`/
 `-minor` for OSB, same_panel_as). Every document is copyrighted, so a clause carries its locator
 and values and no quote; the copies are kept private and tests/test_values.py checks every value
@@ -75,19 +79,75 @@ PRODUCTS = [
      "plywood"),
     ("garnica-poplar-plywood", "Garnica poplar plywood", "plywood", ["garnica-poplar-dop-gar-30"], None, "plywood"),
     ("toro-poplar-plywood", "Toro poplar plywood", "plywood", ["toro-poplar-datasheet"], None, "plywood"),
-    ("thebault-teboply-okoume", "Thebault TeboPly okoumé (exterior)", "plywood", ["thebault-dop-01-teboply-okoume"],
-     None, "plywood"),
+    ("thebault-teboply-okoume", "Thebault TeboPly okoumé (exterior)", "plywood",
+     ["thebault-dop-01-teboply-okoume", "thebault-teboply-okoume-exterieur-doc"], None, "plywood"),
     ("thebault-tebotwin", "Thebault TeboTwin", "plywood", ["thebault-dop-03-tebotwin"], None, "plywood"),
-    ("thebault-tebopin", "Thebault TeboPin", "plywood", ["thebault-dop-12-tebopin"], None, "plywood"),
+    ("thebault-tebopin", "Thebault TeboPin", "plywood", ["thebault-dop-12-tebopin", "thebault-tebopin-clear-doc"], None,
+     "plywood"),
     ("binderholz-3-ply-spruce", "binderholz 3-layer solid wood panel, spruce", "solid wood panel",
      ["binderholz-swp-dop"], None, "plywood"),
     ("houtwerf-powerplex", "Houtwerf Powerplex Bio", "plywood", ["houtwerf-powerplex-bio-dop"], None, "plywood"),
+    ("allin-poplar-plywood", "ALLIN PLY Tout Peuplier", "plywood", ["allin-ply-tout-peuplier"], None, "plywood"),
+    ("allin-okoume-plywood", "ALLIN PLY Tout Okoumé", "plywood", ["allin-ply-tout-okoume"], None, "plywood"),
 ]
 # The two ways a board bends, and what its part's span_along must say
 WAYS = {"plywood": [("parallel", "along", "face grain, flat"), ("perpendicular", "across", "across face grain, flat")],
         "solid wood panel": [("parallel", "along", "face grain, flat"),
                              ("perpendicular", "across", "across face grain, flat")],
         "OSB/3": [("major", "major", "major axis, flat"), ("minor", "minor", "minor axis, flat")]}
+# Creep: EN 1995-1-1's kdef for service class 1 that each form takes, as 1/(1 + kdef), the share of the final
+# deflection the initial one is (ledger: creep-is-ec5s-kdef-for-service-class-1): (the clauses, grounded, note).
+# A board the code does not rate borrows the nearest rated type's, ungrounded (a-board-ec5-does-not-rate-borrows-
+# the-nearest-rated-types-kdef).
+SWEDISH_WOOD = "sources/swedish-wood-design-of-timber-structures-vol2"
+GERMAN_ANNEX = "sources/fh-bielefeld-leporello-ec5"
+KDEF = "kdef_service_class_1"
+_PARTICLEBOARD = ([f"{SWEDISH_WOOD}/table-9-1-p4/{KDEF}", f"{GERMAN_ANNEX}/kdef-kunstharzgebundene-spanplatten/{KDEF}"],
+                  False, "1/(1 + kdef): EN 1995-1-1 rates no P2 or P3 particleboard, so P4's kdef for service class 1 "
+                         "is borrowed; the German national annex gives resin-bonded particleboard the same 2.25")
+CREEP = {
+    "plywood": ([f"{SWEDISH_WOOD}/table-9-1-plywood/{KDEF}"], True,
+                "1/(1 + kdef): EN 1995-1-1's kdef for EN 636 plywood in service class 1"),
+    "OSB/3": ([f"{SWEDISH_WOOD}/table-9-1-osb-3/{KDEF}"], True,
+              "1/(1 + kdef): EN 1995-1-1's kdef for OSB/3 in service class 1"),
+    "solid wood panel": ([f"{GERMAN_ANNEX}/kdef-massivholzplatten/{KDEF}"], True,
+                         "1/(1 + kdef): the German national annex's kdef for Massivholzplatten (EN 13353) in service "
+                         "class 1"),
+    "particleboard": _PARTICLEBOARD,
+    "melamine-faced particleboard": _PARTICLEBOARD,
+    "MDF": ([f"{SWEDISH_WOOD}/table-9-1-mdf-la/{KDEF}"], False,
+            "1/(1 + kdef): EN 1995-1-1 rates no general-purpose MDF, so MDF.LA's kdef for service class 1 is "
+            "borrowed"),
+    "hardboard": ([f"{SWEDISH_WOOD}/table-9-1-hb-la/{KDEF}"], False,
+                  "1/(1 + kdef): EN 1995-1-1 rates no general-purpose hardboard, so HB.LA's kdef for service class 1 "
+                  "is borrowed"),
+}
+# Screws, water and moisture: each property's unit on a material, and which of several borrowed values is taken
+# (the least favourable: the weakest hold, the most swelling or movement)
+MORE = {"screw_withdrawal_face": ("N", min), "screw_withdrawal_edge": ("N", min),
+        "thickness_swelling_24h": ("%", max), "dimensional_change_in_plane": ("1/%", max)}
+# A clause's unit as printed: the factor that brings it to the material's, and what the note says of it
+AS_PRINTED = {"N": (1.0, ""), "kg": (9.80665, ", printed in kg: times 9.80665"),
+              "daN": (10.0, ", printed in daN: times 10"), "%": (1.0, ""), "%/%": (0.01, ", printed as % per %: over 100")}
+# The documents a class reads beyond its strength table, each saying it prints the standard's requirements
+CLASS_DOCS = {"particleboard-p2": ["kastamonu-particleboard-p2-datasheet"]}
+# What a class or board takes from a named maker's board when its own documents do not print it, never grounded
+# (ledger: a-value-a-board-lacks-is-a-named-boards-ungrounded): {(class or product, property): (document, whose)}
+_SMARTPLY = ("smartply-osb3-datasheet", "SmartPly OSB/3 (Coillte), its change across the panel")
+_SWISS_KRONO_OSB = ("swiss-krono-osb3-dop-cpr-164", "Swiss Krono's OSB/3 declaration")
+_MEDITE = ("medite-premier-datasheet", "Medite Premier, an MDF board")
+BORROW = {
+    ("particleboard-p2", "screw_withdrawal_face"): ("finsa-superpan-star-datasheet", "Finsa SuperPan Star, a P2 board"),
+    ("mdf", "screw_withdrawal_face"): _MEDITE,
+    ("mdf", "screw_withdrawal_edge"): _MEDITE,
+    ("osb-3", "thickness_swelling_24h"): _SWISS_KRONO_OSB,
+    ("kronospan-osb-3", "thickness_swelling_24h"): _SWISS_KRONO_OSB,
+    ("osb-3", "dimensional_change_in_plane"): _SMARTPLY,
+    ("kronospan-osb-3", "dimensional_change_in_plane"): _SMARTPLY,
+    ("swiss-krono-osb-3", "dimensional_change_in_plane"): _SMARTPLY,
+    ("binderholz-3-ply-spruce", "dimensional_change_in_plane"): ("mayr-melnhof-k1-multiplan-datasheet",
+                                                                 "Mayr-Melnhof's K1 multiplan 3-layer spruce panel"),
+}
 # The density a maker's document without one borrows: (document, from, why)
 DENSITY_FROM = {
     "kronospan-osb3-dop-18112013": ("sources/swiss-krono-osb3-dop-cpr-164/10-18/density_low",
@@ -121,13 +181,14 @@ def sources() -> list[Node]:
     for d in documents().values():
         clauses = [Node(id=c["id"], kind="clause",
                         payload={"locator": c["locator"], "thickness_mm": c["thickness"],
-                                 "rows": {k: v["printed"] for k, v in c["params"].items()}},
+                                 "rows": {k: v["printed"] for k, v in c["params"].items()},
+                                 **({"quote": c["quote"]} if "quote" in c else {})},
                         params={k: _published(v["value"], v["unit"], c["locator"],
                                               f"{v['statistic']}{', ' + v['test'] if v.get('test') else ''}")
                                 for k, v in c["params"].items()})
                    for c in d["clauses"]]
         payload = {"publisher": d["publisher"], "year": 2026, "url": d["url"], "fetched": d["fetched"],
-                   "sha256": d["sha256"], "licence": "copyrighted",
+                   "sha256": d["sha256"], "licence": d.get("licence", "copyrighted"),
                    "capture": "private copy, identified by its sha256"
                               + (", values transcribed from its scanned pages" if d["capture"] == "transcribed" else ""),
                    "statistic": d["statistic_note"]}
@@ -139,7 +200,55 @@ def sources() -> list[Node]:
 
 
 def _covering(doc: str, t: float) -> dict | None:
-    return next((c for c in documents()[doc]["clauses"] if c["thickness"][0] <= t <= c["thickness"][1]), None)
+    return next((c for c in documents()[doc]["clauses"]
+                 if c["thickness"] and c["thickness"][0] <= t <= c["thickness"][1]), None)
+
+
+def _stating(doc: str, param: str, lo: float, hi: float, overlap: bool = False) -> list[dict]:
+    """The clause of a document that states a property for a band's middle thickness, or for every thickness;
+    else, when overlap, every clause that states it for some thickness inside the band."""
+    mid, out = (lo + hi) / 2, []
+    for c in documents()[doc]["clauses"]:
+        if param not in c["params"]:
+            continue
+        t = c["thickness"]
+        if t is None or t[0] <= mid <= t[1]:
+            return [c]
+        if overlap and t[0] <= hi and lo <= t[1]:
+            out.append(c)
+    return out
+
+
+def _more(owner: str, own: list[str], form: str, thickness: list[float]) -> tuple[dict, dict, list[str]]:
+    """A band's creep share and its screw, swelling and movement values: from its own documents, grounded (a
+    class's own documents print the standard), or borrowed from a named board, never grounded. Returns the
+    params, whose each borrowed one is, and the clauses they come from."""
+    lo, hi = thickness
+    refs, grounded, note = CREEP[form]
+    params = {"initial_share_of_longtime": _q(1 / (1 + _value(refs[0])), "", refs, note, grounded)}
+    per, borrowed = [r.rsplit("/", 1)[0] for r in refs], {}
+    for param, (unit, worst) in MORE.items():
+        found = next(((d, c) for d in own for c in _stating(d, param, lo, hi)), None)
+        whose = None
+        if not found and (owner, param) in BORROW:
+            doc, whose = BORROW[(owner, param)]
+            stated = _stating(doc, param, lo, hi, overlap=True)
+            found = (doc, worst(stated, key=lambda c: c["params"][param]["value"])) if stated else None
+        if not found:
+            continue
+        doc, c = found
+        p = c["params"][param]
+        factor, printed = AS_PRINTED[p["unit"]]
+        ref = f"sources/{doc}/{c['id']}"
+        note = f"{p['statistic']}{', ' + p['test'] if p.get('test') else ''}{printed}"
+        if whose:
+            t = c["thickness"]
+            at = "" if t is None or t[0] <= (lo + hi) / 2 <= t[1] else f", which declares it from {t[0]:g} to {t[1]:g} mm"
+            note = f"borrowed from {whose}{at}: {note}"
+            borrowed[param] = whose
+        params[param] = _q(p["value"] * factor, unit, [f"{ref}/{param}"], note, whose is None)
+        per.append(ref)
+    return params, borrowed, per
 
 
 def _value(ref: str) -> float:
@@ -156,8 +265,10 @@ def _bands(docs: list[str]) -> list[tuple[str, dict]]:
     out: list[tuple[str, dict]] = []
     for doc in docs:
         for c in documents()[doc]["clauses"]:
+            if not any(k.startswith("bending_strength") for k in c["params"]):
+                continue
             lo, hi = c["thickness"]
-            if any(k.startswith("bending_strength") for k in c["params"]) and not any(o["thickness"][0] <= (lo + hi) / 2 <= o["thickness"][1] for _, o in out):
+            if not any(o["thickness"][0] <= (lo + hi) / 2 <= o["thickness"][1] for _, o in out):
                 out.append((doc, c))
     return out
 
@@ -182,8 +293,10 @@ def _density(docs: list[str], doc: str, c: dict, grounded: bool) -> Quantity | N
 
 
 def _boards(base: str, name: str, form: str, key: str, ref: str, pr: dict, density: Quantity | None,
-            grounded: bool, extra: dict, per: list[str], thickness: list[float]) -> list[Node]:
-    """A board's materials from one clause's values: one per way it bends."""
+            grounded: bool, extra: dict, per: list[str], thickness: list[float], more: tuple) -> list[Node]:
+    """A board's materials from one clause's values, one per way it bends, each with the band's creep share and
+    its screw, swelling and movement values (more: the params, whose the borrowed ones are, their clauses)."""
+    more_params, borrowed, more_per = more
     ways = WAYS.get(form, [("", "", "flat")])
     out = []
     for suffix, tag, along in ways:
@@ -203,17 +316,20 @@ def _boards(base: str, name: str, form: str, key: str, ref: str, pr: dict, densi
             params["modulus_of_elasticity"] = _q(e["value"], "MPa", [f"{ref}/{e_key}"],
                                                  f"{e['statistic']}, {e.get('test', 'test not printed')}", grounded)
             modulus = "apparent" if e.get("test") == "EN 310" else "true"
-            if modulus == "true" and "shear_modulus_rolling" in pr:
-                params["shear_modulus_rolling"] = _q(pr["shear_modulus_rolling"]["value"], "MPa",
-                                                     [f"{ref}/shear_modulus_rolling"],
+            g_key = next((k for k in (f"shear_modulus_rolling_{suffix}", "shear_modulus_rolling") if k in pr), None)
+            if modulus == "true" and g_key:
+                params["shear_modulus_rolling"] = _q(pr[g_key]["value"], "MPa", [f"{ref}/{g_key}"],
                                                      "rolling shear: the shear of a board bent flat", grounded)
+        params.update(more_params)
         mid = f"{base}-{tag}" if tag else base
         payload = {"form": form, "measured_along": along, "modulus": modulus, "connector_key": key,
                    "thickness_mm": thickness, **extra}
+        if borrowed:
+            payload["borrowed"] = borrowed
         if tag and tag != ways[0][1]:
             payload["same_panel_as"] = f"{base}-{ways[0][1]}"
         out.append(Node(id=mid, kind="material", name=name + (f", bent {along}" if tag else ""),
-                        payload=payload, params=params, links={"per": per}))
+                        payload=payload, params=params, links={"per": list(dict.fromkeys(per + more_per))}))
     return out
 
 
@@ -227,11 +343,13 @@ def class_materials() -> list[Node]:
     out = []
     for cid, name, form, standard, doc, density_doc, whose, key in CLASSES:
         for c in documents()[doc]["clauses"]:
+            if not any(k.startswith("bending_strength") for k in c["params"]):
+                continue
             ref = f"sources/{doc}/{c['id']}"
             lo, hi = c["thickness"]
             # the lowest density the borrowed document states inside the band: a class sets none
-            inside = [d for d in documents()[density_doc]["clauses"] if lo <= sum(d["thickness"]) / 2 <= hi
-                      and "density_low" in d["params"]]
+            inside = [d for d in documents()[density_doc]["clauses"] if d["thickness"]
+                      and lo <= sum(d["thickness"]) / 2 <= hi and "density_low" in d["params"]]
             if not inside:
                 continue
             dc = min(inside, key=lambda d: d["params"]["density_low"]["value"])
@@ -241,7 +359,8 @@ def class_materials() -> list[Node]:
             band = c["id"].split("-", 1)[1] if c["id"].startswith(("p2-", "p3-", "mdf-")) else c["id"]
             out.extend(_boards(f"{cid}-{band}", f"{name}, {_band_name(c)}", form, key, ref, c["params"], density,
                                True, {"class": cid, "standard": standard},
-                               [ref, dref.rsplit("/", 1)[0], *DESIGN_STRESS_CLAUSES], c["thickness"]))
+                               [ref, dref.rsplit("/", 1)[0], *DESIGN_STRESS_CLAUSES], c["thickness"],
+                               _more(cid, [doc, *CLASS_DOCS.get(cid, [])], form, c["thickness"])))
     return out
 
 
@@ -254,7 +373,8 @@ def product_materials() -> list[Node]:
             extra_per = [density.derived_from[0].rsplit("/", 1)[0]] if density else []
             out.extend(_boards(f"{pid}-{c['id']}", f"{name}, {_band_name(c)}", form, key, ref, c["params"], density,
                                True, {"product": pid, "class": cls},
-                               list(dict.fromkeys([ref, *extra_per, *DESIGN_STRESS_CLAUSES])), c["thickness"]))
+                               list(dict.fromkeys([ref, *extra_per, *DESIGN_STRESS_CLAUSES])), c["thickness"],
+                               _more(pid, docs, form, c["thickness"])))
     return out
 
 

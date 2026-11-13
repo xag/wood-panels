@@ -1,5 +1,25 @@
 [
   {
+    "path": "a-board-ec5-does-not-rate-borrows-the-nearest-rated-types-kdef",
+    "kind": "decision",
+    "digest": "81f6b5b0ef42"
+  },
+  {
+    "path": "a-board-ec5-does-not-rate-borrows-the-nearest-rated-types-kdef/ground-the-german-annex",
+    "kind": "alternative",
+    "digest": "578e1987916e"
+  },
+  {
+    "path": "a-board-ec5-does-not-rate-borrows-the-nearest-rated-types-kdef/leave-unrated-boards-without",
+    "kind": "alternative",
+    "digest": "2cad69b89ec8"
+  },
+  {
+    "path": "a-board-ec5-does-not-rate-borrows-the-nearest-rated-types-kdef/the-industrys-factor-for-unrated-boards",
+    "kind": "alternative",
+    "digest": "0fd72b102cf7"
+  },
+  {
     "path": "a-boards-strength-is-its-classs",
     "kind": "decision",
     "digest": "4c18a2705dd5"
@@ -38,6 +58,76 @@
     "path": "a-true-modulus-without-its-shear/find-a-rolling-shear-modulus",
     "kind": "discharge",
     "digest": "a66fdb84fc34"
+  },
+  {
+    "path": "a-value-a-board-lacks-is-a-named-boards-ungrounded",
+    "kind": "decision",
+    "digest": "917de2473403"
+  },
+  {
+    "path": "a-value-a-board-lacks-is-a-named-boards-ungrounded/ansi-grades",
+    "kind": "alternative",
+    "digest": "b58717fbc8f5"
+  },
+  {
+    "path": "a-value-a-board-lacks-is-a-named-boards-ungrounded/ground-a-makers-value-on-a-class",
+    "kind": "alternative",
+    "digest": "bed7a4d262fe"
+  },
+  {
+    "path": "a-value-a-board-lacks-is-a-named-boards-ungrounded/research-papers",
+    "kind": "alternative",
+    "digest": "b45d43e843d5"
+  },
+  {
+    "path": "a-value-a-board-lacks-is-a-named-boards-ungrounded/the-wood-handbooks-screw-equation",
+    "kind": "alternative",
+    "digest": "85b3e29c5055"
+  },
+  {
+    "path": "creep-is-ec5s-kdef-for-service-class-1",
+    "kind": "decision",
+    "digest": "94d5d268e683"
+  },
+  {
+    "path": "creep-is-ec5s-kdef-for-service-class-1/measured-fractional-creep",
+    "kind": "alternative",
+    "digest": "9f0fb8b20c91"
+  },
+  {
+    "path": "creep-is-ec5s-kdef-for-service-class-1/the-industrys-creep-factors",
+    "kind": "alternative",
+    "digest": "9f97b4c2f10e"
+  },
+  {
+    "path": "creep-is-ec5s-kdef-for-service-class-1/the-wood-handbooks-two-thirds",
+    "kind": "alternative",
+    "digest": "54426164cb3e"
+  },
+  {
+    "path": "in-plane-movement-is-a-printed-per-percent-value",
+    "kind": "decision",
+    "digest": "1014b0341963"
+  },
+  {
+    "path": "in-plane-movement-is-a-printed-per-percent-value/convert-the-humidity-step",
+    "kind": "alternative",
+    "digest": "de5e1d3a182e"
+  },
+  {
+    "path": "in-plane-movement-is-a-printed-per-percent-value/one-movement-per-way",
+    "kind": "alternative",
+    "digest": "d2f586bd4695"
+  },
+  {
+    "path": "screw-values-are-missing-for-some-boards",
+    "kind": "debt",
+    "digest": "8e6c0577bf73"
+  },
+  {
+    "path": "screw-values-are-missing-for-some-boards/find-en-320-values",
+    "kind": "discharge",
+    "digest": "e7ca78cab629"
   },
   {
     "path": "the-classes-and-the-makers-are-one-package",
