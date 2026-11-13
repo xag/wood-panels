@@ -151,12 +151,13 @@ def _value(ref: str) -> float:
 
 
 def _bands(docs: list[str]) -> list[tuple[str, dict]]:
-    """Every band the documents state, the first document's where two cover the same thickness."""
+    """Every band the documents state a strength for, the first document's where two cover the same
+    thickness; a clause stating only a density lends it to a band and is not one."""
     out: list[tuple[str, dict]] = []
     for doc in docs:
         for c in documents()[doc]["clauses"]:
             lo, hi = c["thickness"]
-            if not any(o["thickness"][0] <= (lo + hi) / 2 <= o["thickness"][1] for _, o in out):
+            if any(k.startswith("bending_strength") for k in c["params"]) and not any(o["thickness"][0] <= (lo + hi) / 2 <= o["thickness"][1] for _, o in out):
                 out.append((doc, c))
     return out
 
