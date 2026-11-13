@@ -35,6 +35,7 @@ from functools import lru_cache
 from pathlib import Path
 
 from furniture_design.knowledge import DESIGN_STRESS_CLAUSES, TROPIX_SHEETS, design_stress
+from furniture_design.knowledge import knowledge as general_knowledge
 from quern.provenance import Quantity
 from quern.tree import Node
 
@@ -99,7 +100,7 @@ WAYS = {"plywood": [("parallel", "along", "face grain, flat"), ("perpendicular",
 # deflection the initial one is (ledger: creep-is-ec5s-kdef-for-service-class-1): (the clauses, grounded, note).
 # A board the code does not rate borrows the nearest rated type's, ungrounded (a-board-ec5-does-not-rate-borrows-
 # the-nearest-rated-types-kdef).
-SWEDISH_WOOD = "sources/swedish-wood-design-of-timber-structures-vol2"
+SWEDISH_WOOD = "sources/swedish-wood-design-vol-2-2022"  # furniture-design's source (ledger there: a-document-is-one-source-in-the-tree)
 GERMAN_ANNEX = "sources/fh-bielefeld-leporello-ec5"
 KDEF = "kdef_service_class_1"
 _PARTICLEBOARD = ([f"{SWEDISH_WOOD}/table-9-1-p4/{KDEF}", f"{GERMAN_ANNEX}/kdef-kunstharzgebundene-spanplatten/{KDEF}"],
@@ -251,11 +252,19 @@ def _more(owner: str, own: list[str], form: str, thickness: list[float]) -> tupl
     return params, borrowed, per
 
 
+@lru_cache(maxsize=1)
+def _general_sources() -> dict[str, Node]:
+    """furniture-design's sources by id, for the clauses this package reads there."""
+    return {s.id: s for b in general_knowledge() if b.id == "sources" for s in b.children}
+
+
 def _value(ref: str) -> float:
     """The value at a clause param path: a document's, or a Tropix sheet's relative density as kg/m3."""
     _, src, clause, param = ref.split("/")
     if src.startswith("tropix-"):
         return 1000.0 * next(s for s in TROPIX_SHEETS if f"tropix-{s[0]}" == src)[7]
+    if src not in documents():  # a source furniture-design holds
+        return next(c for c in _general_sources()[src].children if c.id == clause).params[param].value
     return next(c for c in documents()[src]["clauses"] if c["id"] == clause)["params"][param]["value"]
 
 

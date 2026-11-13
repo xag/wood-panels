@@ -16,6 +16,7 @@ from quern import Quern, run_rules
 
 from furniture_design.knowledge import knowledge as general, merge
 from furniture_design.package import PACKAGE
+from wood_panels import _value
 from wood_panels import (AS_PRINTED, CLASS_DOCS, CLASSES, MORE, PRODUCTS, class_materials, documents, knowledge,
                          product_materials)
 
@@ -138,8 +139,7 @@ def test_every_material_has_its_creep_share():
     names, so every board can be judged for sag over time."""
     for m in class_materials() + product_materials():
         q = m.params["initial_share_of_longtime"]
-        _, doc, clause, param = q.derived_from[0].split("/")
-        kdef = next(c for c in documents()[doc]["clauses"] if c["id"] == clause)["params"][param]["value"]
+        kdef = _value(q.derived_from[0])
         assert abs(q.value - 1 / (1 + kdef)) < 1e-12, m.id
     plywood = {m.id: m for m in product_materials()}["riga-wood-birch-plywood-18-along"]
     assert plywood.params["initial_share_of_longtime"].grounded and abs(
