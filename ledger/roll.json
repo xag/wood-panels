@@ -1,0 +1,102 @@
+[
+  {
+    "path": "a-boards-strength-is-its-classs",
+    "kind": "decision",
+    "digest": "4c18a2705dd5"
+  },
+  {
+    "path": "a-boards-strength-is-its-classs/maker-values-for-every-board",
+    "kind": "alternative",
+    "digest": "418af92d08c9"
+  },
+  {
+    "path": "a-class-borrows-a-makers-density-ungrounded",
+    "kind": "decision",
+    "digest": "fce09e32c084"
+  },
+  {
+    "path": "a-class-borrows-a-makers-density-ungrounded/no-density",
+    "kind": "alternative",
+    "digest": "42c603d29414"
+  },
+  {
+    "path": "a-class-is-read-from-a-document-that-prints-it",
+    "kind": "decision",
+    "digest": "fd698b328ebe"
+  },
+  {
+    "path": "a-class-is-read-from-a-document-that-prints-it/buy-the-standards",
+    "kind": "alternative",
+    "digest": "f316cab7181a"
+  },
+  {
+    "path": "a-true-modulus-without-its-shear",
+    "kind": "debt",
+    "digest": "eedc7ac6ed55"
+  },
+  {
+    "path": "a-true-modulus-without-its-shear/find-a-rolling-shear-modulus",
+    "kind": "discharge",
+    "digest": "a66fdb84fc34"
+  },
+  {
+    "path": "the-classes-and-the-makers-are-one-package",
+    "kind": "decision",
+    "digest": "616bb4b21b67"
+  },
+  {
+    "path": "the-classes-and-the-makers-are-one-package/a-package-per-maker",
+    "kind": "alternative",
+    "digest": "c5d80029ec4e"
+  },
+  {
+    "path": "the-classes-and-the-makers-are-one-package/in-furniture-design",
+    "kind": "alternative",
+    "digest": "83d214f842fa"
+  },
+  {
+    "path": "the-classes-and-the-makers-are-one-package/in-the-shops-package",
+    "kind": "alternative",
+    "digest": "20cea3afb986"
+  },
+  {
+    "path": "the-knowledge-is-shared-unchanged-and-improved-only-here",
+    "kind": "decision",
+    "digest": "fcd797630a83"
+  },
+  {
+    "path": "the-knowledge-is-shared-unchanged-and-improved-only-here/another-licence",
+    "kind": "alternative",
+    "digest": "1599d11cb8c3"
+  },
+  {
+    "path": "the-standards-are-read-at-second-hand",
+    "kind": "debt",
+    "digest": "6f6aeba1a7e5"
+  },
+  {
+    "path": "the-standards-are-read-at-second-hand/read-the-standards",
+    "kind": "discharge",
+    "digest": "ecb99f9327ab"
+  },
+  {
+    "path": "the-values-are-checked-against-a-private-copy",
+    "kind": "decision",
+    "digest": "a9bc31fe236e"
+  },
+  {
+    "path": "the-values-are-checked-against-a-private-copy/skip-without-the-copy",
+    "kind": "alternative",
+    "digest": "a05f36c6d4e6"
+  },
+  {
+    "path": "thebaults-sheets-disagree-with-its-declaration",
+    "kind": "debt",
+    "digest": "6c9176022cdd"
+  },
+  {
+    "path": "thebaults-sheets-disagree-with-its-declaration/ask-thebault",
+    "kind": "discharge",
+    "digest": "ead272e6e710"
+  }
+]

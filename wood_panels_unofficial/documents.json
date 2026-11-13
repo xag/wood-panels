@@ -1,0 +1,4232 @@
+{
+ "documents": [
+  {
+   "id": "finsa-fimapan-ez-dop-00067",
+   "publisher": "Finsa (Financiera Maderera S.A.)",
+   "title": "Declaration of Performance Nº 00067, FIMAPAN E-Z (EN 312 P2), 17/11/2020",
+   "url": "https://www.finsa.com/documents/d/guest/fimapan-e-z.pdf-7",
+   "sha256": "99fb4edca93942cee305f18bd0edffed2e36eb391ac33cc0c8c0eda7ca3f6947",
+   "file": "makers/finsa-fimapan-ez-dop-00067-en.pdf",
+   "capture": "text",
+   "statistic_note": "table headed 'TECHNICAL DATA-AVERAGE VALUES', cells printed '≥': a lower bound on a mean",
+   "clauses": [
+    {
+     "id": "8-13",
+     "thickness": [
+      8,
+      13
+     ],
+     "locator": "p. 2, technical data table, column 8/13: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 11,
+       "unit": "N/mm2",
+       "printed": "≥ 11",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1800,
+       "unit": "N/mm2",
+       "printed": "≥ 1800",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "700/650",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 700,
+       "unit": "kg/m3",
+       "printed": "700/650",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "13-20",
+     "thickness": [
+      13.01,
+      20
+     ],
+     "locator": "p. 2, technical data table, column >13/20: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 11,
+       "unit": "N/mm2",
+       "printed": "≥ 11",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1600,
+       "unit": "N/mm2",
+       "printed": "≥ 1600",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 620,
+       "unit": "kg/m3",
+       "printed": "650/620",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "650/620",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "20-25",
+     "thickness": [
+      20.01,
+      25
+     ],
+     "locator": "p. 2, technical data table, column >20/25: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 10.5,
+       "unit": "N/mm2",
+       "printed": "≥ 10,5",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1500,
+       "unit": "N/mm2",
+       "printed": "≥ 1500",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 595,
+       "unit": "kg/m3",
+       "printed": "620/595",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 620,
+       "unit": "kg/m3",
+       "printed": "620/595",
+       "statistic": "rough guide"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "finsa-fimapan-h-ez-dop-00094",
+   "publisher": "Finsa (Financiera Maderera S.A.)",
+   "title": "Declaration of Performance Nº 00094, FIMAPAN H E-Z (EN 312 P3), 26/10/2018",
+   "url": "https://www.finsa.com/documents/d/guest/fimapan-h-e-z.pdf-8",
+   "sha256": "bad832e083f00480509030369a3a7cc60208f79e374949c82b24757f8e82707d",
+   "file": "makers/finsa-fimapan-h-ez-dop-00094-en.pdf",
+   "capture": "text",
+   "statistic_note": "table headed 'TECHNICAL DATA-AVERAGE VALUES'",
+   "clauses": [
+    {
+     "id": "8-13",
+     "thickness": [
+      8,
+      13
+     ],
+     "locator": "p. 2, technical data table, column 8/13: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 15,
+       "unit": "N/mm2",
+       "printed": "15",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2050,
+       "unit": "N/mm2",
+       "printed": "2050",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 680,
+       "unit": "kg/m3",
+       "printed": "720/680",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 720,
+       "unit": "kg/m3",
+       "printed": "720/680",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "13-20",
+     "thickness": [
+      13.01,
+      20
+     ],
+     "locator": "p. 2, technical data table, column >13/20: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 14,
+       "unit": "N/mm2",
+       "printed": "14",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1950,
+       "unit": "N/mm2",
+       "printed": "1950",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "675/650",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 675,
+       "unit": "kg/m3",
+       "printed": "675/650",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "20-25",
+     "thickness": [
+      20.01,
+      25
+     ],
+     "locator": "p. 2, technical data table, column >20/25: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 12,
+       "unit": "N/mm2",
+       "printed": "12",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1850,
+       "unit": "N/mm2",
+       "printed": "1850",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 625,
+       "unit": "kg/m3",
+       "printed": "640/625",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 640,
+       "unit": "kg/m3",
+       "printed": "640/625",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "25-32",
+     "thickness": [
+      25.01,
+      32
+     ],
+     "locator": "p. 2, technical data table, column >25/32: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 11,
+       "unit": "N/mm2",
+       "printed": "11",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1700,
+       "unit": "N/mm2",
+       "printed": "1700",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 600,
+       "unit": "kg/m3",
+       "printed": "600",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 600,
+       "unit": "kg/m3",
+       "printed": "600",
+       "statistic": "rough guide"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "finsa-fimaplast-ez-dop-00267",
+   "publisher": "Finsa (Financiera Maderera S.A.)",
+   "title": "Declaration of Performance Nº 00267, FIMAPLAST E-Z (melamine-faced particleboard, EN 312 P2 core), 12/06/2020",
+   "url": "https://www.finsa.com/documents/d/guest/fimaplast-e-z.pdf-7",
+   "sha256": "93924f1f9cb4f64d61a505294eac042c964e87106fd0e7493248535279ea4bdc",
+   "file": "makers/finsa-fimaplast-ez-dop-00267-en.pdf",
+   "capture": "text",
+   "statistic_note": "table headed 'TECHNICAL DATA-AVERAGE VALUES', cells printed '≥': a lower bound on a mean",
+   "clauses": [
+    {
+     "id": "6-13",
+     "thickness": [
+      6.01,
+      13
+     ],
+     "locator": "p. 2, technical data table, column >6-13: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 11,
+       "unit": "N/mm2",
+       "printed": "≥ 11",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1800,
+       "unit": "N/mm2",
+       "printed": "≥ 1800",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "700/650",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 700,
+       "unit": "kg/m3",
+       "printed": "700/650",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "13-20",
+     "thickness": [
+      13.01,
+      20
+     ],
+     "locator": "p. 2, technical data table, column >13/20: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 11,
+       "unit": "N/mm2",
+       "printed": "≥ 11",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1600,
+       "unit": "N/mm2",
+       "printed": "≥ 1600",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 620,
+       "unit": "kg/m3",
+       "printed": "650/620",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "650/620",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "20-25",
+     "thickness": [
+      20.01,
+      25
+     ],
+     "locator": "p. 2, technical data table, column >20/25: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 10.5,
+       "unit": "N/mm2",
+       "printed": "≥ 10,5",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1500,
+       "unit": "N/mm2",
+       "printed": "≥ 1500",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 595,
+       "unit": "kg/m3",
+       "printed": "620/595",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 620,
+       "unit": "kg/m3",
+       "printed": "620/595",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "25-32",
+     "thickness": [
+      25.01,
+      32
+     ],
+     "locator": "p. 2, technical data table, column >25/32: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 9.5,
+       "unit": "N/mm2",
+       "printed": "≥ 9,5",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1350,
+       "unit": "N/mm2",
+       "printed": "≥ 1350",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 580,
+       "unit": "kg/m3",
+       "printed": "590/580",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 590,
+       "unit": "kg/m3",
+       "printed": "590/580",
+       "statistic": "rough guide"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "finsa-fibrapan-ez-dop-00090",
+   "publisher": "Finsa (Financiera Maderera S.A.)",
+   "title": "Declaration of Performance Nº 00090, FIBRAPAN E-Z (EN 622-5 MDF), 11/05/2021",
+   "url": "https://www.finsa.com/documents/d/guest/fibrapan-e-z.pdf-3",
+   "sha256": "48020734cb812b61db1270ef72a3bfd7c3cedc1e404a6082645713f57e4348e3",
+   "file": "makers/finsa-fibrapan-ez-dop-00090-en.pdf",
+   "capture": "text",
+   "statistic_note": "table headed 'TECHNICAL DATA-AVERAGE VALUES'",
+   "clauses": [
+    {
+     "id": "7-9",
+     "thickness": [
+      7,
+      9
+     ],
+     "locator": "p. 2, technical data table, column 7-9: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 23,
+       "unit": "N/mm2",
+       "printed": "23",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2700,
+       "unit": "N/mm2",
+       "printed": "2700",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 740,
+       "unit": "kg/m3",
+       "printed": "770/740",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 770,
+       "unit": "kg/m3",
+       "printed": "770/740",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "9-12",
+     "thickness": [
+      9.01,
+      12
+     ],
+     "locator": "p. 2, technical data table, column >9-12: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 22,
+       "unit": "N/mm2",
+       "printed": "22",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2500,
+       "unit": "N/mm2",
+       "printed": "2500",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 720,
+       "unit": "kg/m3",
+       "printed": "735/720",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 735,
+       "unit": "kg/m3",
+       "printed": "735/720",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "12-19",
+     "thickness": [
+      12.01,
+      19
+     ],
+     "locator": "p. 2, technical data table, column >12-19: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 20,
+       "unit": "N/mm2",
+       "printed": "20",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2200,
+       "unit": "N/mm2",
+       "printed": "2200",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 675,
+       "unit": "kg/m3",
+       "printed": "720/675",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 720,
+       "unit": "kg/m3",
+       "printed": "720/675",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "19-30",
+     "thickness": [
+      19.01,
+      30
+     ],
+     "locator": "p. 2, technical data table, column >19-30: rows density (EN 323), bending strength (EN 310), modulus of elasticity (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 18,
+       "unit": "N/mm2",
+       "printed": "18",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2100,
+       "unit": "N/mm2",
+       "printed": "2100",
+       "statistic": "mean",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 655,
+       "unit": "kg/m3",
+       "printed": "675/655",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 675,
+       "unit": "kg/m3",
+       "printed": "675/655",
+       "statistic": "rough guide"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "finsa-fibrapan-ez-datasheet",
+   "publisher": "Finsa (Financiera Maderera S.A.)",
+   "title": "FibraPan EZ, technical data sheet, Rev. 11/08/2026",
+   "url": "https://files.finsa.com/datasheets/fichasTecnicas/en/technical-datasheet-fibrapan-ez-en.pdf",
+   "sha256": "e58fd16b02d159aa110b7fecc694de5f21d0756e588155e5d80003dda12afe93",
+   "file": "makers/finsa-fibrapan-ez-datasheet-en.pdf",
+   "capture": "text",
+   "statistic_note": "no statistic printed: read as a mean",
+   "clauses": [
+    {
+     "id": "2.6-4",
+     "thickness": [
+      2.6,
+      4
+     ],
+     "locator": "p. 1, technical data, column 2.6-4: density, bending strength (EN 310); its modulus is printed ---",
+     "params": {
+      "bending_strength": {
+       "value": 37,
+       "unit": "N/mm2",
+       "printed": "37",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 825,
+       "unit": "kg/m3",
+       "printed": "850-825",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 850,
+       "unit": "kg/m3",
+       "printed": "850-825",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "4-6",
+     "thickness": [
+      4.01,
+      6
+     ],
+     "locator": "p. 1, technical data, column >4-6",
+     "params": {
+      "bending_strength": {
+       "value": 36,
+       "unit": "N/mm2",
+       "printed": "36",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2700,
+       "unit": "N/mm2",
+       "printed": "2700",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 800,
+       "unit": "kg/m3",
+       "printed": "820-800",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 820,
+       "unit": "kg/m3",
+       "printed": "820-800",
+       "statistic": "rough guide"
+      }
+     }
+    },
+    {
+     "id": "30-45",
+     "thickness": [
+      30.01,
+      45
+     ],
+     "locator": "p. 1, technical data, column >30-45",
+     "params": {
+      "bending_strength": {
+       "value": 20,
+       "unit": "N/mm2",
+       "printed": "20",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2000,
+       "unit": "N/mm2",
+       "printed": "2000",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 660,
+       "unit": "kg/m3",
+       "printed": "660",
+       "statistic": "rough guide"
+      },
+      "density_high": {
+       "value": 660,
+       "unit": "kg/m3",
+       "printed": "660",
+       "statistic": "rough guide"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "unilin-belspan-dop",
+   "publisher": "UNILIN bv, division panels",
+   "title": "Declaration of Performance DOPBelspanv2, Belspan particleboard (EN 312 P2), 16/09/2024",
+   "url": "https://aem.mohawkind.com/content/dam/panels-unilin/products/chipboards/belspan/DOP_Belspan_EN.pdf",
+   "sha256": "3c1ab5b409aaaeb61ab813853037272d8cc2b0932ae0d164cd3d39406419e3c6",
+   "file": "makers/unilin-belspan-dop-en.pdf",
+   "capture": "text",
+   "statistic_note": "no statistic printed: read as a mean; no density",
+   "clauses": [
+    {
+     "id": "6-13",
+     "thickness": [
+      6.01,
+      13
+     ],
+     "locator": "p. 1, essential characteristics, column >6-13: bending strength, modulus of elasticity in bending (EN 312 - T3)",
+     "params": {
+      "bending_strength": {
+       "value": 11,
+       "unit": "N/mm2",
+       "printed": "11",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1800,
+       "unit": "N/mm2",
+       "printed": "1800",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "13-20",
+     "thickness": [
+      13.01,
+      20
+     ],
+     "locator": "p. 1, essential characteristics, column >13-20: bending strength, modulus of elasticity in bending (EN 312 - T3)",
+     "params": {
+      "bending_strength": {
+       "value": 11,
+       "unit": "N/mm2",
+       "printed": "11",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1600,
+       "unit": "N/mm2",
+       "printed": "1600",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "20-25",
+     "thickness": [
+      20.01,
+      25
+     ],
+     "locator": "p. 1, essential characteristics, column >20-25: bending strength, modulus of elasticity in bending (EN 312 - T3)",
+     "params": {
+      "bending_strength": {
+       "value": 10.5,
+       "unit": "N/mm2",
+       "printed": "10,5",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1500,
+       "unit": "N/mm2",
+       "printed": "1500",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "25-32",
+     "thickness": [
+      25.01,
+      32
+     ],
+     "locator": "p. 1, essential characteristics, column >25-32: bending strength, modulus of elasticity in bending (EN 312 - T3)",
+     "params": {
+      "bending_strength": {
+       "value": 9.5,
+       "unit": "N/mm2",
+       "printed": "9,5",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1350,
+       "unit": "N/mm2",
+       "printed": "1350",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "valchromat-e05-dop-04-02",
+   "publisher": "Valbopan - Fibras de Madeira, SA (Investwood)",
+   "title": "DoP No. 04.02/2026, Valchromat E05 (EN 622-5 MDF.HLS), 21-07-2026",
+   "url": "https://www.investwood.pt/wp-content/uploads/2026/08/DOP-Valchromat-E05-N.04.02-2026.07.21-EN.pdf",
+   "sha256": "001f7d50f408dc20d237cc3b07d10b22e7fdae79d3b4777452c756dd473288bf",
+   "file": "makers/investwood-valchromat-e05-dop-04.02-en.pdf",
+   "capture": "text",
+   "statistic_note": "declared performance, no statistic printed: read as a mean",
+   "clauses": [
+    {
+     "id": "8",
+     "thickness": [
+      8,
+      8
+     ],
+     "locator": "p. 1, declared performance, column 8 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 42,
+       "unit": "N/mm2",
+       "printed": "42",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 3400,
+       "unit": "N/mm2",
+       "printed": "3400",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 830,
+       "unit": "kg/m3",
+       "printed": "830",
+       "statistic": "declared"
+      },
+      "density_high": {
+       "value": 830,
+       "unit": "kg/m3",
+       "printed": "830",
+       "statistic": "declared"
+      }
+     }
+    },
+    {
+     "id": "12",
+     "thickness": [
+      12,
+      12
+     ],
+     "locator": "p. 1, declared performance, column 12 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 40,
+       "unit": "N/mm2",
+       "printed": "40",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 3200,
+       "unit": "N/mm2",
+       "printed": "3200",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 800,
+       "unit": "kg/m3",
+       "printed": "800",
+       "statistic": "declared"
+      },
+      "density_high": {
+       "value": 800,
+       "unit": "kg/m3",
+       "printed": "800",
+       "statistic": "declared"
+      }
+     }
+    },
+    {
+     "id": "16",
+     "thickness": [
+      16,
+      16
+     ],
+     "locator": "p. 1, declared performance, column 16 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 38,
+       "unit": "N/mm2",
+       "printed": "38",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 3100,
+       "unit": "N/mm2",
+       "printed": "3100",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 780,
+       "unit": "kg/m3",
+       "printed": "780",
+       "statistic": "declared"
+      },
+      "density_high": {
+       "value": 780,
+       "unit": "kg/m3",
+       "printed": "780",
+       "statistic": "declared"
+      }
+     }
+    },
+    {
+     "id": "19",
+     "thickness": [
+      19,
+      19
+     ],
+     "locator": "p. 1, declared performance, column 19 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 38,
+       "unit": "N/mm2",
+       "printed": "38",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 3100,
+       "unit": "N/mm2",
+       "printed": "3100",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 770,
+       "unit": "kg/m3",
+       "printed": "770",
+       "statistic": "declared"
+      },
+      "density_high": {
+       "value": 770,
+       "unit": "kg/m3",
+       "printed": "770",
+       "statistic": "declared"
+      }
+     }
+    },
+    {
+     "id": "25",
+     "thickness": [
+      25,
+      25
+     ],
+     "locator": "p. 1, declared performance, column 25 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 36,
+       "unit": "N/mm2",
+       "printed": "36",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 3100,
+       "unit": "N/mm2",
+       "printed": "3100",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 730,
+       "unit": "kg/m3",
+       "printed": "730",
+       "statistic": "declared"
+      },
+      "density_high": {
+       "value": 730,
+       "unit": "kg/m3",
+       "printed": "730",
+       "statistic": "declared"
+      }
+     }
+    },
+    {
+     "id": "30",
+     "thickness": [
+      30,
+      30
+     ],
+     "locator": "p. 1, declared performance, column 30 mm: density (EN 323), bending strength (EN 310), modulus of elasticity in bending (EN 310)",
+     "params": {
+      "bending_strength": {
+       "value": 36,
+       "unit": "N/mm2",
+       "printed": "36",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 3000,
+       "unit": "N/mm2",
+       "printed": "3000",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 720,
+       "unit": "kg/m3",
+       "printed": "720",
+       "statistic": "declared"
+      },
+      "density_high": {
+       "value": 720,
+       "unit": "kg/m3",
+       "printed": "720",
+       "statistic": "declared"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "betanzos-htp-premium-dop",
+   "publisher": "Betanzos HB, S.L.",
+   "title": "Declaration of Performance DoP No. BHB.01.01.00., HTP PREMIUM (EN 622-2 HB), 08/04/2026",
+   "url": "https://www.betanzoshb.es/wp-content/uploads/2026/07/DoP-BHB.01.01.00.-HTP-PREMIUM.pdf",
+   "sha256": "a9552a819999b2ea044913c72a787ffd96860f7b64fc168bba99f300963fe938",
+   "file": "makers/betanzoshb-htp-premium-dop-BHB.01.01.00.pdf",
+   "capture": "text",
+   "statistic_note": "declared, no statistic printed: read as a mean; no modulus, no density",
+   "clauses": [
+    {
+     "id": "3-3.2",
+     "thickness": [
+      3.0,
+      3.2
+     ],
+     "locator": "p. 1, declared performance, column 3.0 - 3,2: bending strength",
+     "params": {
+      "bending_strength": {
+       "value": 30,
+       "unit": "N/mm2",
+       "printed": "30",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "betanzos-hardboard-epd",
+   "publisher": "Betanzos HB, S.L. (International EPD System)",
+   "title": "EPD EPD-IES-0031916:002, Hardboard, 2026-06-04",
+   "url": "https://www.betanzoshb.es/wp-content/uploads/2026/07/EPD-document_EPD-IES-0031916_001_en.pdf",
+   "sha256": "5785d05a3354529cf33a8e64ad44805e320ce1ed16d640b0b1165b644eeee696",
+   "file": "makers/betanzoshb-hardboard-epd-EPD-IES-0031916-en.pdf",
+   "capture": "text",
+   "statistic_note": "nominal density",
+   "clauses": [
+    {
+     "id": "2-6.4",
+     "thickness": [
+      2.0,
+      6.4
+     ],
+     "locator": "p. 5, product specifications, row 'Nominal density', column Hardboard",
+     "params": {
+      "density_low": {
+       "value": 900,
+       "unit": "kg/m3",
+       "printed": "900 kg/m³",
+       "statistic": "nominal"
+      },
+      "density_high": {
+       "value": 900,
+       "unit": "kg/m3",
+       "printed": "900 kg/m³",
+       "statistic": "nominal"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "kronospan-osb3-dop-18112013",
+   "publisher": "KRONOSPAN Luxembourg S.A.",
+   "title": "Déclaration des performances N° 18112013, OSB3 (EN 300), 13/02/2025",
+   "url": "https://kronospan.com/fr_FR/ajax/express_services/download?args%5B0%5D=express-services&args%5B1%5D=downloads&args%5B2%5D=Luxembourg&args%5B3%5D=technical-datasheets&args%5B4%5D=fr&args%5B5%5D=18112013-dop-osb3-fr.pdf",
+   "sha256": "91fbc9a40558798a084fe8fb53c86863d921f7267dda6eb441ce0afd4c770805",
+   "file": "makers/kronospan-lux-dop-osb3-fr.pdf",
+   "capture": "transcribed",
+   "statistic_note": "'Résistance selon EN 12369-1' and 'Rigidité (MOE) selon EN 12369-1': EN 12369-1 gives characteristic strengths and mean stiffnesses",
+   "clauses": [
+    {
+     "id": "6-10",
+     "thickness": [
+      6.01,
+      10
+     ],
+     "locator": "p. 1, §6, 'Résistance selon EN 12369-1' column >6-10 and 'Rigidité (MOE) selon EN 12369-1'",
+     "params": {
+      "bending_strength_major": {
+       "value": 18.0,
+       "unit": "N/mm2",
+       "printed": "18,0",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_strength_minor": {
+       "value": 9.0,
+       "unit": "N/mm2",
+       "printed": "9,0",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_modulus_major": {
+       "value": 4930,
+       "unit": "N/mm2",
+       "printed": "4930",
+       "statistic": "mean",
+       "test": "EN 12369-1"
+      },
+      "bending_modulus_minor": {
+       "value": 1980,
+       "unit": "N/mm2",
+       "printed": "1980",
+       "statistic": "mean",
+       "test": "EN 12369-1"
+      },
+      "shear_modulus_rolling": {
+       "value": 50,
+       "unit": "N/mm2",
+       "printed": "50",
+       "statistic": "mean",
+       "test": "EN 12369-1"
+      }
+     }
+    },
+    {
+     "id": "10-18",
+     "thickness": [
+      10.01,
+      18
+     ],
+     "locator": "p. 1, §6, 'Résistance selon EN 12369-1' column >10-18 and 'Rigidité (MOE) selon EN 12369-1'",
+     "params": {
+      "bending_strength_major": {
+       "value": 16.4,
+       "unit": "N/mm2",
+       "printed": "16,4",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_strength_minor": {
+       "value": 8.2,
+       "unit": "N/mm2",
+       "printed": "8,2",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_modulus_major": {
+       "value": 4930,
+       "unit": "N/mm2",
+       "printed": "4930",
+       "statistic": "mean",
+       "test": "EN 12369-1"
+      },
+      "bending_modulus_minor": {
+       "value": 1980,
+       "unit": "N/mm2",
+       "printed": "1980",
+       "statistic": "mean",
+       "test": "EN 12369-1"
+      },
+      "shear_modulus_rolling": {
+       "value": 50,
+       "unit": "N/mm2",
+       "printed": "50",
+       "statistic": "mean",
+       "test": "EN 12369-1"
+      }
+     }
+    },
+    {
+     "id": "18-25",
+     "thickness": [
+      18.01,
+      25
+     ],
+     "locator": "p. 1, §6, 'Résistance selon EN 12369-1' column >18-25 and 'Rigidité (MOE) selon EN 12369-1'",
+     "params": {
+      "bending_strength_major": {
+       "value": 14.8,
+       "unit": "N/mm2",
+       "printed": "14,8",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_strength_minor": {
+       "value": 7.4,
+       "unit": "N/mm2",
+       "printed": "7,4",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_modulus_major": {
+       "value": 4930,
+       "unit": "N/mm2",
+       "printed": "4930",
+       "statistic": "mean",
+       "test": "EN 12369-1"
+      },
+      "bending_modulus_minor": {
+       "value": 1980,
+       "unit": "N/mm2",
+       "printed": "1980",
+       "statistic": "mean",
+       "test": "EN 12369-1"
+      },
+      "shear_modulus_rolling": {
+       "value": 50,
+       "unit": "N/mm2",
+       "printed": "50",
+       "statistic": "mean",
+       "test": "EN 12369-1"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "swiss-krono-osb3-dop-cpr-164",
+   "publisher": "SWISS KRONO S.A.S., Sully-sur-Loire",
+   "title": "Déclaration des performances OSB 3 EN 300 CPR-164, SK_OSB3_CPR-164_2020, 13/10/2021",
+   "url": "https://www.swisskrono.com/fr-fr/produits/materiaux-de-construction/osb?tx_downloadcenter_downloadcenter%5Baction%5D=download&tx_downloadcenter_downloadcenter%5Bcontroller%5D=Downloadcenter&tx_downloadcenter_downloadcenter%5Bopendownload%5D=0&tx_downloadcenter_downloadcenter%5Buid%5D=4636&type=1221221&cHash=4e3617842c2d3ef9d3982188ddd1d9a6",
+   "sha256": "ac5da314dda26139ae98accd9df4f9ba53d3c07e1a8b023ae0566a9aed9e2256",
+   "file": "makers/swisskrono-fr-dop-osb3.pdf",
+   "capture": "text",
+   "statistic_note": "p. 3 'Résistance caractéristique' (for a mean density of 550 kg/m3); p. 2 EN 310 moduli with no statistic printed",
+   "clauses": [
+    {
+     "id": "9-10",
+     "thickness": [
+      9,
+      10
+     ],
+     "locator": "p. 3, row 13, 'Résistance caractéristique', Flexion fm 0 and 90, column 9 ≤ e ≤ 10; p. 2, §9, 'Module d'élasticité (sens longitudinal / transversal)'; p. 2, row 9, 'densité moyenne de 650 kg/m3'",
+     "params": {
+      "bending_strength_major": {
+       "value": 18,
+       "unit": "N/mm2",
+       "printed": "18",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_strength_minor": {
+       "value": 9,
+       "unit": "N/mm2",
+       "printed": "9",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_modulus_major": {
+       "value": 3500,
+       "unit": "N/mm2",
+       "printed": "3 500",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus_minor": {
+       "value": 1400,
+       "unit": "N/mm2",
+       "printed": "1 400",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "650",
+       "statistic": "mean"
+      },
+      "density_high": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "650",
+       "statistic": "mean"
+      }
+     }
+    },
+    {
+     "id": "10-18",
+     "thickness": [
+      10.01,
+      18
+     ],
+     "locator": "p. 3, row 13, 'Résistance caractéristique', Flexion fm 0 and 90, column 10 < e ≤ 18; p. 2, §9, 'Module d'élasticité (sens longitudinal / transversal)'; p. 2, row 9, 'densité moyenne de 650 kg/m3'",
+     "params": {
+      "bending_strength_major": {
+       "value": 16.4,
+       "unit": "N/mm2",
+       "printed": "16,4",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_strength_minor": {
+       "value": 8.2,
+       "unit": "N/mm2",
+       "printed": "8,2",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_modulus_major": {
+       "value": 3500,
+       "unit": "N/mm2",
+       "printed": "3 500",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus_minor": {
+       "value": 1400,
+       "unit": "N/mm2",
+       "printed": "1 400",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "650",
+       "statistic": "mean"
+      },
+      "density_high": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "650",
+       "statistic": "mean"
+      }
+     }
+    },
+    {
+     "id": "18-25",
+     "thickness": [
+      18.01,
+      25
+     ],
+     "locator": "p. 3, row 13, 'Résistance caractéristique', Flexion fm 0 and 90, column 18 < e ≤ 25; p. 2, §9, 'Module d'élasticité (sens longitudinal / transversal)'; p. 2, row 9, 'densité moyenne de 650 kg/m3'",
+     "params": {
+      "bending_strength_major": {
+       "value": 14.8,
+       "unit": "N/mm2",
+       "printed": "14,8",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_strength_minor": {
+       "value": 7.4,
+       "unit": "N/mm2",
+       "printed": "7,4",
+       "statistic": "characteristic",
+       "test": "EN 12369-1"
+      },
+      "bending_modulus_major": {
+       "value": 3500,
+       "unit": "N/mm2",
+       "printed": "3 500",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus_minor": {
+       "value": 1400,
+       "unit": "N/mm2",
+       "printed": "1 400",
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "650",
+       "statistic": "mean"
+      },
+      "density_high": {
+       "value": 650,
+       "unit": "kg/m3",
+       "printed": "650",
+       "statistic": "mean"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "riga-wood-plywood-handbook",
+   "publisher": "Latvijas Finieris (Riga Wood)",
+   "title": "Plywood Handbook 2022, updated and revised in 2025",
+   "url": "https://www.finieris.com/wp-content/uploads/2026/05/RigaWood_PlywoodHandbook.pdf",
+   "sha256": "371ec7dd67f09fae93b04cd119ecd5791b97d5f28323957ae16a1cc85044c3f9",
+   "file": "makers/rigawood_plywood_handbook_2026-05.pdf",
+   "capture": "text",
+   "statistic_note": "Table 3.17: EN 310 lower 5% values; Table 3.18: EN 310 mean values",
+   "clauses": [
+    {
+     "id": "6.5",
+     "thickness": [
+      6.5,
+      6.5
+     ],
+     "locator": "PDF p.62, section 3.2 Density; PDF p.80 Table 3.17 row 6.5, Along the face grain, Strength; PDF p.80 Table 3.17 row 6.5, Perpendicular the face grain, Strength; PDF p.81 Table 3.18 row 6.5, Along the face grain, Modulus of elasticity; PDF p.81 Table 3.18 row 6.5, Perpendicular the face grain, Modulus of elasticity",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 80.1,
+       "unit": "N/mm2",
+       "printed": "80.1",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "PDF p.80 Table 3.17 row 6.5, Along the face grain, Strength"
+      },
+      "bending_strength_perpendicular": {
+       "value": 42.9,
+       "unit": "N/mm2",
+       "printed": "42.9",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "PDF p.80 Table 3.17 row 6.5, Perpendicular the face grain, Strength"
+      },
+      "bending_modulus_parallel": {
+       "value": 10920.0,
+       "unit": "N/mm2",
+       "printed": "10920",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "PDF p.81 Table 3.18 row 6.5, Along the face grain, Modulus of elasticity"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 4169.0,
+       "unit": "N/mm2",
+       "printed": "4169",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "PDF p.81 Table 3.18 row 6.5, Perpendicular the face grain, Modulus of elasticity"
+      },
+      "density_low": {
+       "value": 670.0,
+       "unit": "kg/m3",
+       "printed": "670",
+       "statistic": "nominal",
+       "locator": "PDF p.62, section 3.2 Density"
+      },
+      "density_high": {
+       "value": 760.0,
+       "unit": "kg/m3",
+       "printed": "760",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "9",
+     "thickness": [
+      9.0,
+      9.0
+     ],
+     "locator": "PDF p.62, section 3.2 Density; PDF p.80 Table 3.17 row 9, Along the face grain, Strength; PDF p.80 Table 3.17 row 9, Perpendicular the face grain, Strength; PDF p.81 Table 3.18 row 9, Along the face grain, Modulus of elasticity; PDF p.81 Table 3.18 row 9, Perpendicular the face grain, Modulus of elasticity",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 74.4,
+       "unit": "N/mm2",
+       "printed": "74.4",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "PDF p.80 Table 3.17 row 9, Along the face grain, Strength"
+      },
+      "bending_strength_perpendicular": {
+       "value": 54.7,
+       "unit": "N/mm2",
+       "printed": "54.7",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "PDF p.80 Table 3.17 row 9, Perpendicular the face grain, Strength"
+      },
+      "bending_modulus_parallel": {
+       "value": 10116.0,
+       "unit": "N/mm2",
+       "printed": "10116",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "PDF p.81 Table 3.18 row 9, Along the face grain, Modulus of elasticity"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 5869.0,
+       "unit": "N/mm2",
+       "printed": "5869",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "PDF p.81 Table 3.18 row 9, Perpendicular the face grain, Modulus of elasticity"
+      },
+      "density_low": {
+       "value": 670.0,
+       "unit": "kg/m3",
+       "printed": "670",
+       "statistic": "nominal",
+       "locator": "PDF p.62, section 3.2 Density"
+      },
+      "density_high": {
+       "value": 760.0,
+       "unit": "kg/m3",
+       "printed": "760",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "12",
+     "thickness": [
+      12.0,
+      12.0
+     ],
+     "locator": "PDF p.62, section 3.2 Density; PDF p.80 Table 3.17 row 12, Along the face grain, Strength; PDF p.80 Table 3.17 row 12, Perpendicular the face grain, Strength; PDF p.81 Table 3.18 row 12, Along the face grain, Modulus of elasticity; PDF p.81 Table 3.18 row 12, Perpendicular the face grain, Modulus of elasticity",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 70.6,
+       "unit": "N/mm2",
+       "printed": "70.6",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "PDF p.80 Table 3.17 row 12, Along the face grain, Strength"
+      },
+      "bending_strength_perpendicular": {
+       "value": 53.0,
+       "unit": "N/mm2",
+       "printed": "53",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "PDF p.80 Table 3.17 row 12, Perpendicular the face grain, Strength"
+      },
+      "bending_modulus_parallel": {
+       "value": 9854.0,
+       "unit": "N/mm2",
+       "printed": "9854",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "PDF p.81 Table 3.18 row 12, Along the face grain, Modulus of elasticity"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 6364.0,
+       "unit": "N/mm2",
+       "printed": "6364",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "PDF p.81 Table 3.18 row 12, Perpendicular the face grain, Modulus of elasticity"
+      },
+      "density_low": {
+       "value": 670.0,
+       "unit": "kg/m3",
+       "printed": "670",
+       "statistic": "nominal",
+       "locator": "PDF p.62, section 3.2 Density"
+      },
+      "density_high": {
+       "value": 760.0,
+       "unit": "kg/m3",
+       "printed": "760",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "15",
+     "thickness": [
+      15.0,
+      15.0
+     ],
+     "locator": "PDF p.62, section 3.2 Density; PDF p.80 Table 3.17 row 15, Along the face grain, Strength; PDF p.80 Table 3.17 row 15, Perpendicular the face grain, Strength; PDF p.81 Table 3.18 row 15, Along the face grain, Modulus of elasticity; PDF p.81 Table 3.18 row 15, Perpendicular the face grain, Modulus of elasticity",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 66.5,
+       "unit": "N/mm2",
+       "printed": "66.5",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "PDF p.80 Table 3.17 row 15, Along the face grain, Strength"
+      },
+      "bending_strength_perpendicular": {
+       "value": 53.4,
+       "unit": "N/mm2",
+       "printed": "53.4",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "PDF p.80 Table 3.17 row 15, Perpendicular the face grain, Strength"
+      },
+      "bending_modulus_parallel": {
+       "value": 9532.0,
+       "unit": "N/mm2",
+       "printed": "9532",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "PDF p.81 Table 3.18 row 15, Along the face grain, Modulus of elasticity"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 6806.0,
+       "unit": "N/mm2",
+       "printed": "6806",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "PDF p.81 Table 3.18 row 15, Perpendicular the face grain, Modulus of elasticity"
+      },
+      "density_low": {
+       "value": 670.0,
+       "unit": "kg/m3",
+       "printed": "670",
+       "statistic": "nominal",
+       "locator": "PDF p.62, section 3.2 Density"
+      },
+      "density_high": {
+       "value": 760.0,
+       "unit": "kg/m3",
+       "printed": "760",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "18",
+     "thickness": [
+      18.0,
+      18.0
+     ],
+     "locator": "PDF p.62, section 3.2 Density; PDF p.80 Table 3.17 row 18, Along the face grain, Strength; PDF p.80 Table 3.17 row 18, Perpendicular the face grain, Strength; PDF p.81 Table 3.18 row 18, Along the face grain, Modulus of elasticity; PDF p.81 Table 3.18 row 18, Perpendicular the face grain, Modulus of elasticity",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 61.7,
+       "unit": "N/mm2",
+       "printed": "61.7",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "PDF p.80 Table 3.17 row 18, Along the face grain, Strength"
+      },
+      "bending_strength_perpendicular": {
+       "value": 52.0,
+       "unit": "N/mm2",
+       "printed": "52",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "PDF p.80 Table 3.17 row 18, Perpendicular the face grain, Strength"
+      },
+      "bending_modulus_parallel": {
+       "value": 8993.0,
+       "unit": "N/mm2",
+       "printed": "8993",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "PDF p.81 Table 3.18 row 18, Along the face grain, Modulus of elasticity"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 6898.0,
+       "unit": "N/mm2",
+       "printed": "6898",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "PDF p.81 Table 3.18 row 18, Perpendicular the face grain, Modulus of elasticity"
+      },
+      "density_low": {
+       "value": 670.0,
+       "unit": "kg/m3",
+       "printed": "670",
+       "statistic": "nominal",
+       "locator": "PDF p.62, section 3.2 Density"
+      },
+      "density_high": {
+       "value": 760.0,
+       "unit": "kg/m3",
+       "printed": "760",
+       "statistic": "nominal"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "garnica-poplar-dop-gar-30",
+   "publisher": "Garnica",
+   "title": "Declaration of Performance DOP.GAR.30.EN, Efficiency Poplar / Performance Poplar (signed 1st May 2026)",
+   "url": "https://www.garnica.one/uploads/9f13dd4a-11a3-4959-98b7-fa54328daae9/9f13dd4a-11a3-4959-98b7-fa54328daae9.pdf",
+   "sha256": "fac237c55eb93420493a2177c22ff8715893a1c4b03b4552697b8d1d38f7253b",
+   "file": "makers/garnica_dop_gar_30_efficiency_poplar_en.pdf",
+   "capture": "text",
+   "statistic_note": "y05 rows: 5th percentiles by EN 326-2 from EN 310 tests; Media rows: means",
+   "clauses": [
+    {
+     "id": "6-10",
+     "thickness": [
+      6.0,
+      10.0
+     ],
+     "locator": "p.2 item 9 table, column 6-10 mm, row 'Density kg/m3 (mean)'; p.2 item 9 table, column 6-10 mm, row 'Flexion Media Em||'; p.2 item 9 table, column 6-10 mm, row 'Flexion Media Em⊥'; p.2 item 9 table, column 6-10 mm, row 'Flexion y05 fm||'; p.2 item 9 table, column 6-10 mm, row 'Flexion y05 fm⊥'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 24.8,
+       "unit": "N/mm2",
+       "printed": "24,8",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 6-10 mm, row 'Flexion y05 fm||'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 25.9,
+       "unit": "N/mm2",
+       "printed": "25,9",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 6-10 mm, row 'Flexion y05 fm⊥'"
+      },
+      "bending_modulus_parallel": {
+       "value": 4088.0,
+       "unit": "N/mm2",
+       "printed": "4088",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 6-10 mm, row 'Flexion Media Em||'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3689.0,
+       "unit": "N/mm2",
+       "printed": "3689",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 6-10 mm, row 'Flexion Media Em⊥'"
+      },
+      "density_low": {
+       "value": 439.0,
+       "unit": "kg/m3",
+       "printed": "439",
+       "statistic": "mean",
+       "locator": "p.2 item 9 table, column 6-10 mm, row 'Density kg/m3 (mean)'"
+      },
+      "density_high": {
+       "value": 439.0,
+       "unit": "kg/m3",
+       "printed": "439",
+       "statistic": "mean"
+      }
+     }
+    },
+    {
+     "id": "11-20",
+     "thickness": [
+      11.0,
+      20.0
+     ],
+     "locator": "p.2 item 9 table, column 11-20 mm, row 'Density kg/m3 (mean)'; p.2 item 9 table, column 11-20 mm, row 'Flexion Media Em||'; p.2 item 9 table, column 11-20 mm, row 'Flexion Media Em⊥'; p.2 item 9 table, column 11-20 mm, row 'Flexion y05 fm||'; p.2 item 9 table, column 11-20 mm, row 'Flexion y05 fm⊥'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 24.6,
+       "unit": "N/mm2",
+       "printed": "24,6",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 11-20 mm, row 'Flexion y05 fm||'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 25.8,
+       "unit": "N/mm2",
+       "printed": "25,8",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 11-20 mm, row 'Flexion y05 fm⊥'"
+      },
+      "bending_modulus_parallel": {
+       "value": 4051.0,
+       "unit": "N/mm2",
+       "printed": "4051",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 11-20 mm, row 'Flexion Media Em||'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 4114.0,
+       "unit": "N/mm2",
+       "printed": "4114",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 11-20 mm, row 'Flexion Media Em⊥'"
+      },
+      "density_low": {
+       "value": 442.0,
+       "unit": "kg/m3",
+       "printed": "442",
+       "statistic": "mean",
+       "locator": "p.2 item 9 table, column 11-20 mm, row 'Density kg/m3 (mean)'"
+      },
+      "density_high": {
+       "value": 442.0,
+       "unit": "kg/m3",
+       "printed": "442",
+       "statistic": "mean"
+      }
+     }
+    },
+    {
+     "id": "21-50",
+     "thickness": [
+      21.0,
+      50.0
+     ],
+     "locator": "p.2 item 9 table, column 21-50 mm, row 'Density kg/m3 (mean)'; p.2 item 9 table, column 21-50 mm, row 'Flexion Media Em||'; p.2 item 9 table, column 21-50 mm, row 'Flexion Media Em⊥'; p.2 item 9 table, column 21-50 mm, row 'Flexion y05 fm||'; p.2 item 9 table, column 21-50 mm, row 'Flexion y05 fm⊥'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 20.8,
+       "unit": "N/mm2",
+       "printed": "20,8",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 21-50 mm, row 'Flexion y05 fm||'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 27.0,
+       "unit": "N/mm2",
+       "printed": "27,0",
+       "statistic": "characteristic",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 21-50 mm, row 'Flexion y05 fm⊥'"
+      },
+      "bending_modulus_parallel": {
+       "value": 3748.0,
+       "unit": "N/mm2",
+       "printed": "3748,0",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 21-50 mm, row 'Flexion Media Em||'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 4538.9,
+       "unit": "N/mm2",
+       "printed": "4538,9",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.2 item 9 table, column 21-50 mm, row 'Flexion Media Em⊥'"
+      },
+      "density_low": {
+       "value": 433.0,
+       "unit": "kg/m3",
+       "printed": "433",
+       "statistic": "mean",
+       "locator": "p.2 item 9 table, column 21-50 mm, row 'Density kg/m3 (mean)'"
+      },
+      "density_high": {
+       "value": 433.0,
+       "unit": "kg/m3",
+       "printed": "433",
+       "statistic": "mean"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "toro-poplar-datasheet",
+   "publisher": "Compensati Toro",
+   "title": "Technical data sheet - Poplar plywood (footer SM/TOROPIOPen_03, 02/09/2026)",
+   "url": "https://compensatitoro.it/wp-content/uploads/TOROPIOPen_02.pdf",
+   "sha256": "787a85b7a7c2ad6c21522c9bb034ef8e76c1296ce3875ee21aea6b0841baeba4",
+   "file": "makers/toro_poplar_plywood_datasheet_en_02.pdf",
+   "capture": "text",
+   "statistic_note": "footnote 1: mean values from internal controls",
+   "clauses": [
+    {
+     "id": "4",
+     "thickness": [
+      4.0,
+      4.0
+     ],
+     "locator": "p.1 col 4, row 'Bending modulus of elasticity: parallel to grain'; p.1 col 4, row 'Bending modulus of elasticity: perpendicular to grain'; p.1 col 4, row 'Bending strength: parallel to grain'; p.1 col 4, row 'Bending strength: perpendicular to grain'; p.1 row 'Density'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 55.0,
+       "unit": "N/mm2",
+       "printed": "55",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 4, row 'Bending strength: parallel to grain'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 28.0,
+       "unit": "N/mm2",
+       "printed": "28",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 4, row 'Bending strength: perpendicular to grain'"
+      },
+      "bending_modulus_parallel": {
+       "value": 7500.0,
+       "unit": "N/mm2",
+       "printed": "7 500",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 4, row 'Bending modulus of elasticity: parallel to grain'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 1000.0,
+       "unit": "N/mm2",
+       "printed": "1 000",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 4, row 'Bending modulus of elasticity: perpendicular to grain'"
+      },
+      "density_low": {
+       "value": 450.0,
+       "unit": "kg/m3",
+       "printed": "450",
+       "statistic": "nominal",
+       "locator": "p.1 row 'Density'"
+      },
+      "density_high": {
+       "value": 450.0,
+       "unit": "kg/m3",
+       "printed": "450",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "6",
+     "thickness": [
+      6.0,
+      6.0
+     ],
+     "locator": "p.1 col 6, row 'Bending modulus of elasticity: parallel to grain'; p.1 col 6, row 'Bending modulus of elasticity: perpendicular to grain'; p.1 col 6, row 'Bending strength: parallel to grain'; p.1 col 6, row 'Bending strength: perpendicular to grain'; p.1 row 'Density'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 55.0,
+       "unit": "N/mm2",
+       "printed": "55",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 6, row 'Bending strength: parallel to grain'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 35.0,
+       "unit": "N/mm2",
+       "printed": "35",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 6, row 'Bending strength: perpendicular to grain'"
+      },
+      "bending_modulus_parallel": {
+       "value": 6400.0,
+       "unit": "N/mm2",
+       "printed": "6 400",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 6, row 'Bending modulus of elasticity: parallel to grain'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3000.0,
+       "unit": "N/mm2",
+       "printed": "3 000",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 6, row 'Bending modulus of elasticity: perpendicular to grain'"
+      },
+      "density_low": {
+       "value": 450.0,
+       "unit": "kg/m3",
+       "printed": "450",
+       "statistic": "nominal",
+       "locator": "p.1 row 'Density'"
+      },
+      "density_high": {
+       "value": 450.0,
+       "unit": "kg/m3",
+       "printed": "450",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "10",
+     "thickness": [
+      10.0,
+      10.0
+     ],
+     "locator": "p.1 col 10, row 'Bending modulus of elasticity: parallel to grain'; p.1 col 10, row 'Bending modulus of elasticity: perpendicular to grain'; p.1 col 10, row 'Bending strength: parallel to grain'; p.1 col 10, row 'Bending strength: perpendicular to grain'; p.1 row 'Density'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 50.0,
+       "unit": "N/mm2",
+       "printed": "50",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 10, row 'Bending strength: parallel to grain'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 25.0,
+       "unit": "N/mm2",
+       "printed": "25",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 10, row 'Bending strength: perpendicular to grain'"
+      },
+      "bending_modulus_parallel": {
+       "value": 7500.0,
+       "unit": "N/mm2",
+       "printed": "7 500",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 10, row 'Bending modulus of elasticity: parallel to grain'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 2500.0,
+       "unit": "N/mm2",
+       "printed": "2 500",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 10, row 'Bending modulus of elasticity: perpendicular to grain'"
+      },
+      "density_low": {
+       "value": 450.0,
+       "unit": "kg/m3",
+       "printed": "450",
+       "statistic": "nominal",
+       "locator": "p.1 row 'Density'"
+      },
+      "density_high": {
+       "value": 450.0,
+       "unit": "kg/m3",
+       "printed": "450",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "15",
+     "thickness": [
+      15.0,
+      15.0
+     ],
+     "locator": "p.1 col 15, row 'Bending modulus of elasticity: parallel to grain'; p.1 col 15, row 'Bending modulus of elasticity: perpendicular to grain'; p.1 col 15, row 'Bending strength: parallel to grain'; p.1 col 15, row 'Bending strength: perpendicular to grain'; p.1 row 'Density'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 30.0,
+       "unit": "N/mm2",
+       "printed": "30",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 15, row 'Bending strength: parallel to grain'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 35.0,
+       "unit": "N/mm2",
+       "printed": "35",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 15, row 'Bending strength: perpendicular to grain'"
+      },
+      "bending_modulus_parallel": {
+       "value": 3000.0,
+       "unit": "N/mm2",
+       "printed": "3 000",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 15, row 'Bending modulus of elasticity: parallel to grain'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3400.0,
+       "unit": "N/mm2",
+       "printed": "3 400",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 15, row 'Bending modulus of elasticity: perpendicular to grain'"
+      },
+      "density_low": {
+       "value": 450.0,
+       "unit": "kg/m3",
+       "printed": "450",
+       "statistic": "nominal",
+       "locator": "p.1 row 'Density'"
+      },
+      "density_high": {
+       "value": 450.0,
+       "unit": "kg/m3",
+       "printed": "450",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "20",
+     "thickness": [
+      20.0,
+      20.0
+     ],
+     "locator": "p.1 col 20, row 'Bending modulus of elasticity: parallel to grain'; p.1 col 20, row 'Bending modulus of elasticity: perpendicular to grain'; p.1 col 20, row 'Bending strength: parallel to grain'; p.1 col 20, row 'Bending strength: perpendicular to grain'; p.1 row 'Density'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 34.0,
+       "unit": "N/mm2",
+       "printed": "34",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 20, row 'Bending strength: parallel to grain'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 28.0,
+       "unit": "N/mm2",
+       "printed": "28",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 20, row 'Bending strength: perpendicular to grain'"
+      },
+      "bending_modulus_parallel": {
+       "value": 4500.0,
+       "unit": "N/mm2",
+       "printed": "4 500",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 20, row 'Bending modulus of elasticity: parallel to grain'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3600.0,
+       "unit": "N/mm2",
+       "printed": "3 600",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 col 20, row 'Bending modulus of elasticity: perpendicular to grain'"
+      },
+      "density_low": {
+       "value": 450.0,
+       "unit": "kg/m3",
+       "printed": "450",
+       "statistic": "nominal",
+       "locator": "p.1 row 'Density'"
+      },
+      "density_high": {
+       "value": 450.0,
+       "unit": "kg/m3",
+       "printed": "450",
+       "statistic": "nominal"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "thebault-dop-01-teboply-okoume",
+   "publisher": "Groupe Thebault",
+   "title": "Déclaration de performances DOP 01 - 18/06/26 - Ref 26-V2-FR (TeboPly Okoumé Extérieur, Tebogarant, Tebostile, TeboMarine BS 1088)",
+   "url": "https://www.groupe-thebault.com/download/192/teboply-okoume-exterieur/1247/thebault_dop01_teboply_ext_fr.pdf",
+   "sha256": "464e6a2f246d6620d5f19489f81741ce8133e789975095ca535e01bfdbedc2da",
+   "file": "makers/thebault_dop01_teboply_ext_fr.pdf",
+   "capture": "text",
+   "statistic_note": "the DoP prints no statistic; Thebault's data sheets head the same tables 'Valeurs caractéristiques (MPA) selon NF EN 789 - 1058'",
+   "clauses": [
+    {
+     "id": "4",
+     "thickness": [
+      4.0,
+      4.0
+     ],
+     "locator": "p.1 item 9 col 4, row 'Flexion fm //'; p.1 item 9 col 4, row 'Flexion fm _I_'; p.1 item 9 col 4, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 4, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 45.5,
+       "unit": "N/mm2",
+       "printed": "45,5",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 4, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 22.0,
+       "unit": "N/mm2",
+       "printed": "22",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 4, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 7139.0,
+       "unit": "N/mm2",
+       "printed": "7139",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 4, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 2111.0,
+       "unit": "N/mm2",
+       "printed": "2111",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 4, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "5",
+     "thickness": [
+      5.0,
+      5.0
+     ],
+     "locator": "p.1 item 9 col 5, row 'Flexion fm //'; p.1 item 9 col 5, row 'Flexion fm _I_'; p.1 item 9 col 5, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 5, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 40.5,
+       "unit": "N/mm2",
+       "printed": "40,5",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 5, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 26.4,
+       "unit": "N/mm2",
+       "printed": "26,4",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 5, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 6318.0,
+       "unit": "N/mm2",
+       "printed": "6318",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 5, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 2932.0,
+       "unit": "N/mm2",
+       "printed": "2932",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 5, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "6",
+     "thickness": [
+      6.0,
+      6.0
+     ],
+     "locator": "p.1 item 9 col 6, row 'Flexion fm //'; p.1 item 9 col 6, row 'Flexion fm _I_'; p.1 item 9 col 6, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 6, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 35.0,
+       "unit": "N/mm2",
+       "printed": "35",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 6, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 32.4,
+       "unit": "N/mm2",
+       "printed": "32,4",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 6, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 5490.0,
+       "unit": "N/mm2",
+       "printed": "5490",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 6, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3760.0,
+       "unit": "N/mm2",
+       "printed": "3760",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 6, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "8",
+     "thickness": [
+      8.0,
+      8.0
+     ],
+     "locator": "p.1 item 9 col 8, row 'Flexion fm //'; p.1 item 9 col 8, row 'Flexion fm _I_'; p.1 item 9 col 8, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 8, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 40.8,
+       "unit": "N/mm2",
+       "printed": "40,8",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 8, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 24.7,
+       "unit": "N/mm2",
+       "printed": "24,7",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 8, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 7317.0,
+       "unit": "N/mm2",
+       "printed": "7317",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 8, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 4433.0,
+       "unit": "N/mm2",
+       "printed": "4433",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 8, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "9",
+     "thickness": [
+      9.0,
+      9.0
+     ],
+     "locator": "p.1 item 9 col 9, row 'Flexion fm //'; p.1 item 9 col 9, row 'Flexion fm _I_'; p.1 item 9 col 9, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 9, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 30.6,
+       "unit": "N/mm2",
+       "printed": "30,6",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 9, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 24.3,
+       "unit": "N/mm2",
+       "printed": "24,3",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 9, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 6940.0,
+       "unit": "N/mm2",
+       "printed": "6940",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 9, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 4356.0,
+       "unit": "N/mm2",
+       "printed": "4356",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 9, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "10",
+     "thickness": [
+      10.0,
+      10.0
+     ],
+     "locator": "p.1 item 9 col 10, row 'Flexion fm //'; p.1 item 9 col 10, row 'Flexion fm _I_'; p.1 item 9 col 10, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 10, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 34.4,
+       "unit": "N/mm2",
+       "printed": "34,4",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 10, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 31.1,
+       "unit": "N/mm2",
+       "printed": "31,1",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 10, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 6170.0,
+       "unit": "N/mm2",
+       "printed": "6170",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 10, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 5580.0,
+       "unit": "N/mm2",
+       "printed": "5580",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 10, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "12",
+     "thickness": [
+      12.0,
+      12.0
+     ],
+     "locator": "p.1 item 9 col 12, row 'Flexion fm //'; p.1 item 9 col 12, row 'Flexion fm _I_'; p.1 item 9 col 12, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 12, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 36.7,
+       "unit": "N/mm2",
+       "printed": "36,7",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 12, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 28.8,
+       "unit": "N/mm2",
+       "printed": "28,8",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 12, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 6577.0,
+       "unit": "N/mm2",
+       "printed": "6577",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 12, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 5172.0,
+       "unit": "N/mm2",
+       "printed": "5172",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 12, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "15",
+     "thickness": [
+      15.0,
+      15.0
+     ],
+     "locator": "p.1 item 9 col 15, row 'Flexion fm //'; p.1 item 9 col 15, row 'Flexion fm _I_'; p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 30.4,
+       "unit": "N/mm2",
+       "printed": "30,4",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 15, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 35.1,
+       "unit": "N/mm2",
+       "printed": "35,1",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 15, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 5456.0,
+       "unit": "N/mm2",
+       "printed": "5456",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 6294.0,
+       "unit": "N/mm2",
+       "printed": "6294",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "18",
+     "thickness": [
+      18.0,
+      18.0
+     ],
+     "locator": "p.1 item 9 col 18, row 'Flexion fm //'; p.1 item 9 col 18, row 'Flexion fm _I_'; p.1 item 9 col 18, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 18, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 27.5,
+       "unit": "N/mm2",
+       "printed": "27,5",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 18, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 38.0,
+       "unit": "N/mm2",
+       "printed": "38",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 18, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 4940.0,
+       "unit": "N/mm2",
+       "printed": "4940",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 18, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 6810.0,
+       "unit": "N/mm2",
+       "printed": "6810",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 18, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "20",
+     "thickness": [
+      20.0,
+      20.0
+     ],
+     "locator": "p.1 item 9 col 20, row 'Flexion fm //'; p.1 item 9 col 20, row 'Flexion fm _I_'; p.1 item 9 col 20, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 20, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 28.9,
+       "unit": "N/mm2",
+       "printed": "28,9",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 20, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 36.6,
+       "unit": "N/mm2",
+       "printed": "36,6",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 20, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 5180.0,
+       "unit": "N/mm2",
+       "printed": "5180",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 20, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 6570.0,
+       "unit": "N/mm2",
+       "printed": "6570",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 20, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "22",
+     "thickness": [
+      22.0,
+      22.0
+     ],
+     "locator": "p.1 item 9 col 22, row 'Flexion fm //'; p.1 item 9 col 22, row 'Flexion fm _I_'; p.1 item 9 col 22, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 22, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 25.9,
+       "unit": "N/mm2",
+       "printed": "25,9",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 22, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 39.6,
+       "unit": "N/mm2",
+       "printed": "39,6",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 22, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 4650.0,
+       "unit": "N/mm2",
+       "printed": "4650",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 22, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 7100.0,
+       "unit": "N/mm2",
+       "printed": "7100",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 22, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "25",
+     "thickness": [
+      25.0,
+      25.0
+     ],
+     "locator": "p.1 item 9 col 25, row 'Flexion fm //'; p.1 item 9 col 25, row 'Flexion fm _I_'; p.1 item 9 col 25, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 25, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 28.1,
+       "unit": "N/mm2",
+       "printed": "28,1",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 25, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 37.4,
+       "unit": "N/mm2",
+       "printed": "37,4",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 25, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 5042.0,
+       "unit": "N/mm2",
+       "printed": "5042",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 25, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 6708.0,
+       "unit": "N/mm2",
+       "printed": "6708",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 25, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "30",
+     "thickness": [
+      30.0,
+      30.0
+     ],
+     "locator": "p.1 item 9 col 30, row 'Flexion fm //'; p.1 item 9 col 30, row 'Flexion fm _I_'; p.1 item 9 col 30, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 30, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 27.7,
+       "unit": "N/mm2",
+       "printed": "27,7",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 30, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 37.8,
+       "unit": "N/mm2",
+       "printed": "37,8",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 30, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 4962.0,
+       "unit": "N/mm2",
+       "printed": "4962",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 30, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 6788.0,
+       "unit": "N/mm2",
+       "printed": "6788",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 30, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 500.0,
+       "unit": "kg/m3",
+       "printed": "500",
+       "statistic": "nominal"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "thebault-dop-03-tebotwin",
+   "publisher": "Groupe Thebault",
+   "title": "Déclaration de performances DOP 03 - 18/06/26 - Ref 26-V1-FR (TeboTwin Extérieur)",
+   "url": "https://www.groupe-thebault.com/download/198/tebotwin-exterieur/1244/thebault_dop03_tebotwin_ext_fr.pdf",
+   "sha256": "227b82e7932c72b1cb1292f5d5ee5bcb398f89c72e85e7a8767a09cdb108bda9",
+   "file": "makers/thebault_dop03_tebotwin_ext_fr.pdf",
+   "capture": "text",
+   "statistic_note": "the DoP prints no statistic; the data sheet heads the table 'Valeurs caractéristiques (MPA) selon NF EN 789 - 1058'",
+   "clauses": [
+    {
+     "id": "5",
+     "thickness": [
+      5.0,
+      5.0
+     ],
+     "locator": "p.1 item 9 col 5, row 'Flexion fm //'; p.1 item 9 col 5, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 5, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 53.8,
+       "unit": "N/mm2",
+       "printed": "53,8",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 5, row 'Flexion fm //'"
+      },
+      "bending_modulus_parallel": {
+       "value": 9646.0,
+       "unit": "N/mm2",
+       "printed": "9646",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 5, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 1307.0,
+       "unit": "N/mm2",
+       "printed": "1307",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 5, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 480.0,
+       "unit": "kg/m3",
+       "printed": "480",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 480.0,
+       "unit": "kg/m3",
+       "printed": "480",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "10",
+     "thickness": [
+      10.0,
+      10.0
+     ],
+     "locator": "p.1 item 9 col 10, row 'Flexion fm //'; p.1 item 9 col 10, row 'Flexion fm _I_'; p.1 item 9 col 10, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 10, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 40.1,
+       "unit": "N/mm2",
+       "printed": "40,1",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 10, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 17.1,
+       "unit": "N/mm2",
+       "printed": "17,1",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 10, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 7195.0,
+       "unit": "N/mm2",
+       "printed": "7195",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 10, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 2821.0,
+       "unit": "N/mm2",
+       "printed": "2821",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 10, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 480.0,
+       "unit": "kg/m3",
+       "printed": "480",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 480.0,
+       "unit": "kg/m3",
+       "printed": "480",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "15",
+     "thickness": [
+      15.0,
+      15.0
+     ],
+     "locator": "p.1 item 9 col 15, row 'Flexion fm //'; p.1 item 9 col 15, row 'Flexion fm _I_'; p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 29.4,
+       "unit": "N/mm2",
+       "printed": "29,4",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 15, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 23.2,
+       "unit": "N/mm2",
+       "printed": "23,2",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 15, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 5211.0,
+       "unit": "N/mm2",
+       "printed": "5211",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3816.0,
+       "unit": "N/mm2",
+       "printed": "3816",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 480.0,
+       "unit": "kg/m3",
+       "printed": "480",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 480.0,
+       "unit": "kg/m3",
+       "printed": "480",
+       "statistic": "nominal"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "thebault-dop-12-tebopin",
+   "publisher": "Groupe Thebault",
+   "title": "Déclaration de performances DOP 12 - 18/06/26 - Ref INC26-V1-FR (TeboPin sanded)",
+   "url": "https://www.groupe-thebault.com/download/200/tebopin-clear/1255/thebault_dop12_tebopin-ponce_fr.pdf",
+   "sha256": "811f5d5fa0ed4ad98f22fb4d8bfe13db9ef18b760c4298ee7c42149363ab89f1",
+   "file": "makers/thebault_dop12_tebopin_ponce_fr.pdf",
+   "capture": "text",
+   "statistic_note": "the DoP prints no statistic; Thebault's data sheets head these tables 'Valeurs caractéristiques (MPA) selon NF EN 789 - 1058'",
+   "clauses": [
+    {
+     "id": "12",
+     "thickness": [
+      12.0,
+      12.0
+     ],
+     "locator": "p.1 item 9 col 12, row 'Flexion fm //'; p.1 item 9 col 12, row 'Flexion fm _I_'; p.1 item 9 col 12, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 12, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 23.2,
+       "unit": "N/mm2",
+       "printed": "23,2",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 12, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 10.2,
+       "unit": "N/mm2",
+       "printed": "10,2",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 12, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 7596.0,
+       "unit": "N/mm2",
+       "printed": "7596",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 12, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 2078.0,
+       "unit": "N/mm2",
+       "printed": "2078",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 12, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 540.0,
+       "unit": "kg/m3",
+       "printed": "540",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 540.0,
+       "unit": "kg/m3",
+       "printed": "540",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "15",
+     "thickness": [
+      15.0,
+      15.0
+     ],
+     "locator": "p.1 item 9 col 15, row 'Flexion fm //'; p.1 item 9 col 15, row 'Flexion fm _I_'; p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 24.4,
+       "unit": "N/mm2",
+       "printed": "24,4",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 15, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 13.7,
+       "unit": "N/mm2",
+       "printed": "13,7",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 15, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 9152.0,
+       "unit": "N/mm2",
+       "printed": "9152",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3298.0,
+       "unit": "N/mm2",
+       "printed": "3298",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 15, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 540.0,
+       "unit": "kg/m3",
+       "printed": "540",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 540.0,
+       "unit": "kg/m3",
+       "printed": "540",
+       "statistic": "nominal"
+      }
+     }
+    },
+    {
+     "id": "18",
+     "thickness": [
+      18.0,
+      18.0
+     ],
+     "locator": "p.1 item 9 col 18, row 'Flexion fm //'; p.1 item 9 col 18, row 'Flexion fm _I_'; p.1 item 9 col 18, row 'MODULE D'ÉLASTICITÉ Flexion Em //'; p.1 item 9 col 18, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'; p.2 row 'RÉSISTANCE AU CHOC'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 23.0,
+       "unit": "N/mm2",
+       "printed": "23",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 18, row 'Flexion fm //'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 12.1,
+       "unit": "N/mm2",
+       "printed": "12,1",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 col 18, row 'Flexion fm _I_'"
+      },
+      "bending_modulus_parallel": {
+       "value": 9220.0,
+       "unit": "N/mm2",
+       "printed": "9220",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 18, row 'MODULE D'ÉLASTICITÉ Flexion Em //'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 3230.0,
+       "unit": "N/mm2",
+       "printed": "3230",
+       "statistic": "characteristic",
+       "test": "EN 789",
+       "locator": "p.1 item 9 col 18, row 'MODULE D'ÉLASTICITÉ Flexion Em _I_'"
+      },
+      "density_low": {
+       "value": 540.0,
+       "unit": "kg/m3",
+       "printed": "540",
+       "statistic": "nominal",
+       "locator": "p.2 row 'RÉSISTANCE AU CHOC'"
+      },
+      "density_high": {
+       "value": 540.0,
+       "unit": "kg/m3",
+       "printed": "540",
+       "statistic": "nominal"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "binderholz-swp-dop",
+   "publisher": "binderholz",
+   "title": "Leistungserklärung binderholz 3- und 5-Schicht-Massivholzplatten, Nr. Binderholz-01-SWP/1, -02-SWP/2, -03-SWP/3, geändert am 01.12.2023",
+   "url": "https://www.binderholz.com/fileadmin/user_upload/pdf/pruefzeugnisse-zulassungen/Leistungserklaerung_Massivholzplatten.pdf",
+   "sha256": "67a158795a63bb9bcea04be2be0a595844227fbc273cd6fc040fa143891fef87",
+   "file": "makers/binderholz_leistungserklaerung_massivholzplatten.pdf",
+   "capture": "transcribed",
+   "statistic_note": "S values per EN 12369-3; SD values declared individually",
+   "clauses": [
+    {
+     "id": "19",
+     "thickness": [
+      19.0,
+      19.0
+     ],
+     "locator": "p.1 item 9 (same on p.4, p.7); 'Charakteristische Festigkeiten PLATTENBEANSPRUCHUNG', 'Biegung fm,0,flat', column 19 L3 SD; p.1 item 9 (same on p.4, p.7); 'Mittlere Steifigkeit PLATTENBEANSPRUCHUNG', 'Biegung Em,0,flat', column 19 L3 SD; p. 2, Mittlere Steifigkeit, Schub G0,flat",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 40.0,
+       "unit": "N/mm2",
+       "printed": "40",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 (same on p.4, p.7); 'Charakteristische Festigkeiten PLATTENBEANSPRUCHUNG', 'Biegung fm,0,flat', column 19 L3 SD"
+      },
+      "bending_modulus_parallel": {
+       "value": 11000.0,
+       "unit": "N/mm2",
+       "printed": "11000",
+       "statistic": "mean",
+       "test": "EN 789",
+       "locator": "p.1 item 9 (same on p.4, p.7); 'Mittlere Steifigkeit PLATTENBEANSPRUCHUNG', 'Biegung Em,0,flat', column 19 L3 SD"
+      },
+      "bending_strength_perpendicular": {
+       "value": 12.0,
+       "unit": "N/mm2",
+       "printed": "12",
+       "statistic": "characteristic"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 1500.0,
+       "unit": "N/mm2",
+       "printed": "1500",
+       "statistic": "mean",
+       "test": "EN 789"
+      },
+      "shear_modulus_rolling": {
+       "value": 50,
+       "unit": "N/mm2",
+       "printed": "50",
+       "statistic": "mean",
+       "test": "EN 789"
+      }
+     }
+    },
+    {
+     "id": "27",
+     "thickness": [
+      27.0,
+      27.0
+     ],
+     "locator": "p.1 item 9 (same on p.4, p.7); 'Charakteristische Festigkeiten PLATTENBEANSPRUCHUNG', 'Biegung fm,0,flat', column 27 L3 SD; p.1 item 9 (same on p.4, p.7); 'Mittlere Steifigkeit PLATTENBEANSPRUCHUNG', 'Biegung Em,0,flat', column 27 L3 SD; p. 2, Mittlere Steifigkeit, Schub G0,flat",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 37.0,
+       "unit": "N/mm2",
+       "printed": "37",
+       "statistic": "characteristic",
+       "locator": "p.1 item 9 (same on p.4, p.7); 'Charakteristische Festigkeiten PLATTENBEANSPRUCHUNG', 'Biegung fm,0,flat', column 27 L3 SD"
+      },
+      "bending_modulus_parallel": {
+       "value": 11500.0,
+       "unit": "N/mm2",
+       "printed": "11500",
+       "statistic": "mean",
+       "test": "EN 789",
+       "locator": "p.1 item 9 (same on p.4, p.7); 'Mittlere Steifigkeit PLATTENBEANSPRUCHUNG', 'Biegung Em,0,flat', column 27 L3 SD"
+      },
+      "bending_strength_perpendicular": {
+       "value": 9.0,
+       "unit": "N/mm2",
+       "printed": "9",
+       "statistic": "characteristic"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 800.0,
+       "unit": "N/mm2",
+       "printed": "800",
+       "statistic": "mean",
+       "test": "EN 789"
+      },
+      "shear_modulus_rolling": {
+       "value": 50,
+       "unit": "N/mm2",
+       "printed": "50",
+       "statistic": "mean",
+       "test": "EN 789"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "houtwerf-powerplex-bio-dop",
+   "publisher": "Houtwerf (Powerplex)",
+   "title": "Declaration of performance Nr. 24-11-21-POWEFBIO-02, Powerplex Bio, 24-11-2021",
+   "url": "https://powerplex.eu/files/dop-eng/PowerplexBio-DOP-ENG-241121.pdf",
+   "sha256": "85978d3f2e7db0d3d40f06eaf19286921b68c248f04bb34d64ef1cf7589874b2",
+   "file": "makers/houtwerf_powerplex_bio_dop_en_241121.pdf",
+   "capture": "text",
+   "statistic_note": "EN 310 panel averages",
+   "clauses": [
+    {
+     "id": "15",
+     "thickness": [
+      15.0,
+      15.0
+     ],
+     "locator": "p.1 table, 'Bending strength', 'Cross grain', 'Panel average'; p.1 table, 'Bending strength', 'Longitudinal grain', 'Panel average'; p.1 table, 'Density'; p.1 table, 'Modulus of elasticity', 'Cross grain', 'Panel average'; p.1 table, 'Modulus of elasticity', 'Longitudinal grain', 'Panel average'",
+     "params": {
+      "bending_strength_parallel": {
+       "value": 45.2,
+       "unit": "N/mm2",
+       "printed": "45.2",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 table, 'Bending strength', 'Longitudinal grain', 'Panel average'"
+      },
+      "bending_strength_perpendicular": {
+       "value": 43.1,
+       "unit": "N/mm2",
+       "printed": "43.1",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 table, 'Bending strength', 'Cross grain', 'Panel average'"
+      },
+      "bending_modulus_parallel": {
+       "value": 5696.0,
+       "unit": "N/mm2",
+       "printed": "5696",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 table, 'Modulus of elasticity', 'Longitudinal grain', 'Panel average'"
+      },
+      "bending_modulus_perpendicular": {
+       "value": 5060.0,
+       "unit": "N/mm2",
+       "printed": "5060",
+       "statistic": "mean",
+       "test": "EN 310",
+       "locator": "p.1 table, 'Modulus of elasticity', 'Cross grain', 'Panel average'"
+      },
+      "density_low": {
+       "value": 599.0,
+       "unit": "kg/m3",
+       "printed": "599",
+       "statistic": "nominal",
+       "locator": "p.1 table, 'Density'"
+      },
+      "density_high": {
+       "value": 599.0,
+       "unit": "kg/m3",
+       "printed": "599",
+       "statistic": "nominal"
+      }
+     }
+    }
+   ],
+   "fetched": "2026-11-12"
+  },
+  {
+   "id": "koskisen-chipboard-handbook",
+   "publisher": "Koskisen Oy",
+   "title": "Koskisen chipboard handbook, Table 8: Summary of chipboard standard requirements EN 312:2010",
+   "url": "https://koskisen.fi/en/downloads/koskisen-chipboard-handbook",
+   "sha256": "bc54b503ad1778ffbd1da80bf053f3ca5849cb061aa33b1d4cd3abda6752f7f4",
+   "file": "classes/koskisen-chipboard-handbook-en.pdf",
+   "capture": "text",
+   "fetched": "2026-11-13",
+   "prints": "EN 312:2010",
+   "statistic_note": "the table gives the standard's requirements and does not say whether they are means or 5th percentiles",
+   "clauses": [
+    {
+     "id": "p2-6-13",
+     "thickness": [
+      6.01,
+      13
+     ],
+     "locator": "Table 8 (Summary of chipboard standard requirements EN 312:2010), rows '> 6–13' of 'Bending strength N/mm2 (EN 310)' and 'Modulus of elasticity in bending N/mm2 (EN 310)', column P2",
+     "params": {
+      "bending_strength": {
+       "value": 11.0,
+       "unit": "N/mm2",
+       "printed": "> 6–13 10.5 11.0 16.0 20.0 11.0 18.0 22.0",
+       "column": 3,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1800.0,
+       "unit": "N/mm2",
+       "printed": "> 6–13 – 1800 2300 3150 1800 2550 3350",
+       "column": 2,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "p2-13-20",
+     "thickness": [
+      13.01,
+      20
+     ],
+     "locator": "Table 8 (Summary of chipboard standard requirements EN 312:2010), rows '> 13–20' of 'Bending strength N/mm2 (EN 310)' and 'Modulus of elasticity in bending N/mm2 (EN 310)', column P2",
+     "params": {
+      "bending_strength": {
+       "value": 11.0,
+       "unit": "N/mm2",
+       "printed": "> 13–20 10.0 11.0 15.0 18.0 11.0 16.0 20.0",
+       "column": 3,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1600.0,
+       "unit": "N/mm2",
+       "printed": "> 13–20 – 1600 2300 3000 1600 2400 3100",
+       "column": 2,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "p2-20-25",
+     "thickness": [
+      20.01,
+      25
+     ],
+     "locator": "Table 8 (Summary of chipboard standard requirements EN 312:2010), rows '> 20–25' of 'Bending strength N/mm2 (EN 310)' and 'Modulus of elasticity in bending N/mm2 (EN 310)', column P2",
+     "params": {
+      "bending_strength": {
+       "value": 10.5,
+       "unit": "N/mm2",
+       "printed": "> 20–25 10.0 10.5 13.0 16.0 10.5 14.0 18.5",
+       "column": 3,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1500.0,
+       "unit": "N/mm2",
+       "printed": "> 20–25 – 1500 2050 2550 1500 2150 2900",
+       "column": 2,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "p2-25-32",
+     "thickness": [
+      25.01,
+      32
+     ],
+     "locator": "Table 8 (Summary of chipboard standard requirements EN 312:2010), rows '> 25–32' of 'Bending strength N/mm2 (EN 310)' and 'Modulus of elasticity in bending N/mm2 (EN 310)', column P2",
+     "params": {
+      "bending_strength": {
+       "value": 9.5,
+       "unit": "N/mm2",
+       "printed": "> 25–32 8.5 9.5 11.0 15.0 9.5 12.0 17.0",
+       "column": 3,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1350.0,
+       "unit": "N/mm2",
+       "printed": "> 25–32 – 1350 1850 2400 1350 1900 2800",
+       "column": 2,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "p2-32-40",
+     "thickness": [
+      32.01,
+      40
+     ],
+     "locator": "Table 8 (Summary of chipboard standard requirements EN 312:2010), rows '> 32–40' of 'Bending strength N/mm2 (EN 310)' and 'Modulus of elasticity in bending N/mm2 (EN 310)', column P2",
+     "params": {
+      "bending_strength": {
+       "value": 8.5,
+       "unit": "N/mm2",
+       "printed": "> 32–40 7.0 8.5 9.0 14.0 8.5 10.0 16.0",
+       "column": 3,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1200.0,
+       "unit": "N/mm2",
+       "printed": "> 32–40 – 1200 1500 2200 1200 1700 2600",
+       "column": 2,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "kastamonu-particleboard-p3-datasheet",
+   "publisher": "Kastamonu Bulgaria JSC",
+   "title": "Technical data sheet 1200-UB-003 Rev. 5, Particleboards, boards type P3 / emission class E1 (manufactured in accordance with EN 312), 07.11.2022",
+   "url": "https://www.kastamonuentegre.com/uploads/2023/03/1200-ub-003-technical-data-sheet-particle-board-boards-type-p3-emission-class-e1.pdf",
+   "sha256": "03dd989dfa8b6a27c8605fe9fbe26d2e755bbe210b33f89d5d7955ad553ed90a",
+   "file": "classes/kastamonu-1200-ub-003-particleboard-p3.pdf",
+   "capture": "text",
+   "fetched": "2026-11-13",
+   "prints": "EN 312:2010, type P3",
+   "statistic_note": "a column headed 'Requirements', cells printed '≥'; density not specified",
+   "clauses": [
+    {
+     "id": "p3-8-13",
+     "thickness": [
+      8,
+      13
+     ],
+     "locator": "p. 1, 'Requirements' table, column '≥ 8 to 13' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending'",
+     "params": {
+      "bending_strength": {
+       "value": 15.0,
+       "unit": "N/mm2",
+       "printed": "Bending strength EN 310 N/mm² ≥ 15 ≥ 14 ≥ 12 ≥ 11 ≥9",
+       "column": 1,
+       "statistic": "lower bound",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2050.0,
+       "unit": "N/mm2",
+       "printed": "Modulus of elasticity in bending EN 310 N/mm² ≥ 2050 ≥ 1950 ≥ 1850 ≥ 1700 ≥ 1550",
+       "column": 1,
+       "statistic": "lower bound",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "p3-13-20",
+     "thickness": [
+      13.01,
+      20
+     ],
+     "locator": "p. 1, 'Requirements' table, column '> 13 to 20' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending'",
+     "params": {
+      "bending_strength": {
+       "value": 14.0,
+       "unit": "N/mm2",
+       "printed": "Bending strength EN 310 N/mm² ≥ 15 ≥ 14 ≥ 12 ≥ 11 ≥9",
+       "column": 2,
+       "statistic": "lower bound",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1950.0,
+       "unit": "N/mm2",
+       "printed": "Modulus of elasticity in bending EN 310 N/mm² ≥ 2050 ≥ 1950 ≥ 1850 ≥ 1700 ≥ 1550",
+       "column": 2,
+       "statistic": "lower bound",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "p3-20-25",
+     "thickness": [
+      20.01,
+      25
+     ],
+     "locator": "p. 1, 'Requirements' table, column '> 20 to 25' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending'",
+     "params": {
+      "bending_strength": {
+       "value": 12.0,
+       "unit": "N/mm2",
+       "printed": "Bending strength EN 310 N/mm² ≥ 15 ≥ 14 ≥ 12 ≥ 11 ≥9",
+       "column": 3,
+       "statistic": "lower bound",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1850.0,
+       "unit": "N/mm2",
+       "printed": "Modulus of elasticity in bending EN 310 N/mm² ≥ 2050 ≥ 1950 ≥ 1850 ≥ 1700 ≥ 1550",
+       "column": 3,
+       "statistic": "lower bound",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "p3-25-32",
+     "thickness": [
+      25.01,
+      32
+     ],
+     "locator": "p. 1, 'Requirements' table, column '> 25 to 32' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending'",
+     "params": {
+      "bending_strength": {
+       "value": 11.0,
+       "unit": "N/mm2",
+       "printed": "Bending strength EN 310 N/mm² ≥ 15 ≥ 14 ≥ 12 ≥ 11 ≥9",
+       "column": 4,
+       "statistic": "lower bound",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1700.0,
+       "unit": "N/mm2",
+       "printed": "Modulus of elasticity in bending EN 310 N/mm² ≥ 2050 ≥ 1950 ≥ 1850 ≥ 1700 ≥ 1550",
+       "column": 4,
+       "statistic": "lower bound",
+       "test": "EN 310"
+      }
+     }
+    },
+    {
+     "id": "p3-32-40",
+     "thickness": [
+      32.01,
+      40
+     ],
+     "locator": "p. 1, 'Requirements' table, column '> 32 to 40' (thickness range, mm, nominal), rows 6 'Bending strength' and 7 'Modulus of elasticity in bending'",
+     "params": {
+      "bending_strength": {
+       "value": 9.0,
+       "unit": "N/mm2",
+       "printed": "Bending strength EN 310 N/mm² ≥ 15 ≥ 14 ≥ 12 ≥ 11 ≥9",
+       "column": 5,
+       "statistic": "lower bound",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1550.0,
+       "unit": "N/mm2",
+       "printed": "Modulus of elasticity in bending EN 310 N/mm² ≥ 2050 ≥ 1950 ≥ 1850 ≥ 1700 ≥ 1550",
+       "column": 5,
+       "statistic": "lower bound",
+       "test": "EN 310"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "swiss-krono-mdf-technical-data",
+   "publisher": "SWISS KRONO sp. z o.o. (Poland)",
+   "title": "MDF Boards, Technical Data: physical and mechanical parameters of MDF (Standards EN 622-1, EN 622-5, Tab.3)",
+   "url": "https://www.swisskrono.com/pl-en/products/interiors/mdf-boards/technical-data/",
+   "sha256": "91982576ed0963758ed34c9ad8c4de08aa2288f9b186a9b7a1e535509eef06af",
+   "file": "classes/swisskrono-pl-en-mdf-boards-technical-data.html",
+   "capture": "text",
+   "fetched": "2026-11-13",
+   "prints": "EN 622-5:2009, Table 3 (type MDF)",
+   "statistic_note": "the strength and modulus rows are the standard's Table 3, unlabelled; the density row is Swiss Krono's own board",
+   "clauses": [
+    {
+     "id": "mdf-4-6",
+     "thickness": [
+      4.01,
+      6
+     ],
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>4 do 6': rows Density, Bending strenght, Moduls of elasticity",
+     "params": {
+      "bending_strength": {
+       "value": 23.0,
+       "unit": "N/mm2",
+       "printed": "Bending strenght | N/mm2 | 23 | 23 | 22 | 20 | 18 | 17 |",
+       "column": 1,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2700.0,
+       "unit": "N/mm2",
+       "printed": "Moduls of elasticity | N/mm2 | 2700 | 2700 | 2500 | 2200 | 2100 | 1900 |",
+       "column": 1,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 780.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 1,
+       "statistic": "Swiss Krono's board"
+      },
+      "density_high": {
+       "value": 780.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 1,
+       "statistic": "Swiss Krono's board"
+      }
+     }
+    },
+    {
+     "id": "mdf-6-9",
+     "thickness": [
+      6.01,
+      9
+     ],
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>6 do 9': rows Density, Bending strenght, Moduls of elasticity",
+     "params": {
+      "bending_strength": {
+       "value": 23.0,
+       "unit": "N/mm2",
+       "printed": "Bending strenght | N/mm2 | 23 | 23 | 22 | 20 | 18 | 17 |",
+       "column": 2,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2700.0,
+       "unit": "N/mm2",
+       "printed": "Moduls of elasticity | N/mm2 | 2700 | 2700 | 2500 | 2200 | 2100 | 1900 |",
+       "column": 2,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 770.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 2,
+       "statistic": "Swiss Krono's board"
+      },
+      "density_high": {
+       "value": 770.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 2,
+       "statistic": "Swiss Krono's board"
+      }
+     }
+    },
+    {
+     "id": "mdf-9-12",
+     "thickness": [
+      9.01,
+      12
+     ],
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>9 do 12': rows Density, Bending strenght, Moduls of elasticity",
+     "params": {
+      "bending_strength": {
+       "value": 22.0,
+       "unit": "N/mm2",
+       "printed": "Bending strenght | N/mm2 | 23 | 23 | 22 | 20 | 18 | 17 |",
+       "column": 3,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2500.0,
+       "unit": "N/mm2",
+       "printed": "Moduls of elasticity | N/mm2 | 2700 | 2700 | 2500 | 2200 | 2100 | 1900 |",
+       "column": 3,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 760.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 3,
+       "statistic": "Swiss Krono's board"
+      },
+      "density_high": {
+       "value": 760.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 3,
+       "statistic": "Swiss Krono's board"
+      }
+     }
+    },
+    {
+     "id": "mdf-12-19",
+     "thickness": [
+      12.01,
+      19
+     ],
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>12 do 19': rows Density, Bending strenght, Moduls of elasticity",
+     "params": {
+      "bending_strength": {
+       "value": 20.0,
+       "unit": "N/mm2",
+       "printed": "Bending strenght | N/mm2 | 23 | 23 | 22 | 20 | 18 | 17 |",
+       "column": 4,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2200.0,
+       "unit": "N/mm2",
+       "printed": "Moduls of elasticity | N/mm2 | 2700 | 2700 | 2500 | 2200 | 2100 | 1900 |",
+       "column": 4,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 750.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 4,
+       "statistic": "Swiss Krono's board"
+      },
+      "density_high": {
+       "value": 750.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 4,
+       "statistic": "Swiss Krono's board"
+      }
+     }
+    },
+    {
+     "id": "mdf-19-30",
+     "thickness": [
+      19.01,
+      30
+     ],
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>19 do 30': rows Density, Bending strenght, Moduls of elasticity",
+     "params": {
+      "bending_strength": {
+       "value": 18.0,
+       "unit": "N/mm2",
+       "printed": "Bending strenght | N/mm2 | 23 | 23 | 22 | 20 | 18 | 17 |",
+       "column": 5,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 2100.0,
+       "unit": "N/mm2",
+       "printed": "Moduls of elasticity | N/mm2 | 2700 | 2700 | 2500 | 2200 | 2100 | 1900 |",
+       "column": 5,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 730.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 5,
+       "statistic": "Swiss Krono's board"
+      },
+      "density_high": {
+       "value": 730.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 5,
+       "statistic": "Swiss Krono's board"
+      }
+     }
+    },
+    {
+     "id": "mdf-30-38",
+     "thickness": [
+      30.01,
+      38
+     ],
+     "locator": "'Physical and mechanical parameters of MDF' table (Standards EN 622-1, EN 622-5, Tab.3), column '>30 do 38': rows Density, Bending strenght, Moduls of elasticity",
+     "params": {
+      "bending_strength": {
+       "value": 17.0,
+       "unit": "N/mm2",
+       "printed": "Bending strenght | N/mm2 | 23 | 23 | 22 | 20 | 18 | 17 |",
+       "column": 6,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "bending_modulus": {
+       "value": 1900.0,
+       "unit": "N/mm2",
+       "printed": "Moduls of elasticity | N/mm2 | 2700 | 2700 | 2500 | 2200 | 2100 | 1900 |",
+       "column": 6,
+       "statistic": "unlabelled",
+       "test": "EN 310"
+      },
+      "density_low": {
+       "value": 710.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 6,
+       "statistic": "Swiss Krono's board"
+      },
+      "density_high": {
+       "value": 710.0,
+       "unit": "kg/m3",
+       "printed": "Density | kg/m3 | 780 | 770 | 760 | 750 | 730 | 710 |",
+       "column": 6,
+       "statistic": "Swiss Krono's board"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "swiss-krono-particleboard-technical-data",
+   "publisher": "SWISS KRONO sp. z o.o. (Poland)",
+   "title": "Particle Boards, Technical Data: physical and mechanical parameters (Standards EN 312, Tab. 1, Tab. 3 - Typ P2)",
+   "url": "https://www.swisskrono.com/pl-en/products/interiors/particle-boards/technical-data/",
+   "sha256": "bc80709d35f7e485ad4dd172916471e5b39557e1ef7f40a4480e893e8381a9dd",
+   "file": "classes/swisskrono-pl-en-particle-boards-technical-data.html",
+   "capture": "text",
+   "fetched": "2026-11-13",
+   "prints": null,
+   "statistic_note": "densities of Swiss Krono's P2 board, ± 5%",
+   "clauses": [
+    {
+     "id": "p2-10",
+     "thickness": [
+      10.0,
+      10.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 10 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 700.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 1,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 700.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 1,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-12",
+     "thickness": [
+      12.0,
+      12.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 12 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 690.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 2,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 690.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 2,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-15",
+     "thickness": [
+      15.0,
+      15.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 15 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 670.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 3,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 670.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 3,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-16",
+     "thickness": [
+      16.0,
+      16.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 16 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 660.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 4,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 660.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 4,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-18",
+     "thickness": [
+      18.0,
+      18.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 18 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 650.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 5,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 650.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 5,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-19",
+     "thickness": [
+      19.0,
+      19.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 19 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 650.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 6,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 650.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 6,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-22",
+     "thickness": [
+      22.0,
+      22.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 22 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 640.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 7,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 640.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 7,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-25",
+     "thickness": [
+      25.0,
+      25.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 25 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 640.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 8,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 640.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 8,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-28",
+     "thickness": [
+      28.0,
+      28.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 28 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 620.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 9,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 620.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 9,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-32",
+     "thickness": [
+      32.0,
+      32.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 32 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 610.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 10,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 610.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 10,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-36",
+     "thickness": [
+      36.0,
+      36.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 36 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 610.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 11,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 610.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 11,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    },
+    {
+     "id": "p2-38",
+     "thickness": [
+      38.0,
+      38.0
+     ],
+     "locator": "'Physical and mechanical parameters of Particle Boards' table (Standards EN 312, Tab. 1, Tab. 3 - Typ P2), column 38 mm, row Density* (tolerance ± 5%)",
+     "params": {
+      "density_low": {
+       "value": 600.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 12,
+       "statistic": "Swiss Krono's board, ± 5%"
+      },
+      "density_high": {
+       "value": 600.0,
+       "unit": "kg/m3",
+       "printed": "Density* | kg/m3 | 700 | 690 | 670 | 660 | 650 | 650 | 640 | 640 | 620 | 610 | 610 | 600 |",
+       "column": 12,
+       "statistic": "Swiss Krono's board, ± 5%"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
