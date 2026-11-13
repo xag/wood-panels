@@ -923,7 +923,7 @@ wheels = [
 ]
 
 [[package]]
-name = "wood-panels-unofficial"
+name = "wood-panels"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

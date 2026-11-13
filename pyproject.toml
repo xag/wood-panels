@@ -1,5 +1,5 @@
 [project]
-name = "wood-panels-unofficial"
+name = "wood-panels"
 version = "0.1.0"
 description = "Wood panels as data on furniture-design's kinds: the standard classes a board's strength belongs to (EN 312, EN 622-5, EN 300 and EN 12369-1, as printed by documents that say so) and the makers' declared boards. Unofficial: not written or endorsed by the makers or the standards bodies."
 requires-python = ">=3.11"
@@ -12,7 +12,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["wood_panels_unofficial"]
+packages = ["wood_panels"]
 
 [dependency-groups]
 dev = ["pytest>=8.0.0", "pytest-testmon>=2.1"]

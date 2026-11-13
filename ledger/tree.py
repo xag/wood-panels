@@ -1,4 +1,4 @@
-"""The decisions wood-panels-unofficial is bound by, as a ledger. Read it with
+"""The decisions wood-panels is bound by, as a ledger. Read it with
 `uv run quern brief .`, never whole.
 
 Vocabulary: ledger@0.8.0 and grounding@1.2.0, pinned in quern.lock.
@@ -43,7 +43,7 @@ def entries() -> list[Node]:
         ),
         Node(
             id="the-classes-and-the-makers-are-one-package", kind="decision",
-            name="The classes and every panel maker's declared boards are one package, wood-panels-unofficial, "
+            name="The classes and every panel maker's declared boards are one package, wood-panels, "
                  "which requires furniture-design and names no shop; a shop's package (leroy-merlin-unofficial) "
                  "says which class or maker board each of its lines is",
             payload={"decided_on": "2026-11-13", "the_owner": OWNER,
@@ -52,6 +52,8 @@ def entries() -> list[Node]:
                             "holds both. furniture-design names no maker (its ledger: "
                             "makers-products-are-outside-furniture-design)."},
             links={"rests_on": ["a-boards-strength-is-its-classs"]},
+            meta={"amended": "0f8548b304e2 the package was renamed wood-panels; the claim is unchanged "
+                             "(furniture-design: a-name-says-unofficial-only-when-it-names-a-maker-or-shop)"},
             children=[
                 _alt("a-package-per-maker", "One unofficial package per panel maker, as for Lamello",
                      "Fourteen packages for a few declarations each, all needing the same classes."),

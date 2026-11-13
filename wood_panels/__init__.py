@@ -20,7 +20,7 @@ and values and no quote; the copies are kept private and tests/test_values.py ch
 against them.
 
     from furniture_design.knowledge import knowledge as general, merge
-    from wood_panels_unofficial import knowledge as wood_panels
+    from wood_panels import knowledge as wood_panels
     tree.root.children = merge(general(), wood_panels()) + [pieces]
 """
 

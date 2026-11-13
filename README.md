@@ -1,4 +1,4 @@
-# wood-panels-unofficial
+# wood-panels
 
 Wood panels as data for [furniture-design](https://github.com/xag/furniture-design): the standard classes a board's strength belongs to, and the makers' declared boards. **Unofficial**: the makers and the standards bodies did not write or endorse it, and nothing here speaks for them.
 
@@ -18,7 +18,7 @@ The documents are copyrighted, so they are cited by locator and values and never
 
 ```python
 from furniture_design.knowledge import knowledge as general, merge
-from wood_panels_unofficial import knowledge as wood_panels
+from wood_panels import knowledge as wood_panels
 
 tree.root.children = merge(general(), wood_panels()) + [pieces]
 ```
@@ -37,8 +37,8 @@ The open debts: the standards are read at second hand, Thebault's data sheets di
 
 ## Licence
 
-- **The code** (`wood_panels_unofficial/*.py`, `tests/`, `ledger/`) is licensed under the [GNU Affero General Public License v3.0 or later](LICENSE), copyright 2026 Xavier Grehant.
-- **The knowledge base**, the database `wood_panels_unofficial.knowledge()` returns (documents.json and every value on its nodes), is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](LICENSE-DATA), database rights included, with one added permission: designing, building and selling furniture with it is allowed. An improvement is published here, through [CONTRIBUTING.md](CONTRIBUTING.md).
+- **The code** (`wood_panels/*.py`, `tests/`, `ledger/`) is licensed under the [GNU Affero General Public License v3.0 or later](LICENSE), copyright 2026 Xavier Grehant.
+- **The knowledge base**, the database `wood_panels.knowledge()` returns (documents.json and every value on its nodes), is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](LICENSE-DATA), database rights included, with one added permission: designing, building and selling furniture with it is allowed. An improvement is published here, through [CONTRIBUTING.md](CONTRIBUTING.md).
 - The makers' values and the standards' figures are cited from their documents, not licensed.
 
 ## Tests
