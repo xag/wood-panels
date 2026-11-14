@@ -12,6 +12,8 @@ Wood panels as data for [furniture-design](https://github.com/xag/furniture-desi
 
 No kinds and no rules of its own: a part that `uses` one of these materials is judged by furniture-design's rules. No shop either: a shop's package, such as [leroy-merlin-unofficial](https://github.com/xag/leroy-merlin-unofficial), says which class or maker board each of its lines is.
 
+- **Reading a shop's range** (`wood_panels.shops`): a shop's public sitemap titles read as boards, the line (contreplaqué peuplier, médium, OSB 3, sapin lamellé-collé…) and the three sizes, however the title writes them, and the materials a shop's package lists, each line read as a class, a maker's board or a species, ungrounded unless the title names the class or the maker. It names no shop: a shop's package passes its rows. `tests/test_shops.py` holds it to titles shops actually write.
+
 ## Sources
 
 The documents are copyrighted, so they are cited by locator and values and never quoted; the one exception is the Forest Products Laboratory's report, which is public domain and is quoted. The copies as fetched are kept in a private repo, and `tests/test_values.py` checks every value against them, a table's value against its row and column: clone that repo beside this one, or set `FURNITURE_REPO`, or that test fails and says why. Kronospan's and binderholz's declarations are scanned images; their values were read by eye and transcribed there, and the transcriptions say so. The standards themselves are not read: the class tables are taken from documents that say they print them, and a class figure is read as a mean, since none of them says whether it is a mean or a 5th percentile.

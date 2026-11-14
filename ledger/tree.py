@@ -268,6 +268,27 @@ def entries() -> list[Node]:
                                     "how": "Add the document and its clauses; the material takes them from its "
                                            "own documents, or through BORROW for a class"})],
         ),
+        Node(
+            id="a-shops-titles-are-read-here", kind="decision",
+            name="How a shop's sitemap title reads as a board (its line and its three sizes) and how a line becomes "
+                 "materials is wood_panels.shops, once, naming no shop; a shop's package keeps only its rows, the "
+                 "sitemap entries they come from (privately, with the sha256 of each sitemap file) and its cutting "
+                 "service. A line's values are a wood-panels class's or maker's board, or a furniture-design species, "
+                 "ungrounded unless the title names the class or maker",
+            links={"rests_on": ["the-classes-and-the-makers-are-one-package"]},
+            payload={"decided_on": "2026-11-14",
+                     "the_owner": "Tu feras aussi un Norpaneau unofficial ainsi que pour les autres chaines",
+                     "why": "Six more shops sell the same kinds of board under titles that differ only in how they "
+                            "write a size ('2,50x1,22m Ep.18mm', '120x50x1.8cm', 'l 200 cm x ep 1.8 cm x l 60 cm'); "
+                            "one reader, tested on their own titles, serves them all, and a fix reaches every shop."},
+            children=[
+                _alt("each-shop-copies-the-reader", "Each shop's package carries its own reader and materials code",
+                     "Six copies of the same rules, each fixed apart."),
+                _alt("a-package-of-its-own", "A separate package for the reader",
+                     "One more link in a chain every package must pin to the same revision, for code that only "
+                     "turns wood-panels' boards into a shop's."),
+            ],
+        ),
     ]
 
 

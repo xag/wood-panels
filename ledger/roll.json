@@ -50,6 +50,21 @@
     "digest": "f316cab7181a"
   },
   {
+    "path": "a-shops-titles-are-read-here",
+    "kind": "decision",
+    "digest": "518b0a512751"
+  },
+  {
+    "path": "a-shops-titles-are-read-here/a-package-of-its-own",
+    "kind": "alternative",
+    "digest": "e3599016e8fa"
+  },
+  {
+    "path": "a-shops-titles-are-read-here/each-shop-copies-the-reader",
+    "kind": "alternative",
+    "digest": "1f1f45f8e896"
+  },
+  {
     "path": "a-true-modulus-without-its-shear",
     "kind": "debt",
     "digest": "eedc7ac6ed55"
