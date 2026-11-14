@@ -151,6 +151,8 @@ def line_of(t: str) -> str | None:
     if re.search(r"\b3 plis\b|\btrois plis\b", t):
         return "panneau-3-plis"
     if re.search(r"contre ?plaque|contrepalque|\bcp\b", t):
+        # 'peuplier faces okoume' is a poplar board faced with okoumé: its strength is the core's
+        t = re.sub(r"\b(?:\d )?faces? (?:\w+ )?(?:okoume|sapelli|bouleau|peuplier|pin)\b", " ", t)
         if "bouleau" in t:
             return "contreplaque-bouleau-filme" if "filme" in t else "contreplaque-bouleau"
         for word, sp in (("okoume", "okoume"), ("peuplier", "peuplier"), ("pin", "pin")):

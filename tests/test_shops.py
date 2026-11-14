@@ -27,6 +27,10 @@ READS = [
     ("Tablette sapin lamellé 18mm 200x40cm", ("lamelle-colle-sapin", 18, 2000, 400)),
     ("panneau 3 plis pré découpé épicéa mil.humide 19mm 800x600mm - SUP BOIS", ("panneau-3-plis", 19, 800, 600)),
     ("Panneau contreplaqué prédécoupé Peuplier Intérieur 250x60x1,5cm", ("contreplaque-peuplier", 15, 2500, 600)),
+    ("Panneau contreplaqué CTBX QUALIPLY Peuplier faces Okoumé - 3,10x1,53m Ep.5mm",
+     ("contreplaque-peuplier", 5, 3100, 1530)),  # a poplar core faced with okoumé
+    ("Panneau contreplaqué intérieur ECOPLUS S tout Peuplier faces sapelli - 3,10x1,53m Ep.5mm",
+     ("contreplaque-peuplier", 5, 3100, 1530)),
 ]
 NOT_BOARDS = [
     "contreplaque-pour-verrous-vega-diam-tre-23mm",       # a lock's plate
