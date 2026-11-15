@@ -433,7 +433,36 @@ AUTHORITY = {
 }
 
 
+def _say(id_: str, name: str, text: str, *about: str) -> Node:
+    return Node(id=id_, kind="guidance", name=name, payload={"text": " ".join(text.split())},
+                links={"about": list(about)} if about else {})
+
+
+def guidance() -> Node:
+    """What whoever designs with this package is told before reading its nodes (furniture-design's kind
+    guidance): a reader gives it to its assistant and writes none of its own."""
+    return Node(id="guidance", kind="", children=[
+        _say("a-shops-panels", "Choosing a board at a shop", """
+            Beside the species and generic panels, the materials hold one material per shop line and thickness,
+            materials/<shop>-<line>-<thickness>; a shop's cutting service, when it has one, is a tool
+            (tools/<shop>-cutting-service) that states what it refuses, and a shop with none is not known to
+            cut. A plywood or OSB line has two materials (-along/-across the face grain, -major/-minor axis;
+            the part's span_along says which way it bends). A shop material's payload shop says what the shop
+            lists (the products, their sheet sizes, whether it is cut to size; not what a store has in stock)
+            and which board its values are (values_from): a particleboard, MDF or OSB line takes its class's
+            figures, since such a board's strength is its class's, and a plywood line a maker's board of the
+            same type. When the listing names neither the class nor the maker, every value is ungrounded and
+            marked unverified, and the label on the panel in the store (its CE marking) states the class and
+            the maker. A line whose title names no species takes a stand-in, also unverified; a material with
+            no values judges nothing. Besides strength, stiffness and density a board may carry
+            initial_share_of_longtime (its creep), screw_withdrawal_face and screw_withdrawal_edge,
+            thickness_swelling_24h and dimensional_change_in_plane. To choose among boards, judge the piece in
+            every candidate at once: a swap of the material, with the parts' thickness set to the board's and
+            a part's span_along to the way it is cut from the sheet."""),
+    ])
+
+
 def knowledge() -> list[Node]:
     """The branches to merge beside furniture-design's: the sources and the materials."""
     return [Node(id="sources", kind="", children=with_authority(sources(), AUTHORITY)),
-            Node(id="materials", kind="", children=materials())]
+            Node(id="materials", kind="", children=materials()), guidance()]
