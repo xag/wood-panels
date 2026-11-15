@@ -246,7 +246,8 @@ def sitemap(source_id: str, name: str, publisher: str, url: str, fetched: str, r
                             "width": _q(r["width_mm"], "mm", "title")})
                for r in rows]
     return Node(id=source_id, kind="source", name=name,
-                payload={"publisher": publisher, "year": int(fetched[:4]), "url": url, "fetched": fetched,
+                payload={"publisher": publisher, "authority": "maker", "year": int(fetched[:4]), "url": url,
+                         "fetched": fetched,
                          "licence": "copyrighted",
                          "capture": "private copy of every sitemap file read, identified by its sha256",
                          "in_our_words": "what the shop lists; not what a given store has in stock"},

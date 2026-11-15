@@ -43,6 +43,7 @@ The open debts: the standards are read at second hand, Thebault's data sheets di
 
 - **The code** (`wood_panels/*.py`, `tests/`, `ledger/`) is licensed under the [GNU Affero General Public License v3.0 or later](LICENSE), copyright 2026 Xavier Grehant.
 - **The knowledge base**, the database `wood_panels.knowledge()` returns (documents.json and every value on its nodes), is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](LICENSE-DATA), database rights included, with one added permission: designing, building and selling furniture with it is allowed. An improvement is published here, through [CONTRIBUTING.md](CONTRIBUTING.md).
+- **Authority**: every source says who stands behind it (furniture-design's `authority`): a board's own maker for its declarations, data sheets and handbooks, a distributor's copy included; research for the Forest Products Laboratory's paper and the University of Belgrade's; editorial for FH Bielefeld's Leporello. A shop's sitemap is the shop's own (maker).
 - The makers' values and the standards' figures are cited from their documents, not licensed.
 
 ## Tests

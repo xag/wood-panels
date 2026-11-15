@@ -36,6 +36,7 @@ from pathlib import Path
 
 from furniture_design.knowledge import DESIGN_STRESS_CLAUSES, TROPIX_SHEETS, design_stress
 from furniture_design.knowledge import knowledge as general_knowledge
+from furniture_design.knowledge import with_authority
 from quern.provenance import Quantity
 from quern.tree import Node
 
@@ -391,6 +392,48 @@ def materials() -> list[Node]:
     return class_materials() + product_materials()
 
 
+# Who stands behind each source (furniture-design's AUTHORITIES): a board's own maker for its
+# declarations, data sheets and handbooks, copies a distributor hosts included.
+AUTHORITY = {
+    "finsa-fimapan-ez-dop-00067": "maker",
+    "finsa-fimapan-h-ez-dop-00094": "maker",
+    "finsa-fimaplast-ez-dop-00267": "maker",
+    "finsa-fibrapan-ez-dop-00090": "maker",
+    "finsa-fibrapan-ez-datasheet": "maker",
+    "unilin-belspan-dop": "maker",
+    "valchromat-e05-dop-04-02": "maker",
+    "betanzos-htp-premium-dop": "maker",
+    "betanzos-hardboard-epd": "maker",
+    "kronospan-osb3-dop-18112013": "maker",
+    "swiss-krono-osb3-dop-cpr-164": "maker",
+    "riga-wood-plywood-handbook": "maker",
+    "garnica-poplar-dop-gar-30": "maker",
+    "toro-poplar-datasheet": "maker",
+    "thebault-dop-01-teboply-okoume": "maker",
+    "thebault-dop-03-tebotwin": "maker",
+    "thebault-dop-12-tebopin": "maker",
+    "binderholz-swp-dop": "maker",
+    "houtwerf-powerplex-bio-dop": "maker",
+    "koskisen-chipboard-handbook": "maker",
+    "kastamonu-particleboard-p3-datasheet": "maker",
+    "swiss-krono-mdf-technical-data": "maker",
+    "swiss-krono-particleboard-technical-data": "maker",
+    "kastamonu-particleboard-p2-datasheet": "maker",
+    "finsa-superpan-star-datasheet": "maker",
+    "medite-premier-datasheet": "maker",
+    "thebault-teboply-okoume-exterieur-doc": "maker",
+    "thebault-tebopin-clear-doc": "maker",
+    "smartply-osb3-datasheet": "maker",
+    "mayr-melnhof-k1-multiplan-datasheet": "maker",
+    "allin-ply-tout-peuplier": "maker",
+    "allin-ply-tout-okoume": "maker",
+    "fpl-rp-574-creep-of-panels": "research",
+    "miljkovic-2007-edge-screw-withdrawal": "research",
+    "fh-bielefeld-leporello-ec5": "editorial",
+}
+
+
 def knowledge() -> list[Node]:
     """The branches to merge beside furniture-design's: the sources and the materials."""
-    return [Node(id="sources", kind="", children=sources()), Node(id="materials", kind="", children=materials())]
+    return [Node(id="sources", kind="", children=with_authority(sources(), AUTHORITY)),
+            Node(id="materials", kind="", children=materials())]
